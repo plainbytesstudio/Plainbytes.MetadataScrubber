@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>清除中繼資料</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>安全清除 Office 文件與 PDF 檔案中的中繼資料，保護隱私安全。</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>將檔案拖曳至此處</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>或點選下方按鈕選擇檔案</value>
+  </data>
+  <data name="Home_SelectFiles" xml:space="preserve">
+    <value>選擇檔案</value>
+  </data>
+  <data name="Home_FormatHint" xml:space="preserve">
+    <value>支援 Word、Excel、PowerPoint、PDF 檔案</value>
+  </data>
+  <data name="Home_NoMetadata" xml:space="preserve">
+    <value>未偵測到可清除的中繼資料</value>
+  </data>
+  <data name="Home_FileCount" xml:space="preserve">
+    <value>已新增 {0} 個檔案</value>
+  </data>
+  <data name="Home_ClearList" xml:space="preserve">
+    <value>清空清單</value>
+  </data>
+  <data name="Home_StrategyLabel" xml:space="preserve">
+    <value>清理策略</value>
+  </data>
+  <data name="Home_CurrentStrategy" xml:space="preserve">
+    <value>目前策略</value>
+  </data>
+  <data name="Home_ChangeStrategy" xml:space="preserve">
+    <value>更換策略</value>
+  </data>
+  <data name="Home_LearnMore" xml:space="preserve">
+    <value>瞭解更多 &gt;</value>
+  </data>
+  <data name="Home_TipBar" xml:space="preserve">
+    <value>預設情況下將清除：{0}</value>
+  </data>
+  <data name="Home_ScrubButton" xml:space="preserve">
+    <value>清理中繼資料 ({0})</value>
+  </data>
+  <data name="Home_DropHintCompact" xml:space="preserve">
+    <value>或直接將檔案拖曳至此處，支援 Word、Excel、PowerPoint、PDF 檔案</value>
+  </data>
+  <data name="Badge_Default" xml:space="preserve">
+    <value>預設</value>
+  </data>
+  <data name="Dialog_FilterSupported" xml:space="preserve">
+    <value>支援的文件</value>
+  </data>
+  <data name="Type_Word" xml:space="preserve">
+    <value>Word 文件</value>
+  </data>
+  <data name="Type_Excel" xml:space="preserve">
+    <value>Excel 活頁簿</value>
+  </data>
+  <data name="Type_PowerPoint" xml:space="preserve">
+    <value>PowerPoint 簡報</value>
+  </data>
+  <data name="Type_Pdf" xml:space="preserve">
+    <value>PDF 文件</value>
+  </data>
+  <data name="Type_File" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="Status_Pending" xml:space="preserve">
+    <value>待處理</value>
+  </data>
+  <data name="Status_Cleaned" xml:space="preserve">
+    <value>已清理</value>
+  </data>
+  <data name="Status_Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Status_FailedOccupied" xml:space="preserve">
+    <value>失敗：檔案正在使用中</value>
+  </data>
+  <data name="Status_FailedPrefix" xml:space="preserve">
+    <value>失敗：{0}</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>正在清理檔案...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>清理完成</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>清理失敗</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Overlay_ViewReason" xml:space="preserve">
+    <value>查看原因</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>檔案名稱</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>失敗原因</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>已成功處理 {0} 個檔案</value>
+  </data>
+  <data name="Overlay_AllFailed" xml:space="preserve">
+    <value>無法處理 {0} 個檔案</value>
+  </data>
+  <data name="Overlay_Partial" xml:space="preserve">
+    <value>已成功處理 {0} 個檔案，{1} 個檔案處理失敗</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>處理失敗</value>
+  </data>
+  <data name="FailReason_Occupied" xml:space="preserve">
+    <value>檔案正在使用中，無法存取</value>
+  </data>
+  <data name="FailReason_Unsupported" xml:space="preserve">
+    <value>不支援的檔案格式</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>檔案不存在</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>沒有權限存取此檔案</value>
+  </data>
+  <data name="Error_UnsupportedType" xml:space="preserve">
+    <value>不支援的檔案類型。</value>
+  </data>
+  <data name="Error_NotFound" xml:space="preserve">
+    <value>檔案不存在。</value>
+  </data>
+  <data name="Error_Occupied" xml:space="preserve">
+    <value>檔案正被其他程式使用中，請關閉後再試。</value>
+  </data>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>沒有權限存取此檔案。</value>
+  </data>
+  <data name="Error_WriteDenied" xml:space="preserve">
+    <value>沒有權限寫入此檔案。</value>
+  </data>
+  <data name="Toast_ProgressTitle" xml:space="preserve">
+    <value>正在清理…</value>
+  </data>
+  <data name="Toast_ProgressBodyOne" xml:space="preserve">
+    <value>正在依照目前策略處理所選檔案。</value>
+  </data>
+  <data name="Toast_ProgressBodyMany" xml:space="preserve">
+    <value>正在依照目前策略處理 {0} 個檔案。</value>
+  </data>
+  <data name="Toast_IncompleteTitle" xml:space="preserve">
+    <value>無法完成清理</value>
+  </data>
+  <data name="Toast_NoFiles" xml:space="preserve">
+    <value>未指定要清理的檔案。</value>
+  </data>
+  <data name="Toast_SuccessBody" xml:space="preserve">
+    <value>所有檔案的中繼資料已依照目前策略清理完成。</value>
+  </data>
+  <data name="Toast_AllFailedBody" xml:space="preserve">
+    <value>所有檔案處理失敗，請查看本機記錄後再試。</value>
+  </data>
+  <data name="Toast_ErrorWithLog" xml:space="preserve">
+    <value>{0}（詳情請參閱本機記錄）</value>
+  </data>
+  <data name="Toast_PartialTitle" xml:space="preserve">
+    <value>已處理 {0} 個，失敗 {1} 個</value>
+  </data>
+  <data name="Toast_PartialBody" xml:space="preserve">
+    <value>失敗詳情請參閱本機記錄，稍後可再試。</value>
+  </data>
+  <data name="Strategy_Export_Name" xml:space="preserve">
+    <value>外發客戶版</value>
+  </data>
+  <data name="Strategy_Export_Description" xml:space="preserve">
+    <value>清除所有可見與隱藏的中繼資料</value>
+  </data>
+  <data name="Strategy_Archive_Name" xml:space="preserve">
+    <value>內部歸檔版</value>
+  </data>
+  <data name="Strategy_Archive_Description" xml:space="preserve">
+    <value>清除基本屬性、修訂與註解</value>
+  </data>
+  <data name="Strategy_Minimal_Name" xml:space="preserve">
+    <value>基本清理</value>
+  </data>
+  <data name="Strategy_Minimal_Description" xml:space="preserve">
+    <value>僅清除基本屬性</value>
+  </data>
+  <data name="Strategy_Custom_Name" xml:space="preserve">
+    <value>自訂策略</value>
+  </data>
+  <data name="Strategy_Custom_NameIndexed" xml:space="preserve">
+    <value>自訂策略 {0}</value>
+  </data>
+  <data name="Strategy_Custom_Description" xml:space="preserve">
+    <value>自訂清理範圍</value>
+  </data>
+  <data name="StrategyPage_Title" xml:space="preserve">
+    <value>策略管理</value>
+  </data>
+  <data name="StrategyPage_Subtitle" xml:space="preserve">
+    <value>建立及管理清理策略。策略用於定義要清除哪些類別的中繼資料。</value>
+  </data>
+  <data name="StrategyPage_New" xml:space="preserve">
+    <value>建立新策略</value>
+  </data>
+  <data name="StrategyPage_Import" xml:space="preserve">
+    <value>匯入策略</value>
+  </data>
+  <data name="StrategyPage_Export" xml:space="preserve">
+    <value>匯出策略</value>
+  </data>
+  <data name="StrategyPage_MyStrategies" xml:space="preserve">
+    <value>我的策略</value>
+  </data>
+  <data name="StrategyPage_DefaultHint" xml:space="preserve">
+    <value>預設策略會在主介面和右鍵選單中直接使用。</value>
+  </data>
+  <data name="StrategyPage_Name" xml:space="preserve">
+    <value>策略名稱</value>
+  </data>
+  <data name="StrategyPage_Description" xml:space="preserve">
+    <value>策略描述</value>
+  </data>
+  <data name="StrategyPage_ScopeHeading" xml:space="preserve">
+    <value>清理範圍（依類別）</value>
+  </data>
+  <data name="StrategyPage_ScopeHint" xml:space="preserve">
+    <value>不同檔案格式的清理內容可能略有差異，實際清理範圍以支援的內容為準。</value>
+  </data>
+  <data name="StrategyPage_SetDefault" xml:space="preserve">
+    <value>★ 設為預設策略</value>
+  </data>
+  <data name="StrategyPage_Delete" xml:space="preserve">
+    <value>刪除策略</value>
+  </data>
+  <data name="StrategyPage_Save" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="StrategyPage_DeleteConfirm" xml:space="preserve">
+    <value>確定要刪除策略「{0}」嗎？此操作無法復原。</value>
+  </data>
+  <data name="Scope_DocumentProperties_Title" xml:space="preserve">
+    <value>基本屬性</value>
+  </data>
+  <data name="Scope_DocumentProperties_Description" xml:space="preserve">
+    <value>清除作者、公司、最後修改者、建立／修改時間、總編輯時間等標準屬性</value>
+  </data>
+  <data name="Scope_Revisions_Description" xml:space="preserve">
+    <value>清除修訂標記、註解內容及註解作者等資訊</value>
+  </data>
+  <data name="Scope_Hidden_Description" xml:space="preserve">
+    <value>清除範本路徑參照、自訂屬性、縮圖快取、檔案中可能存在的本機路徑等殘留資訊</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>關於 PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>清除 Office 與 PDF 檔案中的中繼資料</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>檔案中繼資料清理工具</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>關於產品</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber 是一款輕量的 Windows 檔案工具，可快速清除 Word、Excel、PowerPoint 與 PDF 檔案中的中繼資料。
+無需複雜設定，只需簡單操作即可完成檔案清理。</value>
+  </data>
+  <data name="About_LicenseNotice" xml:space="preserve">
+    <value>基於 GNU GPLv3 授權釋出。</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>原始碼</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>授權條款</value>
+  </data>
+
+    <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>客製化開發</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>需要符合您特定工作流程的工具嗎？PlainBytes Studio 也提供面向專項業務與效率需求的客製化軟體開發。</value>
+  </data>
+  <data name="About_CustomDev_Capabilities" xml:space="preserve">
+    <value>我們可以協助檔案與資料處理、工作流程自動化、格式轉換、系統整合、Windows 桌面工具，以及其他量身打造的解決方案。</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>簡單工具 — 例如單一用途的處理、轉換或自動化工具 — 通常可以較快交付。</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>客製應用程式 — 包括具備多項功能、使用者介面，或與現有系統整合的工具 — 可依您的需求開發。</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>價格取決於專案範圍與複雜度。告訴我們您想達成的目標，我們會協助確定合適的方案並提供報價。</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>聯絡我們 →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>請簡要說明您想達成的目標，若有相關細節可一併補充如下：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>為便於我們了解專案，請儘量說明：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• 希望改進的問題或工作流程</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• 希望工具或方案完成什麼</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• 涉及的檔案、資料、應用程式或系統</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• 處理規則、自動化、轉換或整合方面的要求</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item5" xml:space="preserve">
+    <value>• 希望方案如何運作 — 例如 Windows 桌面應用程式、命令列工具、批次工具，或與現有系統整合</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item6" xml:space="preserve">
+    <value>• 介面、工作流程、部署或其他重要要求</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>您也可以在郵件中附上樣本檔案、螢幕截圖、規格說明或其他參考資料。樣本材料僅用於理解您的需求，不會與第三方分享。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>我們會審閱您的需求，並回覆問題、建議與報價。</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>客製化開發諮詢</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+我對客製化軟體方案感興趣。
+
+問題或工作流程：
+[請簡要描述要解決的問題或希望改進的工作流程。]
+
+我的需求：
+[請描述您希望工具或方案完成的功能。]
+
+涉及的檔案、資料、應用程式或系統：
+[如適用，請描述涉及的檔案、資料、應用程式或系統。]
+
+處理或自動化要求：
+[請描述處理規則、自動化、轉換或整合方面的要求。]
+
+希望的運作方式：
+[例如：Windows 桌面應用程式、命令列工具、批次工具，或與現有系統整合。]
+
+其他需求：
+[可選：介面、工作流程、部署或其他重要要求。]
+
+如有幫助，我已附加樣本檔案、螢幕截圖、規格說明或其他參考資料。
+
+謝謝。</value>
+  </data>
+  <data name="About_CustomDev_ContactByEmail" xml:space="preserve">
+    <value>透過電子郵件聯絡</value>
+  </data>
+  <data name="About_CustomDev_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>更多 PlainBytes 工具</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>查看所有工具 →</value>
+  </data>
+  <data name="About_Copyright" xml:space="preserve">
+    <value>©2026 PlainBytes</value>
+  </data>
+  <data name="Meta_Group_DocumentProperties" xml:space="preserve">
+    <value>文件屬性</value>
+  </data>
+  <data name="Meta_Group_Revisions" xml:space="preserve">
+    <value>修訂與註解</value>
+  </data>
+  <data name="Meta_Group_Hidden" xml:space="preserve">
+    <value>隱藏路徑與殘留資訊</value>
+  </data>
+  <data name="Meta_Group_Attachments" xml:space="preserve">
+    <value>附件與路徑</value>
+  </data>
+  <data name="Meta_Field_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="Meta_Field_LastModifiedBy" xml:space="preserve">
+    <value>最後修改者</value>
+  </data>
+  <data name="Meta_Field_Created" xml:space="preserve">
+    <value>建立時間</value>
+  </data>
+  <data name="Meta_Field_Modified" xml:space="preserve">
+    <value>修改時間</value>
+  </data>
+  <data name="Meta_Field_Company" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Meta_Field_TotalEditTime" xml:space="preserve">
+    <value>總編輯時間</value>
+  </data>
+  <data name="Meta_Field_Revisions" xml:space="preserve">
+    <value>修訂</value>
+  </data>
+  <data name="Meta_Field_Comments" xml:space="preserve">
+    <value>註解</value>
+  </data>
+  <data name="Meta_Field_CommentAuthors" xml:space="preserve">
+    <value>註解作者</value>
+  </data>
+  <data name="Meta_Field_PathRef" xml:space="preserve">
+    <value>路徑參照</value>
+  </data>
+  <data name="Meta_Count" xml:space="preserve">
+    <value>{0} 項</value>
+  </data>
+  <data name="Meta_ListSeparator" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="Meta_Minutes" xml:space="preserve">
+    <value>{0} 分鐘</value>
+  </data>
+  <data name="Meta_Hours" xml:space="preserve">
+    <value>{0} 小時</value>
+  </data>
+  <data name="Meta_HoursMinutes" xml:space="preserve">
+    <value>{0} 小時 {1} 分鐘</value>
+  </data>
+  <data name="Loading_LoadingFiles" xml:space="preserve">
+    <value>正在載入檔案… ({0}/{1})</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>正在載入檔案…</value>
+  </data>
+  <data name="ContextMenu_RootLabel" xml:space="preserve">
+    <value>PlainBytes 清除中繼資料</value>
+  </data>
+</root>

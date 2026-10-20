@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>帮助中心</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>了解如何使用PlainBytes MetadataScrubber安全、有效地清除文件元数据。</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>目录</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>快速开始</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>功能概览</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>支持的文件格式</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>策略说明</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>常见问题</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>需要更贴合隐私或自动化需求的工具？</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>安全与隐私</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>使用技巧</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>更新日志</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes.MetadataScrubber 是一款用于清除 Word、Excel、PowerPoint 和 PDF 文件元数据的 Windows 小工具。它支持单个文件，也支持多个文件批量处理。</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>最简单的使用方式</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>拖入文件 → 确认策略 → 清除元数据</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>添加文件</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>打开软件后，将需要处理的文件直接拖入主窗口。也可以通过主窗口的文件选择功能添加文件。支持同时添加多个文件，也可以一次添加不同类型的文件。添加后，文件会显示在主窗口列表中。</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>选择清理策略</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>添加文件后，主窗口会显示当前使用的清理策略。通常直接使用默认策略即可。如果当前文件需要使用其他策略，可以在主窗口中选择其他预设策略。</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>开始清理</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>确认文件和策略后，点击「清除元数据」。程序会自动处理列表中的文件。处理过程中会显示执行进度，并暂时禁止修改当前任务相关的内容。处理完成后显示处理结果。</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>右键快速操作</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>如果不需要打开主窗口，也可以直接在 Windows 文件资源管理器中使用右键菜单。支持：清除元数据（默认策略）、查看元数据、用其他策略清理。右键菜单主要用于提高操作效率，完整功能仍然以主窗口为核心。</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber 主要包含以下功能。</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>清除元数据</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>清除 Office 和 PDF 文件中可能包含的元数据信息，支持批量处理。</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>查看元数据</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>点击主窗口中的文件，可以展开查看该文件当前检测到的元数据。查看操作不会修改文件。</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>清理策略</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>通过预设策略决定清理范围，不需要针对每个文件逐项设置。</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>批量处理</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>一次添加多个文件进行处理。完成后显示成功数量、失败数量与失败原因。</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>目前支持以下文件格式。</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML 文档，可处理基本属性、修订、批注、自定义属性与模板路径等残留。</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML 工作簿，清理范围与 Word 同类元数据一致。</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML 演示文稿，清理基本属性、修订批注与路径残留等信息。</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>处理 PDF Info、XMP、历史残留以及附件与路径引用。Info 与 XMP 为两套独立元数据，查看时会分别显示。</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office 文件</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>支持 Word、Excel、PowerPoint 的 OpenXML 文件。主要处理：基本文档属性、修订信息、批注信息、自定义属性、模板路径等残留信息、缩略图等相关残留。</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF 文件</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>主要处理：PDF Info 元数据、XMP 元数据、文件中的历史残留、附件及相关路径引用。PDF 的 Info 和 XMP 是两套独立的元数据，因此查看元数据时会分别显示。</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>策略用于决定清理哪些类别的元数据。用户不需要针对每一个字段单独设置。目前清理范围分为三个类别。</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>基本属性</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>处理作者、公司、最后修改人、创建时间、修改时间、总编辑时间等基本信息。</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>修订与批注</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>处理修订记录、批注、批注作者等与编辑过程有关的信息。</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>隐藏路径与残留</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>处理模板路径、自定义属性、缩略图残留，以及 PDF 附件和本地路径引用等可能暴露来源的信息。</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>默认策略</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>软件始终存在一个默认策略。直接点击「清除元数据」，或使用资源管理器右键「清除元数据」时，都会使用当前默认策略。</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>预设策略</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>软件内置了三个预设策略:「外发客户版」、「内部归档版」、「基础清理」，禁止对它们进行修改。这里允许自定义策略，以便满足使用需要。</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>为什么文件无法处理？</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>常见原因包括：文件已加密、文件损坏、没有访问权限、正在被其他程序占用、格式不受支持。处理失败时，软件会显示失败数量，并提供失败原因。</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>可以一次处理多个文件吗？</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>可以。可将多个文件同时拖入主窗口后一次执行清理，也可在资源管理器中多选文件后使用右键菜单。</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>查看元数据会修改文件吗？</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>不会。「查看元数据」仅用于读取和展示当前文件中的元数据，不执行清理操作。</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>为什么 PDF 的 Info 和 XMP 内容可能不同？</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>PDF 可能同时包含 Info 和 XMP 两套元数据，两者并不一定保持一致，因此软件会分别检测和显示。</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>清理过程中可以继续修改文件列表吗？</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>不能。执行过程中当前任务相关的操作会暂时锁定，避免在处理过程中修改任务内容。</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>清理失败会不会悄悄跳过？</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>不会。失败文件会单独统计，并显示相应的失败原因。</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>如果 MetadataScrubber 无法覆盖您的工作流——例如更多文件类型、自定义元数据规则、批量清理自动化，或需要独立的 Windows 工具——我们可以就文件隐私、元数据处理、工作流自动化及其他定制方案进行沟通。</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>联系我们 →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>本地处理</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber 的文件分析与元数据清理均在本机完成。文件内容不会上传到任何服务器，也不会通过云端服务进行处理。</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>原始文件</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>软件只处理用户主动选择的文件，清理过程不会上传或修改原始文件以外的其他文件。</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>建议</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>对于重要文件，建议在正式清理前保留原始文件备份。</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>技巧 1：批量拖入</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>需要处理多个文件时，可以一次将多个文件拖入窗口，不需要逐个添加。</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>技巧 2：设置好默认策略</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>如果大多数文件都使用相同的清理范围，可以将常用策略设置为默认策略。以后直接点击「清除元数据」即可。</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>技巧 3：查看后再清理</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>如果不确定文件包含哪些元数据，可以先点击文件查看，确认后再执行清理。</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>技巧 4：经常使用右键菜单</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>对于临时处理文件，不需要打开主程序。直接在资源管理器中：右键 → 清除元数据，即可快速执行。</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>技巧 5：不同场景使用不同策略</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>如果同时存在外发、内部归档等不同场景，可以提前建立对应的预设策略，使用时直接选择。</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>初始版本</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>支持 Word、Excel、PowerPoint、PDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>支持批量文件处理</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>支持元数据查看</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>支持清理策略与默认策略</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>支持预设策略管理</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>支持 Windows 右键快速清理</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>版本 {0}</value></data>
+</root>

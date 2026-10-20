@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Centro de ayuda</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Aprenda a usar PlainBytes MetadataScrubber para eliminar metadatos de archivos de forma segura y eficaz.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Contenido</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Inicio rápido</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Descripción general de las funciones</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Formatos de archivo compatibles</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Estrategias</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Preguntas frecuentes</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>¿Necesita una herramienta más a medida para privacidad o automatización?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>Seguridad y privacidad</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Consejos</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Notas de la versión</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber es una utilidad ligera para Windows que permite eliminar los metadatos de archivos Word, Excel, PowerPoint y PDF. Admite tanto el procesamiento de archivos individuales como el de varios archivos a la vez.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>El flujo básico de uso</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Añadir archivos → Comprobar la estrategia → Eliminar metadatos</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Añadir archivos</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>Abra la aplicación y arrastre los archivos que desea procesar directamente a la ventana principal. También puede añadir archivos mediante el selector de archivos de la ventana principal. Puede añadir varios archivos a la vez, incluso si tienen formatos diferentes. Los archivos añadidos aparecen en la lista de archivos de la ventana principal.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Seleccionar una estrategia de limpieza</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>Después de añadir los archivos, la ventana principal muestra la estrategia de limpieza que se está utilizando actualmente. En la mayoría de los casos, puede utilizar simplemente la estrategia predeterminada. Si necesita un ámbito de limpieza diferente, puede seleccionar otra estrategia predefinida desde la ventana principal.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Iniciar la limpieza</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>Después de comprobar los archivos y la estrategia, haga clic en «Eliminar metadatos». Los archivos de la lista se procesarán automáticamente. Durante el procesamiento se muestra el progreso y los controles relacionados con la operación en curso se desactivan temporalmente. Una vez finalizado el procesamiento, se muestran los resultados.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Acciones rápidas desde el menú contextual</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>Si no desea abrir la ventana principal, puede utilizar directamente el menú contextual del Explorador de archivos de Windows. Acciones disponibles: Eliminar metadatos (estrategia predeterminada), Ver metadatos y Limpiar con otra estrategia. El menú contextual está diseñado para un acceso rápido; la ventana principal sigue siendo la interfaz principal para todas las funciones.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber ofrece las siguientes funciones principales.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Eliminar metadatos</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Elimina los metadatos que pueden estar presentes en archivos de Office y PDF. Admite el procesamiento de varios archivos a la vez.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Ver metadatos</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Haga clic en un archivo de la ventana principal para expandir y consultar los metadatos detectados en él. La visualización de los metadatos no modifica el archivo.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Estrategias de limpieza</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Utilice estrategias predefinidas para determinar las categorías de metadatos que se eliminarán. No es necesario configurar cada campo individualmente para cada archivo.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Procesamiento por lotes</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Añada varios archivos y procéselos en una sola operación. Una vez finalizado el procesamiento, la aplicación muestra el número de archivos procesados correctamente, el número de archivos fallidos y los motivos de los errores.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>Actualmente se admiten los siguientes formatos.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>Documentos OpenXML. Pueden procesar propiedades básicas, revisiones, comentarios, propiedades personalizadas e información residual como las rutas de las plantillas.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>Libros OpenXML. El ámbito de limpieza coincide con los mismos tipos de metadatos que en Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>Presentaciones OpenXML. La limpieza cubre propiedades básicas, revisiones y comentarios, así como información residual de rutas.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Procesa PDF Info, XMP, información histórica residual y archivos adjuntos con referencias de rutas. Info y XMP son dos sistemas de metadatos independientes y se muestran por separado.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Archivos de Office</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>Se admiten archivos OpenXML creados con Word, Excel y PowerPoint. Se procesan principalmente: propiedades básicas del documento, información de revisiones, comentarios, propiedades personalizadas, información residual como las rutas de las plantillas y datos residuales relacionados como las miniaturas.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>Archivos PDF</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>Se procesan principalmente: metadatos PDF Info, metadatos XMP, información histórica residual presente en el archivo, así como archivos adjuntos y referencias de rutas relacionadas. PDF Info y XMP son dos sistemas de metadatos independientes y se muestran por separado al consultarlos.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Las estrategias determinan qué categorías de metadatos se eliminarán. No es necesario configurar los distintos campos uno por uno. Actualmente, el ámbito de limpieza se divide en tres categorías.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Propiedades básicas</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Procesa la información básica como autor, empresa, última modificación realizada por, fecha de creación, fecha de modificación y tiempo total de edición.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Revisiones y comentarios</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Procesa la información relacionada con el proceso de edición, como el historial de revisiones, los comentarios y los autores de los comentarios.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Rutas y rastros ocultos</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Procesa las rutas de las plantillas, las propiedades personalizadas, la información residual como las miniaturas, así como archivos adjuntos y referencias a rutas locales en PDF que podrían revelar el origen de un archivo.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Estrategia predeterminada</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>La aplicación dispone siempre de una estrategia predeterminada. Al hacer clic en «Eliminar metadatos», o al usar «Eliminar metadatos» en el menú contextual de Windows, se utiliza la estrategia predeterminada configurada actualmente.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Estrategias predefinidas</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>La aplicación incluye tres estrategias integradas: «Distribución externa», «Archivo interno» y «Limpieza básica». No se pueden modificar. Si lo necesita, puede crear estrategias personalizadas.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>¿Por qué no se puede procesar un archivo?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Causas habituales: el archivo está cifrado, dañado, no tiene permisos de acceso, el archivo está siendo utilizado por otro programa o el formato no es compatible. Si el procesamiento falla, la aplicación muestra el número de archivos afectados y el motivo del error correspondiente.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>¿Puedo procesar varios archivos a la vez?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Sí. Puede arrastrar varios archivos a la ventana principal y ejecutar la limpieza para todos ellos en una sola operación. También puede seleccionar varios archivos en el Explorador de archivos de Windows y utilizar el menú contextual.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>¿Se modifica el archivo al consultar sus metadatos?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>No. «Ver metadatos» únicamente lee los metadatos presentes en el archivo y los muestra. No se realiza ninguna operación de limpieza.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>¿Por qué pueden ser diferentes los metadatos Info y XMP de un archivo PDF?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>Un archivo PDF puede contener tanto metadatos Info como metadatos XMP. Estos dos tipos no tienen necesariamente la misma información. Por ello, la aplicación los detecta y muestra por separado.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>¿Puedo modificar la lista de archivos durante la limpieza?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>No. Durante el procesamiento, los controles relacionados con la operación en curso se bloquean temporalmente para evitar que la tarea se modifique mientras se están procesando los archivos.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>¿Los archivos cuyo procesamiento ha fallado se omiten simplemente?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>No. Los archivos que no se han podido procesar se contabilizan por separado y se muestra el motivo del error correspondiente a cada archivo.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>Si MetadataScrubber no cubre su flujo de trabajo—por ejemplo, tipos de archivo adicionales, reglas de metadatos personalizadas, automatización de limpieza por lotes o una utilidad de Windows dedicada—podemos hablar sobre desarrollo a medida para privacidad de archivos, procesamiento de metadatos, automatización de flujos y otras soluciones a medida.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Contactarnos →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>Procesamiento local</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber analiza los archivos y limpia los metadatos localmente en su dispositivo. El contenido de los archivos no se carga en ningún servidor ni se procesa a través de servicios en la nube.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Archivos originales</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>La aplicación procesa únicamente los archivos que usted selecciona explícitamente. La limpieza no carga ni modifica otros archivos.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Recomendación</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>Para archivos importantes, recomendamos conservar una copia de seguridad del archivo original antes de realizar la limpieza.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Consejo 1: Añadir varios archivos a la vez</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Si necesita procesar varios archivos, arrástrelos todos a la ventana al mismo tiempo en lugar de añadirlos uno por uno.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Consejo 2: Establecer la estrategia predeterminada</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Si normalmente utiliza el mismo ámbito de limpieza, puede establecer su estrategia preferida como estrategia predeterminada. Después, solo tendrá que hacer clic en «Eliminar metadatos».</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Consejo 3: Comprobar antes de limpiar</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>Si no está seguro de qué metadatos contiene un archivo, haga clic primero en el archivo para consultarlos. Después de comprobarlos, puede realizar la limpieza según la información que desee eliminar.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Consejo 4: Utilizar el menú contextual</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Para una limpieza rápida y puntual, no es necesario abrir la aplicación. En el Explorador de archivos: clic derecho → Eliminar metadatos.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Consejo 5: Utilizar diferentes estrategias según el uso</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Si procesa habitualmente archivos destinados a diferentes fines, como la distribución externa o el archivo interno, puede crear previamente estrategias predefinidas para cada caso y seleccionar la adecuada cuando sea necesario.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Versión inicial</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Compatibilidad con archivos Word, Excel, PowerPoint y PDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Procesamiento de varios archivos</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Visualización de metadatos</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Estrategias de limpieza y estrategia predeterminada</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Gestión de estrategias predefinidas</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Limpieza mediante el menú contextual de Windows</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Versión {0}</value></data>
+</root>

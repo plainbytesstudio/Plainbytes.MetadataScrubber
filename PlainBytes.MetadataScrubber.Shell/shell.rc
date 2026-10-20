@@ -1,0 +1,7 @@
+/* SPDX-FileCopyrightText: 2026 PlainBytes Studio
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
+#include "resource.h"
+
+IDI_APP ICON "..\\PlainBytes.Core\\Assets\\Icons\\logo_MetadataScrubber.ico"

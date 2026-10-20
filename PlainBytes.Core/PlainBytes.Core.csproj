@@ -1,0 +1,106 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PlainBytes.Core</RootNamespace>
+    <Authors>PlainBytes Studio</Authors>
+    <Copyright>Copyright © 2026 PlainBytes Studio</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SatelliteResourceLanguages>zh-Hans;zh-Hant;ja;ru;fr;de;it;es;pt;ko;nl;ar</SatelliteResourceLanguages>
+    <Platforms>AnyCPU;x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <None Remove="Assets\Icons\Application.ico" />
+    <None Remove="Assets\Icons\Application64.png" />
+    <None Remove="Assets\Icons\logo_DocumentExtractor.ico" />
+    <None Remove="Assets\Icons\logo_ImageConverter.ico" />
+    <None Remove="Assets\Icons\logo_MetadataScrubber.ico" />
+    <None Remove="Assets\Images\about-us-w.png" />
+    <None Remove="Assets\Images\about-us.png" />
+    <None Remove="Assets\Images\Application.png" />
+    <None Remove="Assets\Images\Application72.png" />
+    <None Remove="Assets\Images\broom-w.png" />
+    <None Remove="Assets\Images\broom.png" />
+    <None Remove="Assets\Images\collection-w.png" />
+    <None Remove="Assets\Images\collection.png" />
+    <None Remove="Assets\Images\cup-w.png" />
+    <None Remove="Assets\Images\cup.png" />
+    <None Remove="Assets\Images\error.png" />
+    <None Remove="Assets\Images\extractor-template-w.png" />
+    <None Remove="Assets\Images\extractor-template.png" />
+    <None Remove="Assets\Images\extractor-w.png" />
+    <None Remove="Assets\Images\extractor.png" />
+    <None Remove="Assets\Images\help-w.png" />
+    <None Remove="Assets\Images\help.png" />
+    <None Remove="Assets\Images\image-context-w.png" />
+    <None Remove="Assets\Images\image-context.png" />
+    <None Remove="Assets\Images\image-converter-w.png" />
+    <None Remove="Assets\Images\image-converter.png" />
+    <None Remove="Assets\Images\heart.png" />
+    <None Remove="Assets\Images\gift.png" />
+    <None Remove="Assets\Images\logo_DocumentExtracto.png" />
+    <None Remove="Assets\Images\logo_ImageConverter.png" />
+    <None Remove="Assets\Images\logo_MetadataScrubber.png" />
+    <None Remove="Assets\Images\shield.png" />
+    <None Remove="Assets\Images\star1.png" />
+    <None Remove="Assets\Images\success.png" />
+    <None Remove="Assets\Images\support1.png" />
+    <None Remove="Assets\Images\support2.png" />
+    <None Remove="Assets\Images\support3.png" />
+    <None Remove="Assets\Images\warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\Application.ico" />
+    <Resource Include="Assets\Icons\Application64.png" />
+    <Resource Include="Assets\Icons\logo_DocumentExtractor.ico" />
+    <Resource Include="Assets\Icons\logo_ImageConverter.ico" />
+    <Resource Include="Assets\Icons\logo_MetadataScrubber.ico" />
+    <Resource Include="Assets\Images\about-us-w.png" />
+    <Resource Include="Assets\Images\about-us.png" />
+    <Resource Include="Assets\Images\Application.png" />
+    <Resource Include="Assets\Images\Application72.png" />
+    <Resource Include="Assets\Images\broom-w.png" />
+    <Resource Include="Assets\Images\broom.png" />
+    <Resource Include="Assets\Images\collection-w.png" />
+    <Resource Include="Assets\Images\collection.png" />
+    <Resource Include="Assets\Images\cup-w.png" />
+    <Resource Include="Assets\Images\cup.png" />
+    <Resource Include="Assets\Images\error.png" />
+    <Resource Include="Assets\Images\extractor-template-w.png" />
+    <Resource Include="Assets\Images\extractor-template.png" />
+    <Resource Include="Assets\Images\extractor-w.png" />
+    <Resource Include="Assets\Images\extractor.png" />
+    <Resource Include="Assets\Images\help-w.png" />
+    <Resource Include="Assets\Images\help.png" />
+    <Resource Include="Assets\Images\image-context-w.png" />
+    <Resource Include="Assets\Images\image-context.png" />
+    <Resource Include="Assets\Images\image-converter-w.png" />
+    <Resource Include="Assets\Images\image-converter.png" />
+    <Resource Include="Assets\Images\heart.png" />
+    <Resource Include="Assets\Images\gift.png" />
+    <Resource Include="Assets\Images\logo_DocumentExtracto.png" />
+    <Resource Include="Assets\Images\logo_ImageConverter.png" />
+    <Resource Include="Assets\Images\logo_MetadataScrubber.png" />
+    <Resource Include="Assets\Images\shield-w.png" />
+    <Resource Include="Assets\Images\shield.png" />
+    <Resource Include="Assets\Images\star1.png" />
+    <Resource Include="Assets\Images\success.png" />
+    <Resource Include="Assets\Images\support1.png" />
+    <Resource Include="Assets\Images\support2.png" />
+    <Resource Include="Assets\Images\support3.png" />
+    <Resource Include="Assets\Images\warning.png" />
+    <Resource Include="Assets\Images\rate.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

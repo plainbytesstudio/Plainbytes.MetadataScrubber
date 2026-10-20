@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Helpcentrum</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Ontdek hoe u met PlainBytes MetadataScrubber veilig en effectief metagegevens uit bestanden verwijdert.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Inhoud</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Snel aan de slag</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Overzicht van functies</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Ondersteunde bestandsindelingen</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Strategieën</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Veelgestelde vragen</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>Een tool die beter past bij privacy of automatisering?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>Beveiliging en privacy</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Tips</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Versiegegevens</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber is een lichtgewicht Windows-hulpprogramma waarmee u metagegevens uit Word-, Excel-, PowerPoint- en PDF-bestanden kunt verwijderen. Zowel afzonderlijke bestanden als meerdere bestanden tegelijk worden ondersteund.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>De basiswerkwijze</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Bestanden toevoegen → Strategie controleren → Metagegevens verwijderen</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Bestanden toevoegen</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>Open de app en sleep de bestanden die u wilt verwerken rechtstreeks naar het hoofdvenster. U kunt bestanden ook toevoegen via de bestandskiezer in het hoofdvenster. U kunt meerdere bestanden tegelijk toevoegen, ook bestanden met verschillende indelingen. De toegevoegde bestanden worden weergegeven in de bestandslijst van het hoofdvenster.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Een opschoningsstrategie selecteren</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>Nadat u bestanden hebt toegevoegd, toont het hoofdvenster de momenteel gebruikte opschoningsstrategie. In de meeste gevallen kunt u gewoon de standaardstrategie gebruiken. Als u een ander opschoningsbereik nodig hebt, kunt u in het hoofdvenster een andere vooraf ingestelde strategie selecteren.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>De opschoning starten</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>Nadat u de bestanden en strategie hebt gecontroleerd, klikt u op „Metagegevens verwijderen”. De bestanden in de lijst worden automatisch verwerkt. Tijdens de verwerking wordt de voortgang weergegeven en worden functies die betrekking hebben op de huidige bewerking tijdelijk uitgeschakeld. Na afloop worden de resultaten weergegeven.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Snelle acties via het contextmenu</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>Als u het hoofdvenster niet wilt openen, kunt u het contextmenu rechtstreeks vanuit Windows Verkenner gebruiken. Beschikbare acties: Metagegevens verwijderen (standaardstrategie), Metagegevens bekijken en Opschonen met een andere strategie. Het contextmenu is bedoeld voor snelle toegang; het hoofdvenster blijft de centrale interface voor alle functies.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber biedt de volgende belangrijkste functies.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Metagegevens verwijderen</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Verwijdert metagegevens die in Office- en PDF-bestanden aanwezig kunnen zijn. Het verwerken van meerdere bestanden tegelijk wordt ondersteund.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Metagegevens bekijken</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Klik in het hoofdvenster op een bestand om de daarin aangetroffen metagegevens uit te klappen en te bekijken. Het bekijken van metagegevens wijzigt het bestand niet.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Opschoningsstrategieën</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Gebruik vooraf ingestelde strategieën om te bepalen welke categorieën metagegevens worden verwijderd. U hoeft niet voor elk bestand afzonderlijk alle velden te configureren.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Batchverwerking</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Voeg meerdere bestanden toe en verwerk ze in één bewerking. Na afloop toont de app het aantal succesvol verwerkte bestanden, het aantal mislukte bestanden en de redenen voor de fouten.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>De volgende bestandsindelingen worden momenteel ondersteund.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML-documenten. Kunnen basiseigenschappen, revisies, opmerkingen, aangepaste eigenschappen en achtergebleven informatie zoals sjabloonpaden verwerken.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML-werkboeken. Het opschoningsbereik komt overeen met dezelfde metagegevenstypen als bij Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML-presentaties. De opschoning omvat basiseigenschappen, revisies en opmerkingen, evenals achtergebleven padinformatie.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Verwerkt PDF Info, XMP, achtergebleven historische informatie en bijlagen met padverwijzingen. Info en XMP zijn twee onafhankelijke metadatasystemen en worden afzonderlijk weergegeven.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office-bestanden</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>OpenXML-bestanden die met Word, Excel en PowerPoint zijn gemaakt, worden ondersteund. Voornamelijk verwerkt: basisdocumenteigenschappen, revisiegegevens, opmerkingen, aangepaste eigenschappen, achtergebleven informatie zoals sjabloonpaden, en gerelateerde restgegevens zoals miniaturen.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF-bestanden</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>Voornamelijk verwerkt: PDF Info-metagegevens, XMP-metagegevens, achtergebleven historische informatie in het bestand, en bijlagen met bijbehorende padverwijzingen. PDF Info en XMP zijn twee onafhankelijke metadatasystemen en worden daarom bij het bekijken afzonderlijk weergegeven.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Strategieën bepalen welke categorieën metagegevens worden verwijderd. U hoeft de afzonderlijke velden niet één voor één te configureren. Het opschoningsbereik is momenteel verdeeld in drie categorieën.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Basiseigenschappen</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Verwerkt basisinformatie zoals auteur, bedrijf, laatst gewijzigd door, aanmaaktijd, wijzigingstijd en totale bewerkingstijd.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Revisies en opmerkingen</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Verwerkt informatie die verband houdt met het bewerkingsproces, zoals revisiegeschiedenis, opmerkingen en auteurs van opmerkingen.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Verborgen paden en sporen</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Verwerkt sjabloonpaden, aangepaste eigenschappen, achtergebleven informatie zoals miniaturen, en bijlagen en verwijzingen naar lokale paden in PDF-bestanden die iets over de herkomst kunnen onthullen.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Standaardstrategie</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>De app beschikt altijd over een standaardstrategie. Wanneer u op „Metagegevens verwijderen” klikt of „Metagegevens verwijderen” in het Windows-contextmenu gebruikt, wordt de huidige standaardstrategie gebruikt.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Vooraf ingestelde strategieën</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>De app bevat drie ingebouwde strategieën: „Externe distributie”, „Intern archief” en „Basisopschoning”. Deze kunnen niet worden gewijzigd. Indien nodig kunt u aangepaste strategieën maken.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Waarom kan een bestand niet worden verwerkt?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Veelvoorkomende oorzaken: het bestand is versleuteld, beschadigd, u hebt geen toestemming, het bestand wordt door een ander programma gebruikt of de bestandsindeling wordt niet ondersteund. Als de verwerking mislukt, toont de app het aantal mislukte bestanden en de reden van de fout per bestand.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Kan ik meerdere bestanden tegelijk verwerken?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Ja. U kunt meerdere bestanden naar het hoofdvenster slepen en de opschoning voor alle bestanden in één keer starten. U kunt ook meerdere bestanden in Windows Verkenner selecteren en het contextmenu gebruiken.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>Wordt het bestand gewijzigd als ik de metagegevens bekijk?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>Nee. „Metagegevens bekijken” leest alleen de metagegevens die momenteel in het bestand aanwezig zijn en toont deze. Er wordt geen opschoning uitgevoerd.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>Waarom kunnen de Info- en XMP-metagegevens van een PDF-bestand van elkaar verschillen?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>Een PDF-bestand kan zowel Info- als XMP-metagegevens bevatten. Deze twee soorten bevatten niet noodzakelijk dezelfde informatie. Daarom detecteert en toont de app ze afzonderlijk.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Kan ik de bestandslijst tijdens het opschonen wijzigen?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>Nee. Tijdens de verwerking worden functies die betrekking hebben op de huidige bewerking tijdelijk vergrendeld, zodat de taak tijdens het verwerken niet wordt gewijzigd.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>Worden bestanden waarvan de verwerking is mislukt gewoon overgeslagen?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>Nee. Bestanden waarvan de verwerking is mislukt, worden afzonderlijk geregistreerd en voor elk bestand wordt de reden van de fout weergegeven.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>Als MetadataScrubber uw workflow niet dekt—bijvoorbeeld extra bestandstypen, aangepaste metadateregels, geautomatiseerde batchopschoning of een speciale Windows-hulpprogramma—kunnen we maatwerkontwikkeling voor bestandsprivacy, metadataverwerking, workflowautomatisering en andere oplossingen op maat bespreken.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Neem contact op →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>Lokale verwerking</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber analyseert bestanden en verwijdert metagegevens lokaal op uw apparaat. Bestandsinhoud wordt niet naar een server geüpload en niet via clouddiensten verwerkt.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Originele bestanden</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>De app verwerkt uitsluitend bestanden die u expliciet selecteert. Bij het opschonen worden geen andere bestanden geüpload of gewijzigd.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Aanbeveling</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>Voor belangrijke bestanden raden we aan om vóór het opschonen een back-up van het originele bestand te bewaren.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Tip 1: Meerdere bestanden tegelijk toevoegen</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Als u meerdere bestanden wilt verwerken, sleept u ze tegelijk naar het venster in plaats van ze één voor één toe te voegen.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Tip 2: De standaardstrategie instellen</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Als u voor de meeste bestanden hetzelfde opschoningsbereik gebruikt, kunt u uw voorkeursstrategie als standaardstrategie instellen. Daarna hoeft u alleen nog op „Metagegevens verwijderen” te klikken.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Tip 3: Controleren vóór het opschonen</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>Als u niet zeker weet welke metagegevens een bestand bevat, klikt u eerst op het bestand om deze te bekijken. Voer daarna de opschoning uit op basis van de informatie die u wilt verwijderen.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Tip 4: Het contextmenu gebruiken</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Voor een snelle, eenmalige opschoning hoeft u de app niet te openen. In Windows Verkenner: rechtermuisklik → Metagegevens verwijderen.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Tip 5: Verschillende strategieën voor verschillende doeleinden gebruiken</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Als u regelmatig bestanden verwerkt voor verschillende doeleinden, zoals externe verspreiding of interne archivering, kunt u vooraf passende strategieën maken en vervolgens de gewenste strategie selecteren wanneer dat nodig is.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Eerste release</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Ondersteuning voor Word-, Excel-, PowerPoint- en PDF-bestanden</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Verwerking van meerdere bestanden</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Metagegevens bekijken</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Opschoningsstrategieën en standaardstrategie</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Beheer van vooraf ingestelde strategieën</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Opschonen via het Windows-contextmenu</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Versie {0}</value></data>
+</root>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Centre d’aide</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Découvrez comment utiliser PlainBytes MetadataScrubber pour supprimer les métadonnées des fichiers en toute sécurité et efficacité.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Sommaire</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Démarrage rapide</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Présentation des fonctionnalités</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Formats de fichiers pris en charge</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Stratégies</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Questions fréquentes</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>Besoin d’un outil plus sur mesure pour la confidentialité ou l’automatisation ?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>Sécurité et confidentialité</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Conseils</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Notes de version</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber est un utilitaire Windows léger permettant de supprimer les métadonnées des fichiers Word, Excel, PowerPoint et PDF. Il prend en charge aussi bien les fichiers individuels que le traitement de plusieurs fichiers.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>Le fonctionnement le plus simple</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Ajouter des fichiers → Vérifier la stratégie → Supprimer les métadonnées</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Ajouter des fichiers</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>Ouvrez l’application, puis faites glisser les fichiers à traiter dans la fenêtre principale. Vous pouvez également ajouter des fichiers à l’aide du sélecteur de fichiers de la fenêtre principale. Vous pouvez ajouter plusieurs fichiers à la fois, y compris des fichiers de formats différents. Les fichiers ajoutés apparaissent dans la liste des fichiers de la fenêtre principale.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Sélectionner une stratégie de nettoyage</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>Après avoir ajouté des fichiers, la fenêtre principale affiche la stratégie de nettoyage actuellement utilisée. Dans la plupart des cas, vous pouvez simplement utiliser la stratégie par défaut. Si vous avez besoin d’un périmètre de nettoyage différent, vous pouvez sélectionner une autre stratégie prédéfinie depuis la fenêtre principale.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Démarrer le nettoyage</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>Après avoir vérifié les fichiers et la stratégie, cliquez sur « Supprimer les métadonnées ». L’application traite automatiquement les fichiers présents dans la liste. Pendant le traitement, la progression est affichée et les commandes liées à l’opération en cours sont temporairement désactivées. Les résultats s’affichent une fois le traitement terminé.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Actions rapides depuis le menu contextuel</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>Si vous ne souhaitez pas ouvrir la fenêtre principale, vous pouvez utiliser directement le menu contextuel de l’Explorateur de fichiers Windows. Actions disponibles : Supprimer les métadonnées (stratégie par défaut), Afficher les métadonnées et Nettoyer avec une autre stratégie. Le menu contextuel est conçu pour un accès rapide ; la fenêtre principale reste l’interface principale pour l’ensemble des fonctionnalités.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber propose les principales fonctionnalités suivantes.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Supprimer les métadonnées</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Supprime les métadonnées susceptibles d’être présentes dans les fichiers Office et PDF. Le traitement de plusieurs fichiers est pris en charge.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Afficher les métadonnées</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Cliquez sur un fichier dans la fenêtre principale pour développer et afficher les métadonnées actuellement détectées dans ce fichier. L’affichage des métadonnées ne modifie pas le fichier.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Stratégies de nettoyage</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Utilisez des stratégies prédéfinies pour définir les catégories de métadonnées à supprimer. Il n’est pas nécessaire de configurer chaque champ séparément pour chaque fichier.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Traitement par lots</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Ajoutez plusieurs fichiers et traitez-les en une seule opération. Une fois le traitement terminé, l’application affiche le nombre de fichiers traités avec succès, le nombre de fichiers ayant échoué et les raisons des échecs.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>Les formats de fichiers suivants sont actuellement pris en charge.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>Documents OpenXML. Peuvent traiter les propriétés de base, les révisions, les commentaires, les propriétés personnalisées et les informations résiduelles telles que les chemins des modèles.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>Classeurs OpenXML. Le périmètre de nettoyage correspond aux mêmes types de métadonnées que pour Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>Présentations OpenXML. Le nettoyage couvre les propriétés de base, les révisions et commentaires, ainsi que les informations de chemins résiduelles.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Traite PDF Info, XMP, les informations historiques résiduelles ainsi que les pièces jointes avec références de chemins. Info et XMP sont deux systèmes de métadonnées indépendants et sont affichés séparément.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Fichiers Office</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>Les fichiers OpenXML créés avec Word, Excel et PowerPoint sont pris en charge. Les informations principalement traitées sont : propriétés de base du document, informations de révision, commentaires, propriétés personnalisées, informations résiduelles telles que les chemins des modèles, ainsi que données résiduelles associées telles que les miniatures.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>Fichiers PDF</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>Les informations principalement traitées sont : métadonnées PDF Info, métadonnées XMP, informations historiques résiduelles présentes dans le fichier, ainsi que pièces jointes et références de chemins associées. PDF Info et XMP sont deux systèmes de métadonnées indépendants et sont donc affichés séparément lors de la consultation des métadonnées.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Les stratégies définissent les catégories de métadonnées à supprimer. Il n’est pas nécessaire de configurer les différents champs un par un. Le périmètre de nettoyage est actuellement divisé en trois catégories.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Propriétés de base</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Traite les informations de base telles que l’auteur, l’entreprise, la dernière modification par, la date de création, la date de modification et le temps total de modification.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Révisions et commentaires</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Traite les informations liées au processus de modification, notamment l’historique des révisions, les commentaires et les auteurs des commentaires.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Chemins et traces masqués</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Traite les chemins des modèles, les propriétés personnalisées, les informations résiduelles telles que les miniatures, ainsi que les pièces jointes et références de chemins locaux dans les fichiers PDF susceptibles de révéler l’origine d’un fichier.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Stratégie par défaut</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>L’application dispose toujours d’une stratégie par défaut. Lorsque vous cliquez sur « Supprimer les métadonnées », ou utilisez « Supprimer les métadonnées » dans le menu contextuel Windows, la stratégie par défaut actuelle est utilisée.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Stratégies prédéfinies</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>L’application inclut trois stratégies intégrées : « Distribution externe », « Archivage interne » et « Nettoyage de base ». Elles ne peuvent pas être modifiées. Vous pouvez créer des stratégies personnalisées selon vos besoins.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Pourquoi un fichier ne peut-il pas être traité ?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Causes courantes : le fichier est chiffré, endommagé, vous ne disposez pas des autorisations nécessaires, le fichier est utilisé par un autre programme, ou le format n’est pas pris en charge. En cas d’échec, l’application affiche le nombre de fichiers concernés ainsi que la raison de chaque échec.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Puis-je traiter plusieurs fichiers à la fois ?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Oui. Vous pouvez faire glisser plusieurs fichiers dans la fenêtre principale et lancer le nettoyage pour tous les fichiers en une seule opération. Vous pouvez également sélectionner plusieurs fichiers dans l’Explorateur de fichiers Windows et utiliser le menu contextuel.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>L’affichage des métadonnées modifie-t-il le fichier ?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>Non. « Afficher les métadonnées » lit uniquement les métadonnées actuellement présentes dans le fichier et les affiche. Aucun nettoyage n’est effectué.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>Pourquoi les métadonnées Info et XMP d’un fichier PDF peuvent-elles être différentes ?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>Un fichier PDF peut contenir à la fois des métadonnées Info et XMP. Ces deux types ne contiennent pas nécessairement les mêmes informations. L’application les détecte donc et les affiche séparément.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Puis-je modifier la liste des fichiers pendant le nettoyage ?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>Non. Pendant le traitement, les commandes liées à l’opération en cours sont temporairement verrouillées afin d’éviter toute modification de la tâche pendant le traitement des fichiers.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>Les fichiers dont le traitement a échoué sont-ils simplement ignorés ?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>Non. Les fichiers ayant échoué sont comptabilisés séparément et la raison de l’échec est affichée pour chaque fichier.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>Si MetadataScrubber ne couvre pas votre flux de travail—par exemple d’autres types de fichiers, des règles de métadonnées personnalisées, l’automatisation du nettoyage par lots, ou un utilitaire Windows dédié—nous pouvons discuter d’un développement sur mesure pour la confidentialité des fichiers, le traitement des métadonnées, l’automatisation des flux et d’autres solutions conçues pour votre besoin.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Nous contacter →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>Traitement local</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber analyse les fichiers et nettoie les métadonnées localement sur votre appareil. Le contenu des fichiers n’est pas envoyé vers un serveur et n’est pas traité via des services cloud.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Fichiers d’origine</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>L’application traite uniquement les fichiers que vous sélectionnez explicitement. Le nettoyage n’envoie ni ne modifie aucun autre fichier.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Recommandation</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>Pour les fichiers importants, nous vous recommandons de conserver une copie de sauvegarde du fichier d’origine avant d’effectuer le nettoyage.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Conseil 1 : Ajouter plusieurs fichiers à la fois</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Si vous devez traiter plusieurs fichiers, faites-les glisser simultanément dans la fenêtre plutôt que de les ajouter un par un.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Conseil 2 : Définir la stratégie par défaut</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Si vous utilisez généralement le même périmètre de nettoyage, définissez votre stratégie préférée comme stratégie par défaut. Il vous suffira ensuite de cliquer sur « Supprimer les métadonnées ».</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Conseil 3 : Vérifier avant de nettoyer</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>Si vous ne savez pas quelles métadonnées contient un fichier, cliquez d’abord sur celui-ci pour les consulter. Lancez ensuite le nettoyage une fois que vous aurez déterminé les informations à supprimer.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Conseil 4 : Utiliser le menu contextuel</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Pour un nettoyage rapide de quelques fichiers, il n’est pas nécessaire d’ouvrir l’application. Dans l’Explorateur de fichiers : Clic droit → Supprimer les métadonnées.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Conseil 5 : Utiliser différentes stratégies selon les besoins</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Si vous traitez régulièrement des fichiers destinés à différents usages, comme le partage externe ou l’archivage interne, créez à l’avance des stratégies prédéfinies correspondantes et sélectionnez celle dont vous avez besoin.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Version initiale</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Prise en charge des fichiers Word, Excel, PowerPoint et PDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Traitement de plusieurs fichiers</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Affichage des métadonnées</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Stratégies de nettoyage et stratégie par défaut</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Gestion des stratégies prédéfinies</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Nettoyage depuis le menu contextuel Windows</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Version {0}</value></data>
+</root>

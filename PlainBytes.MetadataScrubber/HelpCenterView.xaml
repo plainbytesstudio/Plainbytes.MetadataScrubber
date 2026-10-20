@@ -1,0 +1,178 @@
+<!--
+SPDX-FileCopyrightText: 2026 PlainBytes Studio
+SPDX-License-Identifier: GPL-3.0-only
+-->
+<UserControl
+    x:Class="PlainBytes.MetadataScrubber.HelpCenterView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:help="clr-namespace:PlainBytes.MetadataScrubber.Help"
+    d:DesignHeight="560"
+    d:DesignWidth="1000"
+    FontFamily="{DynamicResource PB.Fonts.Main}"
+    Foreground="{DynamicResource PB.Brushes.TextPrimary}"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <Style x:Key="HelpNavItemStyle" TargetType="ListBoxItem">
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Width" Value="196" />
+            <Setter Property="Margin" Value="0,0,0,3" />
+            <Setter Property="Padding" Value="12,0" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border
+                            x:Name="Root"
+                            Background="Transparent"
+                            CornerRadius="7"
+                            SnapsToDevicePixels="True">
+                            <DockPanel LastChildFill="True">
+                                <Border
+                                    x:Name="SelectedBar"
+                                    Width="3"
+                                    Height="20"
+                                    Margin="4,0,0,0"
+                                    DockPanel.Dock="Left"
+                                    VerticalAlignment="Center"
+                                    Background="#2563EB"
+                                    CornerRadius="2"
+                                    Visibility="Collapsed" />
+                                <ContentPresenter
+                                    Margin="{TemplateBinding Padding}"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                            </DockPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Root" Property="Background" Value="#EEF2F7" />
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Root" Property="Background" Value="#F1F5F9" />
+                                <Setter TargetName="SelectedBar" Property="Visibility" Value="Visible" />
+                                <Setter Property="FontWeight" Value="SemiBold" />
+                                <Setter Property="Foreground" Value="#0F172A" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="Foreground" Value="#475569" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid UseLayoutRounding="True" SnapsToDevicePixels="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            Margin="0,0,0,28"
+            HorizontalAlignment="Stretch"
+            Orientation="Horizontal">
+            <Image
+                Width="40"
+                Height="40"
+                Margin="0,0,16,0"
+                VerticalAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"
+                SnapsToDevicePixels="True"
+                Source="pack://application:,,,/PlainBytes.Core;component/Assets/Images/help.png" />
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock
+                    x:Name="PageTitleText"
+                    FontSize="30"
+                    FontWeight="SemiBold"
+                    LineHeight="40"
+                    LineStackingStrategy="BlockLineHeight"
+                    Foreground="#0F172A" />
+                <TextBlock
+                    x:Name="PageSubtitleText"
+                    Margin="0,6,0,0"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    LineHeight="24"
+                    LineStackingStrategy="BlockLineHeight"
+                    Foreground="{DynamicResource PB.Brushes.TextSecondary}"
+                    TextWrapping="Wrap" />
+            </StackPanel>
+        </StackPanel>
+
+        <!-- 侧栏浅底 + 内容白底分区，去掉竖分割线 -->
+        <Border
+            Grid.Row="1"
+            Background="#F8FAFC"
+            BorderBrush="#EEF2F7"
+            BorderThickness="1"
+            CornerRadius="12"
+            SnapsToDevicePixels="True"
+            UseLayoutRounding="True">
+            <Grid
+                x:Name="BodyContent"
+                SizeChanged="BodyContent_SizeChanged">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Border
+                    Grid.Column="0"
+                    Background="#F8FAFC"
+                    Padding="12,8,12,16">
+                    <DockPanel LastChildFill="True">
+                        <TextBlock
+                            x:Name="CatalogLabelText"
+                            DockPanel.Dock="Top"
+                            Margin="4,0,0,10"
+                            FontSize="12"
+                            FontWeight="SemiBold"
+                            Foreground="#64748B" />
+                        <ListBox
+                            x:Name="TopicList"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="0"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                            ScrollViewer.VerticalScrollBarVisibility="Auto"
+                            ItemContainerStyle="{StaticResource HelpNavItemStyle}"
+                            SelectionChanged="TopicList_SelectionChanged">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate DataType="{x:Type help:HelpSection}">
+                                    <TextBlock
+                                        VerticalAlignment="Center"
+                                        FontSize="{Binding FontSize, RelativeSource={RelativeSource AncestorType=ListBoxItem}}"
+                                        FontWeight="{Binding FontWeight, RelativeSource={RelativeSource AncestorType=ListBoxItem}}"
+                                        Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=ListBoxItem}}"
+                                        Text="{Binding Title}"
+                                        TextTrimming="CharacterEllipsis"
+                                        TextWrapping="NoWrap"
+                                        ToolTip="{Binding Title}"
+                                        ToolTipService.InitialShowDelay="400" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </DockPanel>
+                </Border>
+
+                <Border
+                    Grid.Column="1"
+                    Background="#FFFFFF"
+                    CornerRadius="0,12,12,0"
+                    ClipToBounds="True">
+                    <help:HelpContentView x:Name="ContentHost" />
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

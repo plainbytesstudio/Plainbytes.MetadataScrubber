@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Home_Title" xml:space="preserve"><value>清除元数据</value></data>
+  <data name="Home_Subtitle" xml:space="preserve"><value>安全清除 Office 文档和 PDF 文件中的元数据信息，保护隐私安全。</value></data>
+  <data name="Home_DropTitle" xml:space="preserve"><value>将文件拖到这里</value></data>
+  <data name="Home_DropSubtitle" xml:space="preserve"><value>或点击下方按钮选择文件</value></data>
+  <data name="Home_SelectFiles" xml:space="preserve"><value>选择文件</value></data>
+  <data name="Home_FormatHint" xml:space="preserve"><value>支持 Word、Excel、PowerPoint、PDF 文件</value></data>
+  <data name="Home_NoMetadata" xml:space="preserve"><value>未检测到可清除的元数据</value></data>
+  <data name="Home_FileCount" xml:space="preserve"><value>已添加 {0} 个文件</value></data>
+  <data name="Home_ClearList" xml:space="preserve"><value>清空列表</value></data>
+  <data name="Home_StrategyLabel" xml:space="preserve"><value>清理策略</value></data>
+  <data name="Home_CurrentStrategy" xml:space="preserve"><value>当前策略</value></data>
+  <data name="Home_ChangeStrategy" xml:space="preserve"><value>更换策略</value></data>
+  <data name="Home_LearnMore" xml:space="preserve"><value>了解更多  &gt;</value></data>
+  <data name="Home_TipBar" xml:space="preserve"><value>默认情况下将清除：{0}</value></data>
+  <data name="Home_ScrubButton" xml:space="preserve"><value>清理元数据 ({0})</value></data>
+  <data name="Home_DropHintCompact" xml:space="preserve"><value>或直接将文件拖动此处，支持 Word、Excel、PowerPoint、PDF 文件</value></data>
+  <data name="Badge_Default" xml:space="preserve"><value>默认</value></data>
+  <data name="Dialog_FilterSupported" xml:space="preserve"><value>支持的文档</value></data>
+  <data name="Type_Word" xml:space="preserve"><value>Word 文档</value></data>
+  <data name="Type_Excel" xml:space="preserve"><value>Excel 工作簿</value></data>
+  <data name="Type_PowerPoint" xml:space="preserve"><value>PowerPoint 演示文稿</value></data>
+  <data name="Type_Pdf" xml:space="preserve"><value>PDF 文档</value></data>
+  <data name="Type_File" xml:space="preserve"><value>文件</value></data>
+  <data name="Status_Pending" xml:space="preserve"><value>待处理</value></data>
+  <data name="Status_Cleaned" xml:space="preserve"><value>已清理</value></data>
+  <data name="Status_Failed" xml:space="preserve"><value>失败</value></data>
+  <data name="Status_FailedOccupied" xml:space="preserve"><value>失败：文件被占用</value></data>
+  <data name="Status_FailedPrefix" xml:space="preserve"><value>失败：{0}</value></data>
+  <data name="Overlay_Working" xml:space="preserve"><value>正在清理文件...</value></data>
+  <data name="Overlay_Complete" xml:space="preserve"><value>清理完成</value></data>
+  <data name="Overlay_Failed" xml:space="preserve"><value>清理失败</value></data>
+  <data name="Common_Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Overlay_Done" xml:space="preserve"><value>完成</value></data>
+  <data name="Overlay_ViewReason" xml:space="preserve"><value>查看原因</value></data>
+  <data name="Overlay_FileName" xml:space="preserve"><value>文件名</value></data>
+  <data name="Overlay_FailReason" xml:space="preserve"><value>失败原因</value></data>
+  <data name="Overlay_SuccessCount" xml:space="preserve"><value>已成功处理{0}个文件</value></data>
+  <data name="Overlay_AllFailed" xml:space="preserve"><value>未能处理 {0}个文件</value></data>
+  <data name="Overlay_Partial" xml:space="preserve"><value>已成功处理{0}个文件，{1}个文件处理失败</value></data>
+  <data name="FailReason_Generic" xml:space="preserve"><value>处理失败</value></data>
+  <data name="FailReason_Occupied" xml:space="preserve"><value>文件被占用，无法访问</value></data>
+  <data name="FailReason_Unsupported" xml:space="preserve"><value>文件格式不受支持</value></data>
+  <data name="FailReason_NotFound" xml:space="preserve"><value>文件不存在</value></data>
+  <data name="FailReason_AccessDenied" xml:space="preserve"><value>没有权限访问该文件</value></data>
+  <data name="Error_UnsupportedType" xml:space="preserve"><value>不支持的文件类型。</value></data>
+  <data name="Error_NotFound" xml:space="preserve"><value>文件不存在。</value></data>
+  <data name="Error_Occupied" xml:space="preserve"><value>文件正被其他程序占用，请关闭后重试。</value></data>
+  <data name="Error_AccessDenied" xml:space="preserve"><value>没有权限访问该文件。</value></data>
+  <data name="Error_WriteDenied" xml:space="preserve"><value>没有权限写入该文件。</value></data>
+  <data name="Toast_ProgressTitle" xml:space="preserve"><value>正在清理…</value></data>
+  <data name="Toast_ProgressBodyOne" xml:space="preserve"><value>正在按当前策略处理所选文件。</value></data>
+  <data name="Toast_ProgressBodyMany" xml:space="preserve"><value>正在按当前策略处理 {0} 个文件。</value></data>
+  <data name="Toast_IncompleteTitle" xml:space="preserve"><value>未能完成清理</value></data>
+  <data name="Toast_NoFiles" xml:space="preserve"><value>未指定要清理的文件。</value></data>
+  <data name="Toast_SuccessBody" xml:space="preserve"><value>所有文件的元数据已按当前策略清理完成。</value></data>
+  <data name="Toast_AllFailedBody" xml:space="preserve"><value>全部文件处理失败，请查看本地日志后重试。</value></data>
+  <data name="Toast_ErrorWithLog" xml:space="preserve"><value>{0}（详见本地日志）</value></data>
+  <data name="Toast_PartialTitle" xml:space="preserve"><value>已处理 {0} 个，失败 {1} 个</value></data>
+  <data name="Toast_PartialBody" xml:space="preserve"><value>失败详情见本地日志，可稍后重试。</value></data>
+  <data name="Strategy_Export_Name" xml:space="preserve"><value>外发客户版</value></data>
+  <data name="Strategy_Export_Description" xml:space="preserve"><value>清除全部可见和隐藏的元数据内容</value></data>
+  <data name="Strategy_Archive_Name" xml:space="preserve"><value>内部归档版</value></data>
+  <data name="Strategy_Archive_Description" xml:space="preserve"><value>清除基本属性、修订与批注</value></data>
+  <data name="Strategy_Minimal_Name" xml:space="preserve"><value>基础清理</value></data>
+  <data name="Strategy_Minimal_Description" xml:space="preserve"><value>仅清除基本属性</value></data>
+  <data name="Strategy_Custom_Name" xml:space="preserve"><value>自定义策略</value></data>
+  <data name="Strategy_Custom_NameIndexed" xml:space="preserve"><value>自定义策略 {0}</value></data>
+  <data name="Strategy_Custom_Description" xml:space="preserve"><value>自定义清理范围</value></data>
+  <data name="StrategyPage_Title" xml:space="preserve"><value>策略管理</value></data>
+  <data name="StrategyPage_Subtitle" xml:space="preserve"><value>创建和管理清理策略。策略用于定义清除哪些类别的元数据内容。</value></data>
+  <data name="StrategyPage_New" xml:space="preserve"><value>新建策略</value></data>
+  <data name="StrategyPage_Import" xml:space="preserve"><value>导入策略</value></data>
+  <data name="StrategyPage_Export" xml:space="preserve"><value>导出策略</value></data>
+  <data name="StrategyPage_MyStrategies" xml:space="preserve"><value>我的策略</value></data>
+  <data name="StrategyPage_DefaultHint" xml:space="preserve"><value>默认策略会在主界面和右键菜单中直接使用。</value></data>
+  <data name="StrategyPage_Name" xml:space="preserve"><value>策略名称</value></data>
+  <data name="StrategyPage_Description" xml:space="preserve"><value>策略描述</value></data>
+  <data name="StrategyPage_ScopeHeading" xml:space="preserve"><value>清理范围（按类别）</value></data>
+  <data name="StrategyPage_ScopeHint" xml:space="preserve"><value>不同文件格式的清理内容可能略有差异，实际清理以支持的范围为准。</value></data>
+  <data name="StrategyPage_SetDefault" xml:space="preserve"><value>★  设为默认策略</value></data>
+  <data name="StrategyPage_Delete" xml:space="preserve"><value>删除策略</value></data>
+  <data name="StrategyPage_Save" xml:space="preserve"><value>保存</value></data>
+  <data name="StrategyPage_DeleteConfirm" xml:space="preserve"><value>确定删除策略「{0}」吗？此操作不可撤销。</value></data>
+  <data name="Scope_DocumentProperties_Title" xml:space="preserve"><value>基本属性</value></data>
+  <data name="Scope_DocumentProperties_Description" xml:space="preserve"><value>清除作者、公司、最后修改人、创建/修改时间、总编辑时间等标准属性</value></data>
+  <data name="Scope_Revisions_Description" xml:space="preserve"><value>清除修订标记、批注内容及批注作者等信息</value></data>
+  <data name="Scope_Hidden_Description" xml:space="preserve"><value>清除模板路径引用、自定义属性、缩略图缓存、文件中可能存在的本地路径等残留信息</value></data>
+  <data name="About_Title" xml:space="preserve"><value>关于PlainBytes MetadataScrubber</value></data>
+  <data name="About_Subtitle" xml:space="preserve"><value>清除Office与PDF文件中的元数据信息</value></data>
+  <data name="About_ProductName" xml:space="preserve"><value>PlainBytes MetadataScrubber</value></data>
+  <data name="About_ProductTagline" xml:space="preserve"><value>文件元数据清理工具</value></data>
+  <data name="About_VersionFormat" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="About_SectionTitle" xml:space="preserve"><value>关于产品</value></data>
+  <data name="About_Body" xml:space="preserve"><value>PlainBytes MetadataScrubber 是一款轻量的 Windows 文件工具，用于快速清除 Word、Excel、PowerPoint 和 PDF 文件中的元数据信息。
+无需复杂配置，通过简单的操作即可完成文件清理。</value></data>
+  <data name="About_LicenseNotice" xml:space="preserve">
+    <value>基于 GNU GPLv3 许可发布。</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>源代码</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>许可证</value>
+  </data>
+
+    <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>定制开发</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>需要贴合您特定工作流的工具？PlainBytes Studio 也提供面向专项业务与效率需求的定制软件开发。</value>
+  </data>
+  <data name="About_CustomDev_Capabilities" xml:space="preserve">
+    <value>我们可以协助文件与数据处理、工作流自动化、格式转换、系统集成、Windows 桌面工具，以及其他量身定制的解决方案。</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>简单工具 — 例如单一用途的处理、转换或自动化工具 — 通常可以较快交付。</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>定制应用 — 包括具备多项功能、用户界面，或与现有系统集成的工具 — 可根据您的需求开发。</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>价格取决于项目范围与复杂度。告诉我们您想实现的目标，我们会协助确定合适的方案并提供报价。</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>联系我们 →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>请简要说明您想实现的目标，若有相关细节可一并补充如下：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>为便于我们了解项目，请尽量说明：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• 希望改进的问题或工作流</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• 希望工具或方案完成什么</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• 涉及的文件、数据、应用或系统</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• 处理规则、自动化、转换或集成方面的要求</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item5" xml:space="preserve">
+    <value>• 希望方案如何运行 — 例如 Windows 桌面应用、命令行工具、批处理工具，或与现有系统集成</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item6" xml:space="preserve">
+    <value>• 界面、工作流、部署或其他重要要求</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>您也可以在邮件中附上样本文件、截图、规格说明或其他参考资料。样本材料仅用于理解您的需求，不会与第三方分享。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>我们会审阅您的需求，并回复问题、建议与报价。</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>定制开发咨询</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+我对定制软件方案感兴趣。
+
+问题或工作流：
+[请简要描述要解决的问题或希望改进的工作流。]
+
+我的需求：
+[请描述您希望工具或方案完成的功能。]
+
+涉及的文件、数据、应用或系统：
+[如适用，请描述涉及的文件、数据、应用或系统。]
+
+处理或自动化要求：
+[请描述处理规则、自动化、转换或集成方面的要求。]
+
+希望的运行方式：
+[例如：Windows 桌面应用、命令行工具、批处理工具，或与现有系统集成。]
+
+其他需求：
+[可选：界面、工作流、部署或其他重要要求。]
+
+如有帮助，我已附加样本文件、截图、规格说明或其他参考资料。
+
+谢谢。</value>
+  </data>
+  <data name="About_CustomDev_ContactByEmail" xml:space="preserve">
+    <value>通过邮件联系</value>
+  </data>
+  <data name="About_CustomDev_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve"><value>更多 PlainBytes 工具</value></data>
+  <data name="About_ViewAll" xml:space="preserve"><value>查看全部工具 →</value></data>
+  <data name="About_Copyright" xml:space="preserve"><value>©2026 PlainBytes</value></data>
+  <data name="Meta_Group_DocumentProperties" xml:space="preserve"><value>文档属性</value></data>
+  <data name="Meta_Group_Revisions" xml:space="preserve"><value>修订与批注</value></data>
+  <data name="Meta_Group_Hidden" xml:space="preserve"><value>隐藏路径与残留</value></data>
+  <data name="Meta_Group_Attachments" xml:space="preserve"><value>附件与路径</value></data>
+  <data name="Meta_Field_Author" xml:space="preserve"><value>作者</value></data>
+  <data name="Meta_Field_LastModifiedBy" xml:space="preserve"><value>最后修改人</value></data>
+  <data name="Meta_Field_Created" xml:space="preserve"><value>创建时间</value></data>
+  <data name="Meta_Field_Modified" xml:space="preserve"><value>修改时间</value></data>
+  <data name="Meta_Field_Company" xml:space="preserve"><value>公司</value></data>
+  <data name="Meta_Field_TotalEditTime" xml:space="preserve"><value>总编辑时间</value></data>
+  <data name="Meta_Field_Revisions" xml:space="preserve"><value>修订</value></data>
+  <data name="Meta_Field_Comments" xml:space="preserve"><value>批注</value></data>
+  <data name="Meta_Field_CommentAuthors" xml:space="preserve"><value>批注作者</value></data>
+  <data name="Meta_Field_PathRef" xml:space="preserve"><value>路径引用</value></data>
+  <data name="Meta_Count" xml:space="preserve"><value>{0} 条</value></data>
+  <data name="Meta_ListSeparator" xml:space="preserve"><value>、</value></data>
+  <data name="Meta_Minutes" xml:space="preserve"><value>{0} 分钟</value></data>
+  <data name="Meta_Hours" xml:space="preserve"><value>{0} 小时</value></data>
+  <data name="Meta_HoursMinutes" xml:space="preserve"><value>{0} 小时 {1} 分钟</value></data>
+  <data name="Loading_LoadingFiles" xml:space="preserve"><value>正在加载文件… ({0}/{1})</value></data>
+  <data name="Loading_DefaultMessage" xml:space="preserve"><value>正在加载文件…</value></data>
+  <data name="ContextMenu_RootLabel" xml:space="preserve">
+    <value>PlainBytes 清除元数据</value>
+  </data>
+</root>

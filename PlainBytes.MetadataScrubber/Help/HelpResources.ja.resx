@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>ヘルプセンター</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>PlainBytes MetadataScrubber を使って、安全かつ効果的にファイルのメタデータを削除する方法を説明します。</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>目次</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>クイックスタート</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>機能概要</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>対応ファイル形式</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>ポリシーについて</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>よくある質問</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>プライバシーや自動化により合ったツールが必要ですか？</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>セキュリティとプライバシー</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>便利な使い方</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>更新履歴</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber は、Word、Excel、PowerPoint、PDF ファイルのメタデータを削除するための軽量な Windows ツールです。1つのファイルだけでなく、複数ファイルの一括処理にも対応しています。</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>基本的な使い方</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>ファイルを追加 → ポリシーを確認 → メタデータを削除</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>ファイルを追加する</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>アプリを起動したら、処理したいファイルをメインウィンドウに直接ドラッグ＆ドロップします。メインウィンドウのファイル選択機能から追加することもできます。複数のファイルを同時に追加でき、異なる種類のファイルをまとめて追加することも可能です。追加したファイルは、メインウィンドウの一覧に表示されます。</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>クリーンアップポリシーを選択する</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>ファイルを追加すると、メインウィンドウに現在使用するクリーンアップポリシーが表示されます。通常は既定のポリシーをそのまま使用できます。別のクリーンアップ範囲が必要な場合は、メインウィンドウから別のプリセットポリシーを選択できます。</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>クリーンアップを開始する</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>ファイルとポリシーを確認したら、「メタデータを削除」をクリックします。一覧に追加されたファイルが自動的に処理されます。処理中は進捗状況が表示され、現在の処理に関連する操作は一時的に無効になります。処理が完了すると、結果が表示されます。</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>右クリックからすばやく操作する</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>メインウィンドウを開かなくても、Windows のエクスプローラーから右クリックメニューを使って操作できます。利用できる操作：メタデータを削除（既定のポリシー）、メタデータを表示、別のポリシーでクリーンアップ。右クリックメニューはすばやく操作するための機能で、すべての機能はメインウィンドウから利用できます。</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber には、主に次の機能があります。</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>メタデータを削除</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Office ファイルや PDF ファイルに含まれる可能性のあるメタデータを削除します。複数ファイルの一括処理にも対応しています。</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>メタデータを表示</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>メインウィンドウでファイルをクリックすると、そのファイルから検出されたメタデータを展開して確認できます。表示するだけでは、ファイルは変更されません。</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>クリーンアップポリシー</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>プリセットポリシーを使用して、削除するメタデータの範囲を決めることができます。ファイルごとに項目を1つずつ設定する必要はありません。</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>一括処理</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>複数のファイルを一度に追加して処理できます。処理が完了すると、成功したファイル数、失敗したファイル数、失敗の理由が表示されます。</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>現在、次のファイル形式に対応しています。</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML ドキュメント。基本プロパティ、変更履歴、コメント、カスタムプロパティ、テンプレートパスなどの残存情報を処理できます。</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML ワークブック。クリーンアップ範囲は Word と同種のメタデータに対応しています。</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML プレゼンテーション。基本プロパティ、変更履歴とコメント、パスの残存情報などを処理します。</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>PDF Info、XMP、履歴の残存情報、添付ファイルとパス参照を処理します。Info と XMP は独立した2種類のメタデータであり、表示時は個別に示されます。</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office ファイル</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>Word、Excel、PowerPoint の OpenXML ファイルに対応しています。主に処理する情報：基本的なドキュメントプロパティ、変更履歴、コメント、カスタムプロパティ、テンプレートパスなどの残存情報、サムネイルなどの関連する残存情報。</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF ファイル</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>主に処理する情報：PDF Info メタデータ、XMP メタデータ、ファイル内に残っている履歴情報、添付ファイルおよび関連するパス情報。PDF の Info と XMP は独立した2種類のメタデータであるため、メタデータを表示する際にはそれぞれ個別に表示されます。</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>ポリシーは、どのカテゴリのメタデータを削除するかを決めるためのものです。項目を1つずつ個別に設定する必要はありません。現在、クリーンアップ範囲は3つのカテゴリに分かれています。</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>基本プロパティ</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>作成者、会社名、最終更新者、作成日時、更新日時、編集時間の合計などの基本情報を処理します。</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>変更履歴とコメント</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>変更履歴、コメント、コメント作成者など、編集作業に関連する情報を処理します。</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>非表示のパスと残存情報</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>テンプレートパス、カスタムプロパティ、サムネイルなどの残存情報、PDF 内の添付ファイルやローカルパス情報など、出所を推測できる可能性のある情報を処理します。</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>既定のポリシー</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>アプリには常に既定のポリシーが設定されています。「メタデータを削除」をクリックした場合、または Windows の右クリックメニューから「メタデータを削除」を選んだ場合も、現在の既定のポリシーが使用されます。</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>プリセットポリシー</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>アプリには「外部配布版」「内部アーカイブ版」「基本クリーンアップ」の3つの組み込みプリセットがあり、これらは変更できません。必要に応じてカスタムポリシーを作成できます。</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>ファイルを処理できないのはなぜですか？</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>主な原因として、ファイルが暗号化されている、ファイルが破損している、ファイルへのアクセス権限がない、別のプログラムがファイルを使用している、対応していないファイル形式である、などがあります。処理に失敗した場合は、失敗したファイル数とその理由が表示されます。</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>複数のファイルを一度に処理できますか？</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>はい。複数のファイルをメインウィンドウにまとめてドラッグ＆ドロップし、一度にクリーンアップできます。Windows のエクスプローラーで複数のファイルを選択し、右クリックメニューから処理することもできます。</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>メタデータを表示するとファイルは変更されますか？</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>いいえ。「メタデータを表示」は、ファイルに含まれているメタデータを読み取って表示するだけで、クリーンアップ処理は行いません。</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>PDF の Info と XMP の内容が異なるのはなぜですか？</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>PDF には Info と XMP の2種類のメタデータが含まれている場合があります。両者の内容は必ずしも一致しないため、アプリではそれぞれ個別に検出して表示します。</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>クリーンアップ中にファイル一覧を変更できますか？</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>できません。処理中は、現在のタスクに関連する操作が一時的にロックされ、処理中にタスクの内容が変更されるのを防ぎます。</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>クリーンアップに失敗したファイルは、そのまま無視されますか？</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>いいえ。失敗したファイルは個別に集計され、それぞれの失敗理由が表示されます。</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>MetadataScrubber でカバーできないワークフローがある場合—たとえば追加のファイル形式、カスタムのメタデータルール、バッチクリーンアップの自動化、専用の Windows ユーティリティなど—ファイルのプライバシー、メタデータ処理、ワークフロー自動化、その他の目的別ソリューション向けのカスタム開発についてご相談いただけます。</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>お問い合わせ →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>ローカル処理</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber のファイル分析とメタデータのクリーンアップは、お使いの PC 上で行われます。ファイルの内容がサーバーへアップロードされることはなく、クラウドサービス経由で処理されることもありません。</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>元のファイル</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>アプリは、ユーザーが明示的に選択したファイルのみを処理します。クリーンアップによって、選択したファイル以外をアップロードしたり変更したりすることはありません。</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>おすすめ</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>重要なファイルを処理する場合は、クリーンアップを実行する前に元のファイルをバックアップしておくことをおすすめします。</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>ヒント 1：複数ファイルをまとめて追加する</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>複数のファイルを処理する場合は、1つずつ追加するのではなく、まとめてウィンドウにドラッグ＆ドロップできます。</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>ヒント 2：既定のポリシーを設定する</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>ほとんどのファイルで同じクリーンアップ範囲を使用する場合は、よく使うポリシーを既定のポリシーに設定できます。その後は「メタデータを削除」をクリックするだけで処理できます。</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>ヒント 3：確認してからクリーンアップする</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>ファイルにどのようなメタデータが含まれているか分からない場合は、まずファイルをクリックして確認し、内容を確認してからクリーンアップを実行できます。</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>ヒント 4：右クリックメニューを活用する</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>一時的にファイルを処理するだけなら、アプリを開く必要はありません。エクスプローラーで：右クリック → メタデータを削除。</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>ヒント 5：用途に応じてポリシーを使い分ける</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>外部共有、社内保管など、用途が異なるファイルを扱う場合は、あらかじめ用途ごとのプリセットポリシーを作成しておくと、必要なときにすぐ選択できます。</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>初回リリース</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Word、Excel、PowerPoint、PDF に対応</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>複数ファイルの一括処理に対応</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>メタデータの表示に対応</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>クリーンアップポリシーと既定のポリシーに対応</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>プリセットポリシーの管理に対応</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Windows の右クリックメニューからのクリーンアップに対応</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>バージョン {0}</value></data>
+</root>

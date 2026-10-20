@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Hilfezentrum</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Erfahren Sie, wie Sie mit PlainBytes MetadataScrubber Dateimetadaten sicher und effektiv entfernen.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Inhalt</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Schnellstart</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Funktionsübersicht</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Unterstützte Dateiformate</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Strategien</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Häufig gestellte Fragen</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>Benötigen Sie ein maßgeschneidertes Datenschutz- oder Automatisierungs-Tool?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>Sicherheit und Datenschutz</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Tipps</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Versionshinweise</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber ist ein schlankes Windows-Tool zum Entfernen von Metadaten aus Word-, Excel-, PowerPoint- und PDF-Dateien. Es unterstützt sowohl einzelne Dateien als auch die Verarbeitung mehrerer Dateien.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>Der einfachste Ablauf</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Dateien hinzufügen → Strategie bestätigen → Metadaten entfernen</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Dateien hinzufügen</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>Öffnen Sie die App und ziehen Sie die zu verarbeitenden Dateien in das Hauptfenster. Alternativ können Sie Dateien über die Dateiauswahl im Hauptfenster hinzufügen. Sie können mehrere Dateien gleichzeitig hinzufügen, auch Dateien unterschiedlicher Formate. Die hinzugefügten Dateien werden in der Dateiliste des Hauptfensters angezeigt.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Bereinigungsstrategie auswählen</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>Nach dem Hinzufügen von Dateien wird im Hauptfenster die aktuell verwendete Bereinigungsstrategie angezeigt. In den meisten Fällen können Sie einfach die Standardstrategie verwenden. Wenn ein anderer Bereinigungsumfang erforderlich ist, können Sie im Hauptfenster eine andere vordefinierte Strategie auswählen.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Bereinigung starten</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>Nachdem Sie Dateien und Strategie überprüft haben, klicken Sie auf „Metadaten entfernen“. Die Dateien in der Liste werden automatisch verarbeitet. Während der Verarbeitung wird der Fortschritt angezeigt. Funktionen, die mit dem aktuellen Vorgang zusammenhängen, sind vorübergehend deaktiviert. Nach Abschluss der Verarbeitung werden die Ergebnisse angezeigt.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Schnellaktionen über das Kontextmenü</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>Wenn Sie das Hauptfenster nicht öffnen möchten, können Sie das Kontextmenü direkt im Windows-Datei-Explorer verwenden. Verfügbare Aktionen: Metadaten entfernen (Standardstrategie), Metadaten anzeigen und Mit einer anderen Strategie bereinigen. Das Kontextmenü dient dem schnellen Zugriff; das Hauptfenster bleibt die zentrale Oberfläche für den vollständigen Funktionsumfang.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber bietet die folgenden wichtigen Funktionen.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Metadaten entfernen</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Entfernt Metadaten, die in Office- und PDF-Dateien enthalten sein können. Die Verarbeitung mehrerer Dateien wird unterstützt.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Metadaten anzeigen</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Klicken Sie im Hauptfenster auf eine Datei, um die aktuell in dieser Datei erkannten Metadaten aufzuklappen und anzuzeigen. Das Anzeigen der Metadaten verändert die Datei nicht.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Bereinigungsstrategien</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Verwenden Sie vordefinierte Strategien, um den Bereinigungsumfang festzulegen. Die einzelnen Felder müssen nicht für jede Datei separat konfiguriert werden.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Stapelverarbeitung</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Fügen Sie mehrere Dateien hinzu und verarbeiten Sie sie gemeinsam. Nach Abschluss der Verarbeitung zeigt die App die Anzahl der erfolgreichen und fehlgeschlagenen Dateien sowie die Fehlergründe an.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>Die folgenden Dateiformate werden derzeit unterstützt.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML-Dokumente. Verarbeitet werden können Grundeigenschaften, Überarbeitungen, Kommentare, benutzerdefinierte Eigenschaften sowie Restinformationen wie Vorlagenpfade.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML-Arbeitsmappen. Der Bereinigungsumfang entspricht denselben Metadatentypen wie bei Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML-Präsentationen. Die Bereinigung umfasst Grundeigenschaften, Überarbeitungen und Kommentare sowie verbleibende Pfadinformationen.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Verarbeitet PDF Info, XMP, historische Restinformationen sowie Anhänge mit Pfadverweisen. Info und XMP sind zwei unabhängige Metadatensysteme und werden bei der Anzeige getrennt dargestellt.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office-Dateien</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>OpenXML-Dateien, die mit Word, Excel und PowerPoint erstellt wurden, werden unterstützt. Verarbeitet werden hauptsächlich: grundlegende Dokumenteigenschaften, Informationen zu Überarbeitungen, Kommentare, benutzerdefinierte Eigenschaften, verbleibende Informationen wie Vorlagenpfade sowie zugehörige Restdaten wie Miniaturansichten.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF-Dateien</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>Verarbeitet werden hauptsächlich: PDF-Info-Metadaten, XMP-Metadaten, im Dokument verbleibende historische Informationen sowie Anhänge und zugehörige Pfadverweise. PDF Info und XMP sind zwei voneinander unabhängige Metadatensysteme und werden bei der Anzeige der Metadaten getrennt dargestellt.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Strategien legen fest, welche Kategorien von Metadaten entfernt werden. Die einzelnen Felder müssen nicht nacheinander konfiguriert werden. Der Bereinigungsumfang ist derzeit in drei Kategorien unterteilt.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Grundeigenschaften</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Verarbeitet grundlegende Informationen wie Autor, Unternehmen, Zuletzt geändert von, Erstellungszeit, Änderungszeit und gesamte Bearbeitungszeit.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Überarbeitungen und Kommentare</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Verarbeitet Informationen im Zusammenhang mit dem Bearbeitungsverlauf, beispielsweise Überarbeitungsverlauf, Kommentare und Kommentarautoren.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Verborgene Pfade und Spuren</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Verarbeitet Vorlagenpfade, benutzerdefinierte Eigenschaften, Restinformationen wie Miniaturansichten sowie Anhänge und lokale Pfadverweise in PDF-Dateien, die Rückschlüsse auf die Herkunft ermöglichen können.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Standardstrategie</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>Die App verfügt immer über eine Standardstrategie. Wenn Sie auf „Metadaten entfernen“ klicken oder „Metadaten entfernen“ im Windows-Kontextmenü verwenden, wird die aktuelle Standardstrategie verwendet.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Vordefinierte Strategien</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>Die App enthält drei integrierte Vorgaben: „Externe Weitergabe“, „Internes Archiv“ und „Grundlegende Bereinigung“. Diese können nicht geändert werden. Bei Bedarf können Sie benutzerdefinierte Strategien erstellen.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Warum kann eine Datei nicht verarbeitet werden?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Häufige Gründe: Die Datei ist verschlüsselt, beschädigt, Sie haben keine Zugriffsberechtigung, die Datei wird von einem anderen Programm verwendet oder das Dateiformat wird nicht unterstützt. Wenn die Verarbeitung fehlschlägt, zeigt die App die Anzahl der fehlgeschlagenen Dateien sowie den jeweiligen Fehlergrund an.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Kann ich mehrere Dateien gleichzeitig verarbeiten?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Ja. Sie können mehrere Dateien in das Hauptfenster ziehen und die Bereinigung für alle Dateien gemeinsam starten. Alternativ können Sie mehrere Dateien im Windows-Datei-Explorer auswählen und das Kontextmenü verwenden.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>Wird die Datei verändert, wenn ich die Metadaten anzeige?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>Nein. „Metadaten anzeigen“ liest lediglich die aktuell in der Datei enthaltenen Metadaten aus und zeigt sie an. Eine Bereinigung wird dabei nicht durchgeführt.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>Warum können sich die Info- und XMP-Metadaten einer PDF-Datei unterscheiden?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>Eine PDF-Datei kann sowohl Info- als auch XMP-Metadaten enthalten. Diese enthalten nicht unbedingt dieselben Informationen. Daher erkennt und zeigt die App sie getrennt an.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Kann ich die Dateiliste während der Bereinigung ändern?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>Nein. Während der Verarbeitung werden die Funktionen, die mit dem aktuellen Vorgang zusammenhängen, vorübergehend gesperrt, damit der laufende Vorgang nicht verändert wird.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>Werden fehlgeschlagene Dateien einfach übersprungen?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>Nein. Fehlgeschlagene Dateien werden separat erfasst und für jede Datei wird der entsprechende Fehlergrund angezeigt.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>Wenn MetadataScrubber Ihren Arbeitsablauf nicht abdeckt—etwa weitere Dateitypen, benutzerdefinierte Metadatenregeln, automatisierte Stapelbereinigung oder ein eigenständiges Windows-Dienstprogramm—können wir individuelle Entwicklung für Dateiprivatsphäre, Metadatenverarbeitung, Workflow-Automatisierung und andere maßgeschneiderte Lösungen besprechen.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Kontakt →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>Lokale Verarbeitung</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber führt Dateianalyse und Metadatenbereinigung lokal auf Ihrem Gerät aus. Dateiinhalte werden nicht auf einen Server hochgeladen und nicht über Cloud-Dienste verarbeitet.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Originaldateien</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>Die App verarbeitet ausschließlich Dateien, die Sie ausdrücklich auswählen. Bei der Bereinigung werden keine anderen Dateien hochgeladen oder geändert.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Empfehlung</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>Bei wichtigen Dateien empfehlen wir, vor der Bereinigung eine Sicherungskopie der Originaldatei zu erstellen.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Tipp 1: Mehrere Dateien gleichzeitig hinzufügen</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Wenn Sie mehrere Dateien verarbeiten möchten, ziehen Sie sie gleichzeitig in das Fenster, anstatt sie einzeln hinzuzufügen.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Tipp 2: Standardstrategie festlegen</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Wenn Sie bei den meisten Dateien denselben Bereinigungsumfang verwenden, können Sie Ihre bevorzugte Strategie als Standardstrategie festlegen. Anschließend genügt ein Klick auf „Metadaten entfernen“.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Tipp 3: Vor der Bereinigung prüfen</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>Wenn Sie nicht sicher sind, welche Metadaten eine Datei enthält, klicken Sie zunächst auf die Datei, um deren Metadaten anzuzeigen. Führen Sie die Bereinigung anschließend durch, sobald Sie festgelegt haben, welche Informationen entfernt werden sollen.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Tipp 4: Kontextmenü verwenden</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Für schnelle, einmalige Bereinigungen müssen Sie die App nicht öffnen. Im Datei-Explorer: Rechtsklick → Metadaten entfernen.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Tipp 5: Unterschiedliche Strategien für unterschiedliche Zwecke verwenden</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Wenn Sie regelmäßig Dateien für unterschiedliche Zwecke bearbeiten, beispielsweise für die externe Weitergabe oder die interne Archivierung, können Sie dafür im Voraus passende vordefinierte Strategien erstellen und bei Bedarf die entsprechende Strategie auswählen.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Erstveröffentlichung</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Unterstützung für Word-, Excel-, PowerPoint- und PDF-Dateien</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Verarbeitung mehrerer Dateien</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Anzeige von Metadaten</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Bereinigungsstrategien und Standardstrategie</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Verwaltung vordefinierter Strategien</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Bereinigung über das Windows-Kontextmenü</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Version {0}</value></data>
+</root>

@@ -1,0 +1,57 @@
+<!--
+SPDX-FileCopyrightText: 2026 PlainBytes Studio
+SPDX-License-Identifier: GPL-3.0-only
+-->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
+
+    <!-- PlainBytes brand tokens -->
+    <FontFamily x:Key="PB.Fonts.Main">Segoe UI, Microsoft YaHei</FontFamily>
+    <SolidColorBrush x:Key="PB.Brushes.Primary" Color="#2563EB" />
+    <SolidColorBrush x:Key="PB.Brushes.TextPrimary" Color="#172033" />
+    <SolidColorBrush x:Key="PB.Brushes.TextSecondary" Color="#64748B" />
+    <SolidColorBrush x:Key="PB.Brushes.Border" Color="#E2E8F0" />
+
+    <!-- Do not add implicit TitleBar/Button styles here; they override full templates from ControlsDictionary -->
+
+    <Style
+        x:Key="NavigationRailButtonStyle"
+        BasedOn="{StaticResource {x:Type ui:Button}}"
+        TargetType="ui:Button">
+        <Setter Property="Width" Value="40" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="Margin" Value="4,4" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="Content" Value="{x:Null}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Appearance" Value="Transparent" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="MouseOverBackground" Value="{DynamicResource SubtleFillColorSecondaryBrush}" />
+        <Setter Property="MouseOverBorderBrush" Value="Transparent" />
+        <Setter Property="PressedBackground" Value="{DynamicResource SubtleFillColorTertiaryBrush}" />
+        <Setter Property="PressedBorderBrush" Value="Transparent" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Foreground" Value="{StaticResource PB.Brushes.TextPrimary}" />
+    </Style>
+
+    <!-- Window button area totals 138px (46×3); vertically centered within the 72px title bar -->
+    <Style
+        TargetType="ui:TitleBarButton"
+        BasedOn="{StaticResource {x:Type ui:TitleBarButton}}">
+        <Setter Property="Width" Value="46" />
+        <Setter Property="MinWidth" Value="46" />
+        <Setter Property="MaxWidth" Value="46" />
+        <Setter Property="Height" Value="46" />
+        <Setter Property="MinHeight" Value="46" />
+        <Setter Property="MaxHeight" Value="46" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="0" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Unpackaged Toast 在通知中心显示的应用名（Toolkit Win32AppInfo） -->
+    <Product>MetadataScrubber</Product>
+    <AssemblyTitle>MetadataScrubber</AssemblyTitle>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+    <Authors>PlainBytes Studio</Authors>
+    <Copyright>Copyright © 2026 PlainBytes Studio</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/plainbytesstudio/PlainBytes.MetadataScrubber</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <ApplicationIcon>..\PlainBytes.Core\Assets\Icons\logo_MetadataScrubber.ico</ApplicationIcon>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SatelliteResourceLanguages>zh-Hans;zh-Hant;ja;ru;fr;de;it;es;pt;ko;nl;ar</SatelliteResourceLanguages>
+    <Platforms>AnyCPU;x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <!-- WAP 未指定 PublishProfile 时会硬编码 SelfContained=true；必须指向 FDD 配置 -->
+    <SelfContained>false</SelfContained>
+    <PublishSelfContained>false</PublishSelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\about-us.png" />
+    <None Remove="Assets\Images\broom-white.png" />
+    <None Remove="Assets\Images\broom.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\about-us.png" />
+    <Resource Include="Assets\Images\broom-white.png" />
+    <Resource Include="Assets\Images\broom.png" />
+    <Resource Include="Assets\Images\shield.png" />
+    <Resource Include="Assets\Images\shield1.png" />
+    <Resource Include="Assets\Images\shield2.png" />
+    <Resource Include="Assets\Images\shield3.png" />
+    <Resource Include="Assets\Images\shield4.png" />
+    <Resource Include="Assets\Images\folder.png" />
+    <Resource Include="Assets\Images\word.png" />
+    <Resource Include="Assets\Images\excel.png" />
+    <Resource Include="Assets\Images\ppt.png" />
+    <Resource Include="Assets\Images\pdf.png" />
+    <Resource Include="Assets\Images\part1.png" />
+    <Resource Include="Assets\Images\part2.png" />
+    <Resource Include="Assets\Images\part3.png" />
+    <Resource Include="Assets\Images\complete.png" />
+    <Resource Include="Assets\Images\warning.png" />
+    <Resource Include="Assets\Images\error.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+    <PackageReference Include="PdfSharpCore" Version="1.3.67" />
+    <PackageReference Include="UglyToad.PdfPig" Version="1.7.0-custom-5" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+    <ProjectReference Include="..\PlainBytes.Core\PlainBytes.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="THIRD_PARTY_NOTICES.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

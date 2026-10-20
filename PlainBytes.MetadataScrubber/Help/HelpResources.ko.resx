@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>도움말 센터</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>PlainBytes MetadataScrubber를 사용하여 파일 메타데이터를 안전하고 효과적으로 삭제하는 방법을 안내합니다.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>목차</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>빠른 시작</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>기능 개요</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>지원되는 파일 형식</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>정책 안내</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>자주 묻는 질문</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>개인정보 보호나 자동화에 더 맞는 도구가 필요하신가요?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>보안 및 개인정보 보호</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>유용한 팁</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>업데이트 내역</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber는 Word, Excel, PowerPoint 및 PDF 파일의 메타데이터를 삭제하는 가벼운 Windows 도구입니다. 개별 파일뿐만 아니라 여러 파일을 한 번에 처리할 수 있습니다.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>기본적인 사용 방법</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>파일 추가 → 정책 확인 → 메타데이터 삭제</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>파일 추가</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>앱을 실행한 후 처리할 파일을 메인 창으로 직접 드래그 앤 드롭합니다. 메인 창의 파일 선택 기능을 통해 파일을 추가할 수도 있습니다. 여러 파일을 한 번에 추가할 수 있으며, 서로 다른 형식의 파일을 함께 추가할 수도 있습니다. 추가한 파일은 메인 창의 파일 목록에 표시됩니다.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>정리 정책 선택</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>파일을 추가하면 메인 창에 현재 사용 중인 정리 정책이 표시됩니다. 일반적인 경우에는 기본 정책을 그대로 사용하면 됩니다. 다른 정리 범위가 필요한 경우 메인 창에서 다른 사전 설정 정책을 선택할 수 있습니다.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>정리 시작</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>파일과 정책을 확인한 후 「메타데이터 삭제」를 클릭합니다. 목록에 추가된 파일이 자동으로 처리됩니다. 처리 중에는 진행 상황이 표시되며, 현재 작업과 관련된 기능은 일시적으로 비활성화됩니다. 처리가 완료되면 결과가 표시됩니다.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>오른쪽 클릭으로 빠르게 사용하기</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>메인 창을 열지 않고도 Windows 파일 탐색기에서 오른쪽 클릭 메뉴를 사용하여 바로 작업할 수 있습니다. 사용 가능한 기능: 메타데이터 삭제(기본 정책), 메타데이터 보기, 다른 정책으로 정리. 오른쪽 클릭 메뉴는 빠른 작업을 위한 기능이며, 전체 기능은 메인 창에서 사용할 수 있습니다.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber는 다음과 같은 주요 기능을 제공합니다.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>메타데이터 삭제</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Office 파일 및 PDF 파일에 포함될 수 있는 메타데이터를 삭제합니다. 여러 파일을 한 번에 처리할 수 있습니다.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>메타데이터 보기</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>메인 창에서 파일을 클릭하면 해당 파일에서 감지된 메타데이터를 펼쳐서 확인할 수 있습니다. 메타데이터를 확인하는 것만으로는 파일이 변경되지 않습니다.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>정리 정책</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>사전 설정된 정책을 사용하여 삭제할 메타데이터의 범위를 지정할 수 있습니다. 파일마다 항목을 하나씩 설정할 필요가 없습니다.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>일괄 처리</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>여러 파일을 한 번에 추가하여 처리할 수 있습니다. 처리가 완료되면 성공적으로 처리된 파일 수, 실패한 파일 수, 실패 원인이 표시됩니다.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>현재 다음 파일 형식을 지원합니다.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML 문서입니다. 기본 속성, 변경 내용, 댓글, 사용자 지정 속성, 템플릿 경로 등의 잔여 정보를 처리할 수 있습니다.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML 통합 문서입니다. 정리 범위는 Word와 동일한 유형의 메타데이터에 대응합니다.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML 프레젠테이션입니다. 기본 속성, 변경 내용 및 댓글, 경로 잔여 정보 등을 처리합니다.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>PDF Info, XMP, 이력 잔여 정보, 첨부 파일 및 경로 참조를 처리합니다. Info와 XMP는 서로 독립적인 메타데이터 시스템이며 확인 시 각각 별도로 표시됩니다.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office 파일</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>Word, Excel, PowerPoint에서 생성된 OpenXML 파일을 지원합니다. 주로 처리하는 정보: 기본 문서 속성, 변경 내용, 댓글, 사용자 지정 속성, 템플릿 경로 등의 잔여 정보, 미리 보기 이미지 등의 관련 잔여 정보.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF 파일</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>주로 처리하는 정보: PDF Info 메타데이터, XMP 메타데이터, 파일에 남아 있을 수 있는 이력 정보, 첨부 파일 및 관련 경로 정보. PDF의 Info와 XMP는 서로 독립적인 메타데이터 시스템이므로, 메타데이터를 확인할 때 각각 별도로 표시됩니다.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>정책은 어떤 범주의 메타데이터를 삭제할지를 결정합니다. 각 항목을 하나씩 설정할 필요가 없습니다. 현재 정리 범위는 세 가지 범주로 나뉩니다.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>기본 속성</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>작성자, 회사, 마지막으로 수정한 사람, 생성 시간, 수정 시간, 총 편집 시간 등의 기본 정보를 처리합니다.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>변경 내용 및 댓글</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>변경 기록, 댓글, 댓글 작성자 등 파일 편집 과정과 관련된 정보를 처리합니다.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>숨겨진 경로 및 흔적</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>템플릿 경로, 사용자 지정 속성, 미리 보기 이미지 등의 잔여 정보, PDF 파일의 첨부 파일 및 로컬 경로 정보 등 출처를 추정할 수 있는 정보를 처리합니다.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>기본 정책</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>앱에는 항상 기본 정책이 설정되어 있습니다. 「메타데이터 삭제」를 클릭하거나 Windows 오른쪽 클릭 메뉴의 「메타데이터 삭제」를 사용하면 현재 기본 정책이 사용됩니다.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>사전 설정 정책</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>앱에는 「외부 배포용」, 「내부 보관용」, 「기본 정리」 세 가지 기본 제공 사전 설정이 있으며 수정할 수 없습니다. 필요에 따라 사용자 지정 정책을 만들 수 있습니다.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>파일을 처리할 수 없는 이유는 무엇인가요?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>일반적인 원인으로는 파일이 암호화되어 있거나, 손상되었거나, 액세스 권한이 없거나, 다른 프로그램에서 사용 중이거나, 지원되지 않는 형식인 경우가 있습니다. 처리에 실패하면 실패한 파일 수와 각 파일의 실패 원인이 표시됩니다.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>여러 파일을 한 번에 처리할 수 있나요?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>예. 여러 파일을 메인 창으로 한 번에 드래그 앤 드롭하여 함께 정리할 수 있습니다. Windows 파일 탐색기에서 여러 파일을 선택한 후 오른쪽 클릭 메뉴를 통해 처리할 수도 있습니다.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>메타데이터를 보면 파일이 변경되나요?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>아니요. 「메타데이터 보기」는 파일에 포함된 메타데이터를 읽어 표시하기만 하며, 정리 작업은 수행하지 않습니다.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>PDF의 Info와 XMP 메타데이터가 서로 다른 이유는 무엇인가요?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>PDF에는 Info와 XMP라는 두 가지 메타데이터가 포함될 수 있습니다. 두 메타데이터의 내용이 항상 동일한 것은 아니므로 앱에서는 각각 별도로 감지하여 표시합니다.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>정리하는 동안 파일 목록을 변경할 수 있나요?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>아니요. 파일 처리 중에는 현재 작업과 관련된 기능이 일시적으로 잠겨, 처리 중 작업 내용이 변경되는 것을 방지합니다.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>처리에 실패한 파일은 자동으로 건너뛰나요?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>아니요. 실패한 파일은 별도로 집계되며 각 파일의 실패 원인이 표시됩니다.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>MetadataScrubber로 커버되지 않는 워크플로가 있다면—예: 추가 파일 형식, 맞춤 메타데이터 규칙, 일괄 정리 자동화, 전용 Windows 유틸리티—파일 개인정보 보호, 메타데이터 처리, 워크플로 자동화 및 기타 목적에 맞는 솔루션용 맞춤 개발에 대해 상담할 수 있습니다.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>문의하기 →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>로컬 처리</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber의 파일 분석과 메타데이터 정리는 사용자의 PC에서 로컬로 수행됩니다. 파일 내용이 서버로 업로드되지 않으며 클라우드 서비스를 통해 처리되지 않습니다.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>원본 파일</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>앱은 사용자가 직접 선택한 파일만 처리합니다. 정리 과정에서 선택한 파일 이외의 파일을 업로드하거나 수정하지 않습니다.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>권장 사항</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>중요한 파일을 정리하기 전에 원본 파일의 백업을 보관하는 것을 권장합니다.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>팁 1: 여러 파일을 한 번에 추가하기</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>여러 파일을 처리해야 하는 경우 파일을 하나씩 추가하지 말고 한 번에 창으로 드래그 앤 드롭하세요.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>팁 2: 기본 정책 설정하기</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>대부분의 파일에 동일한 정리 범위를 사용하는 경우 자주 사용하는 정책을 기본 정책으로 설정할 수 있습니다. 이후에는 「메타데이터 삭제」를 클릭하기만 하면 됩니다.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>팁 3: 정리하기 전에 확인하기</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>파일에 어떤 메타데이터가 포함되어 있는지 확실하지 않은 경우 먼저 파일을 클릭하여 확인한 뒤, 필요한 범위에 따라 정리를 실행할 수 있습니다.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>팁 4: 오른쪽 클릭 메뉴 활용하기</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>간단한 파일 정리 작업이라면 앱을 열 필요가 없습니다. 파일 탐색기에서: 오른쪽 클릭 → 메타데이터 삭제.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>팁 5: 용도에 따라 정책 사용하기</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>외부 배포, 내부 보관 등 서로 다른 용도로 파일을 자주 처리한다면 미리 용도별 사전 설정 정책을 만들어 두세요. 필요할 때 적절한 정책을 바로 선택할 수 있습니다.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>최초 릴리스</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Word, Excel, PowerPoint 및 PDF 파일 지원</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>여러 파일 일괄 처리</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>메타데이터 보기</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>정리 정책 및 기본 정책</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>사전 설정 정책 관리</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Windows 오른쪽 클릭 메뉴를 통한 정리</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>버전 {0}</value></data>
+</root>

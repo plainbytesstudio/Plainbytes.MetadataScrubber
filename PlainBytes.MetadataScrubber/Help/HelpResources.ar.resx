@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>مركز المساعدة</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>تعرّف على كيفية استخدام PlainBytes MetadataScrubber لمسح البيانات الوصفية من الملفات بأمان وفعالية.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>المحتويات</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>البدء السريع</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>نظرة عامة على الميزات</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>تنسيقات الملفات المدعومة</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>دليل الاستراتيجيات</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>الأسئلة الشائعة</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>هل تحتاج أداة أكثر ملاءمة للخصوصية أو الأتمتة؟</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>الأمان والخصوصية</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>النصائح</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>ملاحظات الإصدار</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber هو أداة خفيفة لنظام Windows لإزالة البيانات الوصفية من ملفات Word وExcel وPowerPoint وPDF. يدعم البرنامج معالجة الملفات بشكل فردي أو معالجة عدة ملفات دفعة واحدة.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>طريقة الاستخدام الأساسية</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>إضافة الملفات → تأكيد الاستراتيجية → تنظيف البيانات الوصفية</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>إضافة الملفات</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>بعد فتح التطبيق، اسحب الملفات التي تريد معالجتها إلى النافذة الرئيسية. يمكنك أيضًا استخدام ميزة تحديد الملفات في النافذة الرئيسية لإضافة الملفات. يمكنك إضافة عدة ملفات في الوقت نفسه، بما في ذلك ملفات من أنواع مختلفة. ستظهر الملفات المضافة في قائمة الملفات في النافذة الرئيسية.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>تحديد استراتيجية التنظيف</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>بعد إضافة الملفات، تعرض النافذة الرئيسية استراتيجية التنظيف المستخدمة حاليًا. في معظم الحالات، يمكنك ببساطة استخدام الاستراتيجية الافتراضية. إذا كانت الملفات تحتاج إلى نطاق تنظيف مختلف، يمكنك تحديد استراتيجية أخرى معدة مسبقًا من النافذة الرئيسية.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>بدء التنظيف</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>بعد التأكد من الملفات والاستراتيجية، انقر على «تنظيف البيانات الوصفية». سيقوم التطبيق تلقائيًا بمعالجة الملفات الموجودة في القائمة. يتم عرض التقدم أثناء المعالجة، ويتم تعطيل عناصر التحكم المرتبطة بالمهمة الحالية مؤقتًا. تظهر النتائج عند اكتمال المعالجة.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>الإجراءات السريعة من قائمة السياق</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>إذا لم تكن بحاجة إلى فتح النافذة الرئيسية، يمكنك استخدام قائمة السياق مباشرةً من مستكشف ملفات Windows. الإجراءات المتاحة: تنظيف البيانات الوصفية (الاستراتيجية الافتراضية)، وعرض البيانات الوصفية، والتنظيف باستخدام استراتيجية أخرى. صُممت قائمة السياق للوصول السريع؛ وتظل النافذة الرئيسية الواجهة الأساسية للوصول إلى جميع الميزات.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>يوفر MetadataScrubber الميزات الرئيسية التالية.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>مسح البيانات الوصفية</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>إزالة البيانات الوصفية التي قد تكون موجودة في ملفات Office وPDF. يدعم البرنامج معالجة عدة ملفات دفعة واحدة.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>عرض البيانات الوصفية</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>انقر على أحد الملفات في النافذة الرئيسية لتوسيعه وعرض البيانات الوصفية المكتشفة حاليًا فيه. لا يؤدي عرض البيانات الوصفية إلى تعديل الملف.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>استراتيجيات التنظيف</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>استخدم الاستراتيجيات المعدة مسبقًا لتحديد نطاق التنظيف. لا حاجة إلى إعداد الحقول بشكل منفصل لكل ملف.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>المعالجة المجمعة</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>أضف عدة ملفات وقم بمعالجتها معًا. عند اكتمال المعالجة، يعرض التطبيق عدد الملفات التي تمت معالجتها بنجاح، وعدد الملفات التي فشلت معالجتها، وأسباب حالات الفشل.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>يدعم التطبيق حاليًا تنسيقات الملفات التالية.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>مستندات OpenXML. يمكن معالجة الخصائص الأساسية والمراجعات والتعليقات والخصائص المخصصة والمعلومات المتبقية مثل مسارات القوالب.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>مصنفات OpenXML. يتوافق نطاق التنظيف مع أنواع البيانات الوصفية نفسها في Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>عروض تقديمية بصيغة OpenXML. يشمل التنظيف الخصائص الأساسية والمراجعات والتعليقات ومعلومات المسارات المتبقية.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>يعالج بيانات PDF Info وXMP والمعلومات التاريخية المتبقية والمرفقات مع مراجع المسارات. Info وXMP نظامان مستقلان للبيانات الوصفية ويُعرضان بشكل منفصل.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>ملفات Office</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>يدعم التطبيق ملفات OpenXML التي تم إنشاؤها باستخدام Word وExcel وPowerPoint. وتتم معالجة أنواع المعلومات التالية بشكل أساسي: خصائص المستند الأساسية، ومعلومات المراجعات، ومعلومات التعليقات، والخصائص المخصصة، والمعلومات المتبقية مثل مسارات القوالب، والبيانات المتبقية المرتبطة مثل الصور المصغرة.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>ملفات PDF</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>تتم معالجة أنواع المعلومات التالية بشكل أساسي: بيانات PDF Info الوصفية، وبيانات XMP الوصفية، والمعلومات المتبقية المرتبطة بسجل الملف، والمرفقات ومراجع المسارات المرتبطة بها. تُعد PDF Info وXMP نظامين مستقلين للبيانات الوصفية، لذلك يتم عرضهما بشكل منفصل عند عرض البيانات الوصفية.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>تحدد الاستراتيجيات فئات البيانات الوصفية التي سيتم مسحها. لا حاجة إلى إعداد الحقول بشكل منفصل واحدًا تلو الآخر. ينقسم نطاق التنظيف الحالي إلى ثلاث فئات.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>الخصائص الأساسية</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>معالجة المعلومات الأساسية الموجودة في الملف، مثل المؤلف والشركة وآخر من أجرى تعديلاً ووقت الإنشاء ووقت التعديل وإجمالي وقت التحرير.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>المراجعات والتعليقات</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>معالجة المعلومات المرتبطة بعملية التحرير، مثل سجل المراجعات والتعليقات ومؤلفو التعليقات.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>المسارات والآثار المخفية</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>معالجة المعلومات التي قد تكشف عن مصدر الملف أو تاريخه، مثل مسارات القوالب والخصائص المخصصة والمعلومات المتبقية مثل الصور المصغرة، والمرفقات ومراجع المسارات المحلية في ملفات PDF.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>الاستراتيجية الافتراضية</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>يحتوي التطبيق دائمًا على استراتيجية افتراضية. عند النقر على «تنظيف البيانات الوصفية»، أو استخدام «تنظيف البيانات الوصفية» في قائمة سياق Windows، يتم استخدام الاستراتيجية الافتراضية الحالية.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>الاستراتيجيات المعدة مسبقًا</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>يتضمن التطبيق ثلاث استراتيجيات مضمنة: «التوزيع الخارجي» و«الأرشفة الداخلية» و«التنظيف الأساسي». لا يمكن تعديلها. عند الحاجة، يمكنك إنشاء استراتيجيات مخصصة.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>لماذا يتعذر معالجة ملف؟</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>تشمل الأسباب الشائعة: الملف مشفّر، أو تالف، أو ليس لديك إذن للوصول إليه، أو الملف قيد الاستخدام من قبل برنامج آخر، أو تنسيق الملف غير مدعوم. عند فشل المعالجة، يعرض التطبيق عدد الملفات التي فشلت معالجتها ويوضح سبب الفشل لكل ملف.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>هل يمكنني معالجة عدة ملفات في الوقت نفسه؟</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>نعم. يمكنك سحب عدة ملفات إلى النافذة الرئيسية وتشغيل عملية التنظيف مرة واحدة لجميع الملفات. كما يمكنك تحديد عدة ملفات في مستكشف ملفات Windows واستخدام قائمة السياق.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>هل يؤدي عرض البيانات الوصفية إلى تعديل الملف؟</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>لا. تقتصر وظيفة «عرض البيانات الوصفية» على قراءة البيانات الوصفية الموجودة حاليًا في الملف وعرضها. ولا يتم تنفيذ أي عملية تنظيف.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>لماذا قد تختلف بيانات Info وXMP الوصفية في ملف PDF؟</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>قد يحتوي ملف PDF على كل من بيانات Info وXMP الوصفية. ولا تحتوي هاتان المجموعتان بالضرورة على المعلومات نفسها، لذلك يقوم التطبيق باكتشافهما وعرضهما بشكل منفصل.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>هل يمكنني تعديل قائمة الملفات أثناء إجراء التنظيف؟</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>لا. يتم قفل عناصر التحكم المرتبطة بالمهمة الحالية مؤقتًا أثناء المعالجة لمنع إجراء تغييرات على المهمة أثناء معالجة الملفات.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>هل سيتم تجاهل الملفات التي فشلت معالجتها دون إظهار أي تنبيه؟</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>لا. يتم احتساب الملفات التي فشلت معالجتها بشكل منفصل، ويتم عرض سبب الفشل لكل ملف.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>إذا كان MetadataScrubber لا يغطي سير عملك—مثل أنواع ملفات إضافية أو قواعد بيانات وصفية مخصصة أو أتمتة التنظيف الدفعي أو أداة Windows مخصصة—يمكننا مناقشة التطوير المخصص لخصوصية الملفات ومعالجة البيانات الوصفية وأتمتة سير العمل وغيرها من الحلول المصممة لغرض محدد.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>تواصل معنا ←</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>المعالجة المحلية</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>يقوم MetadataScrubber بمعالجة الملفات محليًا على جهازك. لا يتم رفع محتوى ملفاتك إلى أي خادم كجزء من عملية تنظيف البيانات الوصفية، ولا تتم معالجتها عبر خدمات سحابية.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>الملفات الأصلية</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>يعالج التطبيق الملفات التي تحددها أنت بشكل صريح فقط. ولا يتم إرسال الملفات إلى السحابة لمعالجتها، ولا يتم تعديل ملفات أخرى غير التي اخترتها.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>التوصية</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>بالنسبة إلى الملفات المهمة، نوصي بالاحتفاظ بنسخة احتياطية من الملف الأصلي قبل إجراء عملية التنظيف.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>النصيحة 1: إضافة عدة ملفات في الوقت نفسه</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>عند الحاجة إلى معالجة عدة ملفات، اسحبها إلى النافذة في الوقت نفسه بدلًا من إضافتها واحدًا تلو الآخر.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>النصيحة 2: تعيين الاستراتيجية الافتراضية</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>إذا كانت معظم ملفاتك تستخدم نطاق التنظيف نفسه، يمكنك تعيين الاستراتيجية التي تفضلها باعتبارها الاستراتيجية الافتراضية. بعد ذلك، ما عليك سوى النقر على «تنظيف البيانات الوصفية».</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>النصيحة 3: عرض البيانات قبل التنظيف</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>إذا لم تكن متأكدًا من البيانات الوصفية الموجودة في أحد الملفات، انقر على الملف لعرض بياناته الوصفية أولًا. بعد التأكد مما تريد إزالته، يمكنك تنفيذ عملية التنظيف.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>النصيحة 4: استخدام قائمة السياق</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>لعمليات التنظيف السريعة لمرة واحدة، لا تحتاج إلى فتح التطبيق. في مستكشف الملفات: النقر بزر الماوس الأيمن → تنظيف البيانات الوصفية.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>النصيحة 5: استخدام استراتيجيات مختلفة للسيناريوهات المختلفة</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>إذا كنت تتعامل بانتظام مع ملفات لأغراض مختلفة، مثل التوزيع الخارجي والأرشفة الداخلية، فأنشئ مسبقًا استراتيجيات مناسبة لكل حالة، ثم حدد الاستراتيجية المناسبة عند الحاجة.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>الإصدار الأول</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>دعم ملفات Word وExcel وPowerPoint وPDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>معالجة الملفات دفعة واحدة</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>عرض البيانات الوصفية</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>استراتيجيات التنظيف والاستراتيجية الافتراضية</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>إدارة الاستراتيجيات المعدة مسبقًا</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>التنظيف من خلال قائمة سياق Windows</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>الإصدار {0}</value></data>
+</root>

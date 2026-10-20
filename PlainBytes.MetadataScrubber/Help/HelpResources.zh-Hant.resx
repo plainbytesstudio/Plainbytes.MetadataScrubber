@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>說明中心</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>了解如何使用 PlainBytes MetadataScrubber 安全、有效地清除檔案中繼資料。</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>目錄</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>快速開始</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>功能概覽</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>支援的檔案格式</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>策略說明</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>常見問題</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>需要更符合隱私或自動化需求的工具嗎？</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>安全與隱私</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>使用技巧</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>更新記錄</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes.MetadataScrubber 是一款用於清除 Word、Excel、PowerPoint 和 PDF 檔案中繼資料的 Windows 小工具。它支援單個檔案，也支援多個檔案批次處理。</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>最簡單的使用方式</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>拖入檔案 → 確認策略 → 清除中繼資料</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>新增檔案</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>開啟軟體後，將需要處理的檔案直接拖入主視窗。也可以透過主視窗的檔案選擇功能新增檔案。支援同時新增多個檔案，也可以一次新增不同類型的檔案。新增後，檔案會顯示在主視窗清單中。</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>選擇清理策略</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>新增檔案後，主視窗會顯示目前使用的清理策略。通常直接使用預設策略即可。如果目前檔案需要使用其他策略，可以在主視窗中選擇其他預設策略。</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>開始清理</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>確認檔案和策略後，點選「清除中繼資料」。程式會自動處理清單中的檔案。處理過程中會顯示執行進度，並暫時禁止修改目前工作相關的內容。處理完成後會顯示處理結果。</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>右鍵快速操作</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>如果不需要開啟主視窗，也可以直接在 Windows 檔案總管中使用右鍵選單。支援：清除中繼資料（預設策略）、檢視中繼資料、使用其他策略清理。右鍵選單主要用於提高操作效率，完整功能仍以主視窗為核心。</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber 主要包含以下功能。</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>清除中繼資料</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>清除 Office 和 PDF 檔案中可能包含的中繼資料。支援批次處理。</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>檢視中繼資料</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>點選主視窗中的檔案，可以展開檢視該檔案目前偵測到的中繼資料。檢視操作不會修改檔案。</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>清理策略</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>透過預設策略決定清理範圍。不需要針對每個檔案逐項設定。</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>批次處理</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>可以一次新增多個檔案進行處理。程式完成後顯示成功處理數量、失敗數量與失敗原因。</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>目前支援以下檔案格式。</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML 文件，可處理基本屬性、修訂、批註、自訂屬性與範本路徑等殘留。</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML 活頁簿，清理範圍與 Word 同類中繼資料一致。</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML 簡報，清理基本屬性、修訂批註與路徑殘留等資訊。</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>處理 PDF Info、XMP、歷史殘留以及附件與路徑參照。Info 與 XMP 為兩套獨立中繼資料，檢視時會分別顯示。</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office 檔案</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>支援 Word、Excel、PowerPoint 的 OpenXML 檔案。主要處理：基本文檔屬性、修訂資訊、批註資訊、自訂屬性、範本路徑等殘留資訊、縮圖等相關殘留。</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF 檔案</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>主要處理：PDF Info 中繼資料、XMP 中繼資料、檔案中的歷史殘留、附件及相關路徑參照。PDF 的 Info 和 XMP 是兩套獨立的中繼資料，因此檢視中繼資料時會分別顯示。</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>策略用於決定清理哪些類別的中繼資料。使用者不需要針對每一個欄位單獨設定。目前清理範圍分為三個類別。</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>基本屬性</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>處理作者、公司、最後修改人、建立時間、修改時間、總編輯時間等基本資訊。</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>修訂與批註</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>處理修訂記錄、批註、批註作者等與編輯過程有關的資訊。</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>隱藏路徑與殘留</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>處理範本路徑、自訂屬性、縮圖殘留，以及 PDF 附件和本機路徑參照等可能暴露來源的資訊。</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>預設策略</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>軟體始終存在一個預設策略。直接點選「清除中繼資料」，或使用檔案總管右鍵「清除中繼資料」時，都會使用目前的預設策略。</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>預設策略</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>軟體內建了三個預設策略：「外發客戶版」、「內部歸檔版」、「基本清理」，禁止對它們進行修改。這裡允許自訂策略，以便滿足使用需要。</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>為什麼檔案無法處理？</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>常見原因包括：檔案已加密、檔案損壞、沒有存取權限、正在被其他程式使用、檔案格式不受支援。處理失敗時，軟體會顯示失敗數量，並提供失敗原因。</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>可以一次處理多個檔案嗎？</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>可以。可以將多個檔案同時拖入主視窗，然後一次執行清理。也可以在 Windows 檔案總管中多選檔案後使用右鍵選單。</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>檢視中繼資料會修改檔案嗎？</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>不會。「檢視中繼資料」僅用於讀取和顯示目前檔案中的中繼資料，不會執行清理操作。</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>為什麼 PDF 的 Info 和 XMP 內容可能不同？</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>PDF 可能同時包含 Info 和 XMP 兩套中繼資料。兩者不一定保持一致，因此軟體會分別偵測和顯示。</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>清理過程中可以繼續修改檔案清單嗎？</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>不能。執行過程中目前工作相關的操作會暫時鎖定，避免使用者在處理過程中修改工作內容。</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>清理失敗會不會悄悄略過？</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>不會。失敗檔案會單獨統計，並顯示相應的失敗原因。</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>如果 MetadataScrubber 無法涵蓋您的工作流程——例如更多檔案類型、自訂中繼資料規則、批次清理自動化，或需要獨立的 Windows 工具——我們可以就檔案隱私、中繼資料處理、工作流程自動化及其他客製方案進行溝通。</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>聯絡我們 →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>本機處理</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber 的檔案分析與中繼資料清理均在本機完成。檔案內容不會上傳到任何伺服器，也不會透過雲端服務進行處理。</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>原始檔案</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>軟體只處理使用者主動選取的檔案。清理過程不會上傳或修改原始檔案以外的其他檔案。</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>建議</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>對於重要檔案，建議在正式清理前保留原始檔案備份。</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>技巧 1：批次拖入</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>需要處理多個檔案時，可以一次將多個檔案拖入視窗，不需要逐個新增。</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>技巧 2：設定好預設策略</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>如果大多數檔案都使用相同的清理範圍，可以將常用策略設定為預設策略。之後直接點選「清除中繼資料」即可。</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>技巧 3：檢視後再清理</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>如果不確定檔案包含哪些中繼資料，可以先點選檔案檢視。確認後再執行清理。</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>技巧 4：經常使用右鍵選單</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>對於臨時處理檔案，不需要開啟主程式。直接在檔案總管中：右鍵 → 清除中繼資料，即可快速執行。</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>技巧 5：不同情境使用不同策略</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>如果同時存在外發、內部歸檔等不同情境，可以提前建立對應的預設策略，使用時直接選擇。</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>初始版本</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>支援 Word、Excel、PowerPoint、PDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>支援批次檔案處理</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>支援中繼資料檢視</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>支援清理策略與預設策略</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>支援預設策略管理</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>支援 Windows 右鍵快速清理</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>版本 {0}</value></data>
+</root>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Title" xml:space="preserve">
+    <value>PlainBytes</value>
+  </data>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Очистка метаданных файлов</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Управление стратегиями</value>
+  </data>
+  <data name="Nav_Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="Nav_About" xml:space="preserve">
+    <value>Информация о версии</value>
+  </data>
+  <data name="Nav_Matrix" xml:space="preserve">
+    <value>Другие инструменты PlainBytes</value>
+  </data>
+  <data name="Nav_Support" xml:space="preserve">
+    <value>Поддержать PlainBytes</value>
+  </data>
+  <data name="Rate_Title" xml:space="preserve">
+    <value>Если PlainBytes оказался вам полезен</value>
+  </data>
+  <data name="Rate_Description" xml:space="preserve">
+    <value>Уделите несколько секунд, чтобы оставить отзыв.</value>
+  </data>
+  <data name="Rate_Action" xml:space="preserve">
+    <value>Оценить</value>
+  </data>
+  <data name="Rate_Never" xml:space="preserve">
+    <value>Больше не спрашивать</value>
+  </data>
+  <data name="Support_Title" xml:space="preserve">
+    <value>Поддержать PlainBytes</value>
+  </data>
+  <data name="Support_Subtitle" xml:space="preserve">
+    <value>Помогите PlainBytes развиваться и продолжать создавать простые и полезные инструменты Windows, которые делают повседневную работу проще.</value>
+  </data>
+  <data name="Support_BadgeUnlocked" xml:space="preserve">
+    <value>Значок сторонника разблокирован</value>
+  </data>
+  <data name="Support_Thanks" xml:space="preserve">
+    <value>Спасибо за поддержку PlainBytes!</value>
+  </data>
+  <data name="Support_TierCoffee_Title" xml:space="preserve">
+    <value>Чашка кофе</value>
+  </data>
+  <data name="Support_TierCoffee_Description" xml:space="preserve">
+    <value>Подпитывайте нашу разработку ☕</value>
+  </data>
+  <data name="Support_TierEnergy_Title" xml:space="preserve">
+    <value>Подзарядка энергии</value>
+  </data>
+  <data name="Support_TierEnergy_Description" xml:space="preserve">
+    <value>Помогите нам продолжать разработку ⚡</value>
+  </data>
+  <data name="Support_TierDev_Title" xml:space="preserve">
+    <value>Поддержка разработчика</value>
+  </data>
+  <data name="Support_TierDev_Description" xml:space="preserve">
+    <value>Ваша поддержка действительно многое значит ❤️</value>
+  </data>
+  <data name="Support_BenefitsHeading" xml:space="preserve">
+    <value>Все supporters получают</value>
+  </data>
+  <data name="Support_BenefitBadge" xml:space="preserve">
+    <value>Эксклюзивный значок сторонника</value>
+  </data>
+  <data name="Support_BenefitThanks" xml:space="preserve">
+    <value>Искренне благодарим вас за поддержку и признание.</value>
+  </data>
+  <data name="Support_PaymentNote" xml:space="preserve">
+    <value>Платежи безопасно обрабатываются через Microsoft Store. Мы никогда не собираем ваши персональные данные или платежную информацию.</value>
+  </data>
+  <data name="Support_Once" xml:space="preserve">
+    <value>Разовая поддержка</value>
+  </data>
+  <data name="Support_Button" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Support_Popular" xml:space="preserve">
+    <value>Популярное</value>
+  </data>
+  <data name="Matrix_Title" xml:space="preserve">
+    <value>Другие инструменты PlainBytes</value>
+  </data>
+  <data name="Matrix_Subtitle" xml:space="preserve">
+    <value>Откройте для себя другие простые инструменты для повседневной работы.</value>
+  </data>
+  <data name="Matrix_MaintenanceNote" xml:space="preserve">
+    <value>↻  Мы постоянно поддерживаем и улучшаем каждый инструмент PlainBytes.</value>
+  </data>
+  <data name="Matrix_Installed" xml:space="preserve">
+    <value>Установлено</value>
+  </data>
+  <data name="Matrix_LearnMore" xml:space="preserve">
+    <value>Подробнее →</value>
+  </data>
+  <data name="Catalog_MetadataScrubber_Description" xml:space="preserve">
+    <value>Удаление метаданных из файлов Office и PDF</value>
+  </data>
+  <data name="Catalog_ImageConverter_Description" xml:space="preserve">
+    <value>Офлайн-конвертация, изменение размера и сжатие изображений</value>
+  </data>
+  <data name="Catalog_Redactor_Description" xml:space="preserve">
+    <value>Быстро скрывайте и защищайте конфиденциальную информацию</value>
+  </data>
+  <data name="Catalog_FileRenamer_Description" xml:space="preserve">
+    <value>Пакетное переименование файлов и папок</value>
+  </data>
+  <data name="Catalog_ImageCompressor_Description" xml:space="preserve">
+    <value>Сжатие изображений с сохранением качества</value>
+  </data>
+  <data name="Catalog_PdfMerger_Description" xml:space="preserve">
+    <value>Объединение, разделение и упорядочивание PDF</value>
+  </data>
+  <data name="Catalog_ClipboardGuard_Description" xml:space="preserve">
+    <value>Защита конфиденциальности и очистка буфера обмена</value>
+  </data>
+  <data name="License_TrialTitleSuffix" xml:space="preserve">
+    <value>(Пробная версия)</value>
+  </data>
+  <data name="License_TrialTitleSuffixDays" xml:space="preserve">
+    <value>(Пробная · осталось {0} дн.)</value>
+  </data>
+  <data name="License_TrialTitleSuffixDay" xml:space="preserve">
+    <value>(Пробная · остался {0} день)</value>
+  </data>
+  <data name="License_TrialTitleSuffixLessThanDay" xml:space="preserve">
+    <value>(Пробная · меньше 1 дня)</value>
+  </data>
+  <data name="License_ExpiredTitle" xml:space="preserve">
+    <value>Пробный период закончился</value>
+  </data>
+  <data name="License_ExpiredMessage" xml:space="preserve">
+    <value>Бесплатный пробный период закончился. Купите полную версию, чтобы продолжить использовать это приложение.</value>
+  </data>
+  <data name="License_CloseApp" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="License_BuyNow" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</root>

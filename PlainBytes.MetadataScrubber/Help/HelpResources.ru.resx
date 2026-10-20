@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Центр справки</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Узнайте, как с помощью PlainBytes MetadataScrubber безопасно и эффективно удалять метаданные из файлов.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Содержание</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Быстрый старт</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Обзор функций</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Поддерживаемые форматы файлов</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Стратегии</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Часто задаваемые вопросы</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>Нужен инструмент точнее под конфиденциальность или автоматизацию?</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>Безопасность и конфиденциальность</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Советы</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>История версий</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber — это лёгкая утилита для Windows, предназначенная для удаления метаданных из файлов Word, Excel, PowerPoint и PDF. Поддерживается обработка как отдельных файлов, так и нескольких файлов одновременно.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>Основной принцип работы</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Добавить файлы → Проверить стратегию → Удалить метаданные</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Добавление файлов</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>Откройте приложение и перетащите файлы, которые необходимо обработать, непосредственно в главное окно. Также можно добавить файлы с помощью средства выбора файлов в главном окне. Можно добавить несколько файлов одновременно, в том числе файлы разных форматов. Добавленные файлы отображаются в списке файлов главного окна.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Выбор стратегии очистки</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>После добавления файлов в главном окне отображается используемая в данный момент стратегия очистки. В большинстве случаев можно просто использовать стратегию по умолчанию. Если требуется другой набор данных для очистки, выберите другую предустановленную стратегию в главном окне.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Запуск очистки</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>После проверки файлов и стратегии нажмите «Удалить метаданные». Файлы из списка будут обработаны автоматически. Во время обработки отображается ход выполнения, а элементы управления, связанные с текущей операцией, временно отключаются. После завершения обработки отображается результат.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Быстрые действия через контекстное меню</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>Если вы не хотите открывать главное окно, можно использовать контекстное меню непосредственно в Проводнике Windows. Доступны действия: Удалить метаданные (стратегия по умолчанию), Просмотреть метаданные и Очистить с помощью другой стратегии. Контекстное меню предназначено для быстрого доступа; полный набор функций доступен в главном окне.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber предоставляет следующие основные функции.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Удаление метаданных</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Удаляет метаданные, которые могут содержаться в файлах Office и PDF. Поддерживается обработка нескольких файлов одновременно.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Просмотр метаданных</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Нажмите на файл в главном окне, чтобы развернуть и просмотреть обнаруженные в нём метаданные. Просмотр метаданных не изменяет файл.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Стратегии очистки</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Используйте предустановленные стратегии, чтобы определить категории метаданных, которые необходимо удалить. Не требуется настраивать отдельные параметры для каждого файла.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Пакетная обработка</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Добавьте несколько файлов и обработайте их за один раз. После завершения обработки отображается количество успешно обработанных файлов, количество файлов с ошибками и причины ошибок.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>В настоящее время поддерживаются следующие форматы.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>Документы OpenXML. Можно обработать основные свойства, исправления, комментарии, пользовательские свойства и остаточные данные, такие как пути к шаблонам.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>Книги OpenXML. Область очистки соответствует тем же типам метаданных, что и для Word.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>Презентации OpenXML. Очистка охватывает основные свойства, исправления и комментарии, а также остаточные сведения о путях.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Обрабатывает PDF Info, XMP, остаточные сведения об истории файла, а также вложения со ссылками на пути. Info и XMP — независимые системы метаданных и отображаются отдельно.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Файлы Office</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>Поддерживаются файлы OpenXML, созданные в Word, Excel и PowerPoint. В основном обрабатываются: основные свойства документа, сведения об исправлениях, комментарии, пользовательские свойства, остаточные данные (например, пути к шаблонам), а также связанные остаточные данные, например миниатюры.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>Файлы PDF</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>В основном обрабатываются: метаданные PDF Info, метаданные XMP, остаточные сведения об истории файла, а также вложения и связанные ссылки на пути. PDF Info и XMP являются независимыми системами метаданных, поэтому при просмотре они отображаются отдельно.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Стратегии определяют, какие категории метаданных необходимо удалить. Нет необходимости настраивать отдельные поля по одному. В настоящее время область очистки разделена на три категории.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Основные свойства</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Обрабатывает основные сведения, например автора, организацию, последнего изменившего пользователя, время создания, время изменения и общее время редактирования.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Исправления и комментарии</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Обрабатывает сведения, связанные с процессом редактирования, например историю исправлений, комментарии и авторов комментариев.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Скрытые пути и следы</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Обрабатывает пути к шаблонам, пользовательские свойства, остаточные сведения (например, миниатюры), а также вложения и ссылки на локальные пути в PDF-файлах, которые могут раскрывать происхождение файла.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Стратегия по умолчанию</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>В приложении всегда установлена стратегия по умолчанию. При нажатии «Удалить метаданные» или выборе «Удалить метаданные» в контекстном меню Windows используется текущая стратегия по умолчанию.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Предустановленные стратегии</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>В приложении есть три встроенные стратегии: «Для внешнего распространения», «Для внутреннего архива» и «Базовая очистка». Их нельзя изменять. При необходимости можно создать пользовательские стратегии.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Почему файл не удаётся обработать?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Наиболее распространённые причины: файл зашифрован, повреждён, у вас нет необходимых разрешений, файл используется другой программой или формат не поддерживается. При ошибке приложение показывает количество файлов с ошибками и причину каждой ошибки.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Можно ли обработать несколько файлов одновременно?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Да. Перетащите несколько файлов в главное окно и запустите очистку для всех файлов одновременно. Также можно выбрать несколько файлов в Проводнике Windows и воспользоваться контекстным меню.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>Изменяется ли файл при просмотре метаданных?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>Нет. «Просмотр метаданных» только считывает имеющиеся в файле метаданные и отображает их. Очистка при этом не выполняется.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>Почему метаданные Info и XMP в PDF-файле могут отличаться?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>PDF-файл может содержать как метаданные Info, так и XMP. Эти два типа не обязательно содержат одинаковую информацию, поэтому приложение обнаруживает и отображает их отдельно.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Можно ли изменить список файлов во время очистки?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>Нет. Во время обработки элементы управления, связанные с текущей операцией, временно блокируются, чтобы текущую задачу нельзя было изменить во время обработки файлов.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>Файлы, обработка которых завершилась ошибкой, просто пропускаются?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>Нет. Такие файлы учитываются отдельно, а для каждого файла отображается причина ошибки.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>Если MetadataScrubber не покрывает ваш процесс—например, дополнительные типы файлов, свои правила для метаданных, автоматизация пакетной очистки или отдельная утилита для Windows—мы можем обсудить индивидуальную разработку для конфиденциальности файлов, обработки метаданных, автоматизации процессов и других решений под задачу.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Связаться с нами →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>Локальная обработка</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber анализирует файлы и очищает метаданные локально на вашем устройстве. Содержимое файлов не передаётся на сервер и не обрабатывается через облачные службы.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Исходные файлы</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>Приложение обрабатывает только те файлы, которые вы явно выбираете. При очистке другие файлы не загружаются и не изменяются.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Рекомендация</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>Перед очисткой важных файлов рекомендуется сохранить резервную копию исходного файла.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Совет 1: Добавляйте несколько файлов одновременно</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Если необходимо обработать несколько файлов, перетащите их в окно одновременно вместо добавления по одному.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Совет 2: Установите стратегию по умолчанию</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Если для большинства файлов используется один и тот же набор параметров очистки, установите предпочитаемую стратегию в качестве стратегии по умолчанию. После этого достаточно нажать «Удалить метаданные».</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Совет 3: Проверьте файл перед очисткой</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>Если вы не уверены, какие метаданные содержатся в файле, сначала нажмите на файл и просмотрите их. После этого можно выполнить очистку, выбрав необходимые данные для удаления.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Совет 4: Используйте контекстное меню</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Для быстрой разовой очистки не нужно открывать приложение. В Проводнике Windows: щёлкните правой кнопкой мыши → Удалить метаданные.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Совет 5: Используйте разные стратегии для разных задач</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Если вы регулярно обрабатываете файлы для разных целей, например для внешней передачи или внутреннего архивирования, заранее создайте соответствующие предустановленные стратегии и при необходимости сразу выбирайте подходящую.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Первый выпуск</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Поддержка файлов Word, Excel, PowerPoint и PDF</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Обработка нескольких файлов</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Просмотр метаданных</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Стратегии очистки и стратегия по умолчанию</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Управление предустановленными стратегиями</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Очистка через контекстное меню Windows</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Версия {0}</value></data>
+</root>

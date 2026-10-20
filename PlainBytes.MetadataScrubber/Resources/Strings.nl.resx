@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Metagegevens verwijderen</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>Verwijder veilig metagegevens uit Office-documenten en PDF-bestanden om je privacy te beschermen.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>Sleep bestanden hierheen</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>Of klik op de onderstaande knop om bestanden te selecteren.</value>
+  </data>
+  <data name="Home_SelectFiles" xml:space="preserve">
+    <value>Bestanden selecteren</value>
+  </data>
+  <data name="Home_FormatHint" xml:space="preserve">
+    <value>Ondersteunt Word-, Excel-, PowerPoint- en PDF-bestanden.</value>
+  </data>
+  <data name="Home_NoMetadata" xml:space="preserve">
+    <value>Er zijn geen verwijderbare metagegevens gevonden.</value>
+  </data>
+  <data name="Home_FileCount" xml:space="preserve">
+    <value>{0} bestanden toegevoegd</value>
+  </data>
+  <data name="Home_ClearList" xml:space="preserve">
+    <value>Lijst wissen</value>
+  </data>
+  <data name="Home_StrategyLabel" xml:space="preserve">
+    <value>Opschoningsstrategie</value>
+  </data>
+  <data name="Home_CurrentStrategy" xml:space="preserve">
+    <value>Huidige strategie</value>
+  </data>
+  <data name="Home_ChangeStrategy" xml:space="preserve">
+    <value>Strategie wijzigen</value>
+  </data>
+  <data name="Home_LearnMore" xml:space="preserve">
+    <value>Meer informatie &gt;</value>
+  </data>
+  <data name="Home_TipBar" xml:space="preserve">
+    <value>Standaard worden de volgende gegevens verwijderd: {0}</value>
+  </data>
+  <data name="Home_ScrubButton" xml:space="preserve">
+    <value>Metagegevens opschonen ({0})</value>
+  </data>
+  <data name="Home_DropHintCompact" xml:space="preserve">
+    <value>Of sleep bestanden hierheen. Ondersteunt Word-, Excel-, PowerPoint- en PDF-bestanden.</value>
+  </data>
+  <data name="Badge_Default" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="Dialog_FilterSupported" xml:space="preserve">
+    <value>Ondersteunde documenten</value>
+  </data>
+  <data name="Type_Word" xml:space="preserve">
+    <value>Word-document</value>
+  </data>
+  <data name="Type_Excel" xml:space="preserve">
+    <value>Excel-werkmap</value>
+  </data>
+  <data name="Type_PowerPoint" xml:space="preserve">
+    <value>PowerPoint-presentatie</value>
+  </data>
+  <data name="Type_Pdf" xml:space="preserve">
+    <value>PDF-document</value>
+  </data>
+  <data name="Type_File" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="Status_Pending" xml:space="preserve">
+    <value>In behandeling</value>
+  </data>
+  <data name="Status_Cleaned" xml:space="preserve">
+    <value>Opgeschoond</value>
+  </data>
+  <data name="Status_Failed" xml:space="preserve">
+    <value>Mislukt</value>
+  </data>
+  <data name="Status_FailedOccupied" xml:space="preserve">
+    <value>Mislukt: bestand is in gebruik</value>
+  </data>
+  <data name="Status_FailedPrefix" xml:space="preserve">
+    <value>Mislukt: {0}</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>Bestanden worden opgeschoond...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>Opschonen voltooid</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>Opschonen mislukt</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>Gereed</value>
+  </data>
+  <data name="Overlay_ViewReason" xml:space="preserve">
+    <value>Details bekijken</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>Reden van de fout</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>{0} bestanden zijn succesvol verwerkt.</value>
+  </data>
+  <data name="Overlay_AllFailed" xml:space="preserve">
+    <value>Kan {0} bestanden niet verwerken</value>
+  </data>
+  <data name="Overlay_Partial" xml:space="preserve">
+    <value>{0} bestanden zijn succesvol verwerkt; {1} bestanden zijn mislukt.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>Verwerking mislukt</value>
+  </data>
+  <data name="FailReason_Occupied" xml:space="preserve">
+    <value>Bestand is in gebruik</value>
+  </data>
+  <data name="FailReason_Unsupported" xml:space="preserve">
+    <value>Niet-ondersteund bestandsformaat</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>Bestand bestaat niet</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>Je hebt geen toestemming om dit bestand te openen.</value>
+  </data>
+  <data name="Error_UnsupportedType" xml:space="preserve">
+    <value>Niet-ondersteund bestandstype.</value>
+  </data>
+  <data name="Error_NotFound" xml:space="preserve">
+    <value>Het bestand bestaat niet.</value>
+  </data>
+  <data name="Error_Occupied" xml:space="preserve">
+    <value>Het bestand wordt door een ander programma gebruikt. Sluit het programma en probeer het opnieuw.</value>
+  </data>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>Je hebt geen toestemming om dit bestand te openen.</value>
+  </data>
+  <data name="Error_WriteDenied" xml:space="preserve">
+    <value>Je hebt geen toestemming om naar dit bestand te schrijven.</value>
+  </data>
+  <data name="Toast_ProgressTitle" xml:space="preserve">
+    <value>Bezig met opschonen...</value>
+  </data>
+  <data name="Toast_ProgressBodyOne" xml:space="preserve">
+    <value>De geselecteerde bestanden worden verwerkt met de huidige strategie.</value>
+  </data>
+  <data name="Toast_ProgressBodyMany" xml:space="preserve">
+    <value>{0} bestanden worden verwerkt met de huidige strategie.</value>
+  </data>
+  <data name="Toast_IncompleteTitle" xml:space="preserve">
+    <value>Opschonen kon niet worden voltooid</value>
+  </data>
+  <data name="Toast_NoFiles" xml:space="preserve">
+    <value>Geen bestanden geselecteerd om op te schonen.</value>
+  </data>
+  <data name="Toast_SuccessBody" xml:space="preserve">
+    <value>De metagegevens van alle bestanden zijn verwijderd met de huidige strategie.</value>
+  </data>
+  <data name="Toast_AllFailedBody" xml:space="preserve">
+    <value>Alle bestanden konden niet worden verwerkt. Controleer het lokale logboek en probeer het opnieuw.</value>
+  </data>
+  <data name="Toast_ErrorWithLog" xml:space="preserve">
+    <value>{0} (zie het lokale logboek voor meer informatie)</value>
+  </data>
+  <data name="Toast_PartialTitle" xml:space="preserve">
+    <value>Verwerkt: {0}; Mislukt: {1}</value>
+  </data>
+  <data name="Toast_PartialBody" xml:space="preserve">
+    <value>Bekijk het lokale logboek voor meer informatie en probeer het later opnieuw.</value>
+  </data>
+  <data name="Strategy_Export_Name" xml:space="preserve">
+    <value>Externe distributie</value>
+  </data>
+  <data name="Strategy_Export_Description" xml:space="preserve">
+    <value>Alle zichtbare en verborgen metagegevens verwijderen.</value>
+  </data>
+  <data name="Strategy_Archive_Name" xml:space="preserve">
+    <value>Intern archief</value>
+  </data>
+  <data name="Strategy_Archive_Description" xml:space="preserve">
+    <value>Basis eigenschappen, revisies en opmerkingen verwijderen.</value>
+  </data>
+  <data name="Strategy_Minimal_Name" xml:space="preserve">
+    <value>Basisopschoning</value>
+  </data>
+  <data name="Strategy_Minimal_Description" xml:space="preserve">
+    <value>Alleen basiseigenschappen verwijderen</value>
+  </data>
+  <data name="Strategy_Custom_Name" xml:space="preserve">
+    <value>Aangepaste strategie</value>
+  </data>
+  <data name="Strategy_Custom_NameIndexed" xml:space="preserve">
+    <value>Aangepaste strategie {0}</value>
+  </data>
+  <data name="Strategy_Custom_Description" xml:space="preserve">
+    <value>Aangepast opschoningsbereik</value>
+  </data>
+  <data name="StrategyPage_Title" xml:space="preserve">
+    <value>Strategieën beheren</value>
+  </data>
+  <data name="StrategyPage_Subtitle" xml:space="preserve">
+    <value>Maak opschoningsstrategieën aan en beheer ze. Met strategieën bepaal je welke categorieën metagegevens worden verwijderd.</value>
+  </data>
+  <data name="StrategyPage_New" xml:space="preserve">
+    <value>Nieuwe strategie</value>
+  </data>
+  <data name="StrategyPage_Import" xml:space="preserve">
+    <value>Strategie importeren</value>
+  </data>
+  <data name="StrategyPage_Export" xml:space="preserve">
+    <value>Strategie exporteren</value>
+  </data>
+  <data name="StrategyPage_MyStrategies" xml:space="preserve">
+    <value>Mijn strategieën</value>
+  </data>
+  <data name="StrategyPage_DefaultHint" xml:space="preserve">
+    <value>De standaardstrategie wordt rechtstreeks vanuit het hoofdvenster en het contextmenu gebruikt.</value>
+  </data>
+  <data name="StrategyPage_Name" xml:space="preserve">
+    <value>Strategienaam</value>
+  </data>
+  <data name="StrategyPage_Description" xml:space="preserve">
+    <value>Strategiebeschrijving</value>
+  </data>
+  <data name="StrategyPage_ScopeHeading" xml:space="preserve">
+    <value>Opschoningsbereik (per categorie)</value>
+  </data>
+  <data name="StrategyPage_ScopeHint" xml:space="preserve">
+    <value>Het opschoningsbereik kan per bestandsformaat enigszins verschillen. De daadwerkelijke opschoning is beperkt tot wat wordt ondersteund.</value>
+  </data>
+  <data name="StrategyPage_SetDefault" xml:space="preserve">
+    <value>★ Instellen als standaardstrategie</value>
+  </data>
+  <data name="StrategyPage_Delete" xml:space="preserve">
+    <value>Strategie verwijderen</value>
+  </data>
+  <data name="StrategyPage_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="StrategyPage_DeleteConfirm" xml:space="preserve">
+    <value>Weet je zeker dat je de strategie ‘{0}’ wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="Scope_DocumentProperties_Title" xml:space="preserve">
+    <value>Basiseigenschappen</value>
+  </data>
+  <data name="Scope_DocumentProperties_Description" xml:space="preserve">
+    <value>Standaardeigenschappen verwijderen, zoals auteur, bedrijf, laatst gewijzigd door, aanmaak-/wijzigingstijden en totale bewerkingstijd.</value>
+  </data>
+  <data name="Scope_Revisions_Description" xml:space="preserve">
+    <value>Revisiemarkeringen, de inhoud en auteurs van opmerkingen en gerelateerde informatie verwijderen.</value>
+  </data>
+  <data name="Scope_Hidden_Description" xml:space="preserve">
+    <value>Verwijder verwijzingen naar sjabloonpaden, aangepaste eigenschappen, miniatuurcaches, lokale paden en andere resterende informatie die in het bestand kan achterblijven.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>Over PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>Metagegevens uit Office- en PDF-bestanden verwijderen.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>Metagegevensopschoner voor bestanden</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>Versie {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>Over het product</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber is een lichtgewicht Windows-hulpprogramma waarmee je snel metagegevens uit Word-, Excel-, PowerPoint- en PDF-bestanden kunt verwijderen.
+Er is geen ingewikkelde configuratie nodig. Schoon je bestanden op met slechts een paar eenvoudige handelingen.</value>
+  </data>
+  <data name="About_LicenseNotice" xml:space="preserve">
+    <value>Gelicentieerd onder GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>Broncode</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>Licentie</value>
+  </data>
+
+    <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>Maatwerkontwikkeling</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>Heeft u een tool nodig die past bij uw specifieke workflow? PlainBytes Studio biedt ook maatwerksoftwareontwikkeling voor gespecialiseerde bedrijfs- en productiviteitsbehoeften.</value>
+  </data>
+  <data name="About_CustomDev_Capabilities" xml:space="preserve">
+    <value>We kunnen helpen met bestands- en gegevensverwerking, workflowautomatisering, formaatconversie, systeemintegratie, Windows-desktoputiliteiten en andere oplossingen op maat.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>Eenvoudige hulpprogramma’s — zoals verwerkings-, conversie- of automatiseringstools voor één doel — kunnen vaak snel worden geleverd.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>Maatwerkapplicaties — inclusief tools met meerdere functies, gebruikersinterfaces of integratie met bestaande systemen — kunnen op basis van uw eisen worden ontwikkeld.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>De prijs hangt af van de omvang en complexiteit van uw project. Vertel ons wat u wilt bereiken: we helpen de juiste oplossing te bepalen en geven een offerte.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>Neem contact op →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>Beschrijf kort wat u wilt bereiken en voeg, indien beschikbaar, relevante details hieronder toe:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>Om uw project te begrijpen, vermeld bij voorkeur:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• Het probleem of de workflow die u wilt verbeteren</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• Wat u wilt dat de tool of oplossing doet</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• Betrokken bestanden, gegevens, toepassingen of systemen</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• Eisen voor verwerking, automatisering, conversie of integratie</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item5" xml:space="preserve">
+    <value>• Hoe u de oplossing wilt laten werken — bijvoorbeeld als Windows-desktopapp, opdrachtregeltool, batchhulpprogramma of integratie met een bestaand systeem</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item6" xml:space="preserve">
+    <value>• Eisen aan interface, workflow, implementatie of andere belangrijke punten</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>U kunt ook voorbeeldbestanden, screenshots, specificaties of ander referentiemateriaal aan uw e-mail toevoegen. Voorbeeldmateriaal wordt alleen gebruikt om uw eisen te begrijpen en wordt niet met derden gedeeld.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>We bekijken uw eisen en komen bij u terug met vragen, aanbevelingen en een offerte.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>Aanvraag maatwerkontwikkeling</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+Ik ben geïnteresseerd in een maatwerksoftwaresolutie.
+
+Probleem of workflow:
+[Beschrijf kort het probleem dat u wilt oplossen of de workflow die u wilt verbeteren.]
+
+Wat ik nodig heb:
+[Beschrijf wat u wilt dat de tool of oplossing doet.]
+
+Betrokken bestanden, gegevens, toepassingen of systemen:
+[Indien van toepassing, beschrijf de betrokken bestanden, gegevens, toepassingen of systemen.]
+
+Verwerkings- of automatiseringseisen:
+[Beschrijf verwerkingsregels, automatisering, conversie of integratie.]
+
+Hoe ik het wil laten werken:
+[Bijvoorbeeld: een Windows-desktopapp, opdrachtregeltool, batchhulpprogramma of integratie met een bestaand systeem.]
+
+Overige eisen:
+[Optioneel: interface, workflow, implementatie of andere belangrijke eisen.]
+
+Indien nuttig, heb ik voorbeeldbestanden, screenshots, specificaties of ander referentiemateriaal bijgevoegd.
+
+Dank u wel.</value>
+  </data>
+  <data name="About_CustomDev_ContactByEmail" xml:space="preserve">
+    <value>Contact via e-mail</value>
+  </data>
+  <data name="About_CustomDev_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>Meer PlainBytes-tools</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>Alle tools bekijken →</value>
+  </data>
+  <data name="About_Copyright" xml:space="preserve">
+    <value>©2026 PlainBytes</value>
+  </data>
+  <data name="Meta_Group_DocumentProperties" xml:space="preserve">
+    <value>Documenteigenschappen</value>
+  </data>
+  <data name="Meta_Group_Revisions" xml:space="preserve">
+    <value>Revisies en opmerkingen</value>
+  </data>
+  <data name="Meta_Group_Hidden" xml:space="preserve">
+    <value>Verborgen paden en sporen</value>
+  </data>
+  <data name="Meta_Group_Attachments" xml:space="preserve">
+    <value>Bijlagen en paden</value>
+  </data>
+  <data name="Meta_Field_Author" xml:space="preserve">
+    <value>Auteur</value>
+  </data>
+  <data name="Meta_Field_LastModifiedBy" xml:space="preserve">
+    <value>Laatst gewijzigd door</value>
+  </data>
+  <data name="Meta_Field_Created" xml:space="preserve">
+    <value>Aangemaakt</value>
+  </data>
+  <data name="Meta_Field_Modified" xml:space="preserve">
+    <value>Gewijzigd</value>
+  </data>
+  <data name="Meta_Field_Company" xml:space="preserve">
+    <value>Bedrijf</value>
+  </data>
+  <data name="Meta_Field_TotalEditTime" xml:space="preserve">
+    <value>Totale bewerkingstijd</value>
+  </data>
+  <data name="Meta_Field_Revisions" xml:space="preserve">
+    <value>Revisies</value>
+  </data>
+  <data name="Meta_Field_Comments" xml:space="preserve">
+    <value>Opmerkingen</value>
+  </data>
+  <data name="Meta_Field_CommentAuthors" xml:space="preserve">
+    <value>Auteur van opmerking</value>
+  </data>
+  <data name="Meta_Field_PathRef" xml:space="preserve">
+    <value>Padverwijzingen</value>
+  </data>
+  <data name="Meta_Count" xml:space="preserve">
+    <value>{0} items</value>
+  </data>
+  <data name="Meta_ListSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="Meta_Minutes" xml:space="preserve">
+    <value>{0} minuten</value>
+  </data>
+  <data name="Meta_Hours" xml:space="preserve">
+    <value>{0} uur</value>
+  </data>
+  <data name="Meta_HoursMinutes" xml:space="preserve">
+    <value>{0} uur {1} minuten</value>
+  </data>
+  <data name="Loading_LoadingFiles" xml:space="preserve">
+    <value>Bestanden laden… ({0}/{1})</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>Bestanden laden…</value>
+  </data>
+  <data name="ContextMenu_RootLabel" xml:space="preserve">
+    <value>PlainBytes Metagegevens verwijderen</value>
+  </data>
+</root>

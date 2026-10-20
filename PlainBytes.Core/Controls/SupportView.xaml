@@ -1,0 +1,225 @@
+<!--
+SPDX-FileCopyrightText: 2026 PlainBytes Studio
+SPDX-License-Identifier: GPL-3.0-only
+-->
+<UserControl
+    x:Class="PlainBytes.Core.Controls.SupportView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:controls="clr-namespace:PlainBytes.Core.Controls"
+    xmlns:res="clr-namespace:PlainBytes.Core.Resources"
+    d:DesignHeight="560"
+    d:DesignWidth="1000"
+    FontFamily="{DynamicResource PB.Fonts.Main}"
+    Foreground="{DynamicResource PB.Brushes.TextPrimary}"
+    mc:Ignorable="d">
+
+    <Grid UseLayoutRounding="True" SnapsToDevicePixels="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Header: title/subtitle left, status card right; body rows align with subtitle left edge -->
+        <Grid
+            Grid.Row="0"
+            Margin="0,0,0,28"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="0,0,24,0"
+                VerticalAlignment="Top"
+                Orientation="Horizontal">
+                <Image
+                    Width="40"
+                    Height="40"
+                    Margin="0,0,16,0"
+                    VerticalAlignment="Center"
+                    RenderOptions.BitmapScalingMode="HighQuality"
+                    SnapsToDevicePixels="True"
+                    Source="pack://application:,,,/PlainBytes.Core;component/Assets/Images/cup.png" />
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock
+                        FontSize="30"
+                        FontWeight="SemiBold"
+                        LineHeight="40"
+                        LineStackingStrategy="BlockLineHeight"
+                        Foreground="{DynamicResource PB.Brushes.TextPrimary}"
+                        Text="{x:Static res:Strings.Support_Title}" />
+                    <TextBlock
+                        Margin="0,6,0,0"
+                        FontSize="15"
+                        LineHeight="24"
+                        LineStackingStrategy="BlockLineHeight"
+                        Foreground="{DynamicResource PB.Brushes.TextSecondary}"
+                        Text="{x:Static res:Strings.Support_Subtitle}"
+                        TextWrapping="Wrap" />
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Shown only after the user has supported -->
+            <Border
+                x:Name="SupporterStatusCard"
+                Grid.Row="0"
+                Grid.Column="1"
+                Width="420"
+                Height="104"
+                Padding="20,0"
+                VerticalAlignment="Top"
+                Background="#F9FAFB"
+                BorderBrush="#DCE5E1"
+                BorderThickness="1"
+                CornerRadius="12"
+                Visibility="Collapsed"
+                SnapsToDevicePixels="True">
+                <StackPanel
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center">
+                    <Image
+                        Width="52"
+                        Height="52"
+                        VerticalAlignment="Center"
+                        RenderOptions.BitmapScalingMode="HighQuality"
+                        SnapsToDevicePixels="True"
+                        Source="pack://application:,,,/PlainBytes.Core;component/Assets/Images/star1.png" />
+
+                    <StackPanel
+                        Margin="16,0,0,0"
+                        VerticalAlignment="Center">
+                        <TextBlock
+                            FontSize="16"
+                            FontWeight="SemiBold"
+                            Foreground="#166534"
+                            Text="{x:Static res:Strings.Support_BadgeUnlocked}" />
+                        <TextBlock
+                            Margin="0,6,0,0"
+                            FontSize="14"
+                            Foreground="#64748B"
+                            Text="{x:Static res:Strings.Support_Thanks}" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Tier cards + benefits: left-aligned with header icon -->
+        <ScrollViewer
+            Grid.Row="1"
+            Margin="0"
+            VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+                <WrapPanel Orientation="Horizontal">
+                    <controls:SupportTierCard
+                        Title="{x:Static res:Strings.Support_TierCoffee_Title}"
+                        Description="{x:Static res:Strings.Support_TierCoffee_Description}"
+                        Price="$2.99"
+                        IconBackground="#FFF7ED"
+                        IconPath="pack://application:,,,/PlainBytes.Core;component/Assets/Images/support1.png" />
+                    <controls:SupportTierCard
+                        Title="{x:Static res:Strings.Support_TierEnergy_Title}"
+                        Description="{x:Static res:Strings.Support_TierEnergy_Description}"
+                        Price="$7.99"
+                        IsRecommended="True"
+                        IconBackground="#EFF6FF"
+                        IconPath="pack://application:,,,/PlainBytes.Core;component/Assets/Images/support2.png" />
+                    <controls:SupportTierCard
+                        Title="{x:Static res:Strings.Support_TierDev_Title}"
+                        Description="{x:Static res:Strings.Support_TierDev_Description}"
+                        Price="$19.99"
+                        IconBackground="#FFF1F2"
+                        IconPath="pack://application:,,,/PlainBytes.Core;component/Assets/Images/support3.png" />
+                </WrapPanel>
+
+                <!-- Supporter benefits -->
+                <Border
+                    Height="110"
+                    Width="500"
+                    Margin="0,8,16,0"
+                    Padding="20,18"
+                    Background="#F8FAFC"
+                    BorderBrush="#E2E8F0"
+                    BorderThickness="1"
+                    CornerRadius="10"
+                    HorizontalAlignment="Left"
+                    SnapsToDevicePixels="True">
+                    <Grid VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image
+                            Grid.Column="0"
+                            Width="40"
+                            Height="40"
+                            Margin="0,0,16,0"
+                            VerticalAlignment="Center"
+                            RenderOptions.BitmapScalingMode="HighQuality"
+                            SnapsToDevicePixels="True"
+                            Source="pack://application:,,,/PlainBytes.Core;component/Assets/Images/gift.png" />
+
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="15"
+                                FontWeight="SemiBold"
+                                Foreground="#172033"
+                                Text="{x:Static res:Strings.Support_BenefitsHeading}" />
+                            <TextBlock
+                                Margin="0,6,0,0"
+                                FontSize="13"
+                                Foreground="#64748B">
+                                <Run Foreground="#249565" Text="✓ " />
+                                <Run Text="{x:Static res:Strings.Support_BenefitBadge}" />
+                            </TextBlock>
+                            <TextBlock
+                                Margin="0,2,0,0"
+                                FontSize="13"
+                                Foreground="#64748B">
+                                <Run Foreground="#249565" Text="✓ " />
+                                <Run Text="{x:Static res:Strings.Support_BenefitThanks}" />
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Payment security note: pinned to page bottom -->
+        <StackPanel
+            Grid.Row="2"
+            Margin="0,16,16,20"
+            Orientation="Horizontal"
+            VerticalAlignment="Center">
+            <ui:SymbolIcon
+                Width="16"
+                Height="16"
+                Margin="0,1,8,0"
+                VerticalAlignment="Top"
+                FontSize="14"
+                Foreground="#64748B"
+                Symbol="LockClosed16" />
+            <TextBlock
+                FontSize="13"
+                LineHeight="18"
+                LineStackingStrategy="BlockLineHeight"
+                Foreground="#64748B"
+                Text="{x:Static res:Strings.Support_PaymentNote}"
+                TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</UserControl>

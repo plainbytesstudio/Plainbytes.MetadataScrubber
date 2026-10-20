@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>مسح البيانات الوصفية</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>امسح البيانات الوصفية من مستندات Office وملفات PDF بأمان لحماية خصوصيتك.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>اسحب الملفات إلى هنا</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>أو انقر على الزر أدناه لتحديد الملفات.</value>
+  </data>
+  <data name="Home_SelectFiles" xml:space="preserve">
+    <value>تحديد الملفات</value>
+  </data>
+  <data name="Home_FormatHint" xml:space="preserve">
+    <value>يدعم ملفات Word وExcel وPowerPoint وPDF.</value>
+  </data>
+  <data name="Home_NoMetadata" xml:space="preserve">
+    <value>لم يتم العثور على بيانات وصفية قابلة للإزالة.</value>
+  </data>
+  <data name="Home_FileCount" xml:space="preserve">
+    <value>تمت إضافة {0} ملفًا</value>
+  </data>
+  <data name="Home_ClearList" xml:space="preserve">
+    <value>مسح القائمة</value>
+  </data>
+  <data name="Home_StrategyLabel" xml:space="preserve">
+    <value>استراتيجية التنظيف</value>
+  </data>
+  <data name="Home_CurrentStrategy" xml:space="preserve">
+    <value>الاستراتيجية الحالية</value>
+  </data>
+  <data name="Home_ChangeStrategy" xml:space="preserve">
+    <value>تغيير الاستراتيجية</value>
+  </data>
+  <data name="Home_LearnMore" xml:space="preserve">
+    <value>معرفة المزيد &gt;</value>
+  </data>
+  <data name="Home_TipBar" xml:space="preserve">
+    <value>سيتم تنظيف العناصر التالية افتراضيًا: {0}</value>
+  </data>
+  <data name="Home_ScrubButton" xml:space="preserve">
+    <value>تنظيف البيانات الوصفية ({0})</value>
+  </data>
+  <data name="Home_DropHintCompact" xml:space="preserve">
+    <value>أو اسحب الملفات إلى هنا. يدعم ملفات Word وExcel وPowerPoint وPDF.</value>
+  </data>
+  <data name="Badge_Default" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="Dialog_FilterSupported" xml:space="preserve">
+    <value>المستندات المدعومة</value>
+  </data>
+  <data name="Type_Word" xml:space="preserve">
+    <value>مستند Word</value>
+  </data>
+  <data name="Type_Excel" xml:space="preserve">
+    <value>مصنف Excel</value>
+  </data>
+  <data name="Type_PowerPoint" xml:space="preserve">
+    <value>عرض PowerPoint التقديمي</value>
+  </data>
+  <data name="Type_Pdf" xml:space="preserve">
+    <value>مستند PDF</value>
+  </data>
+  <data name="Type_File" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="Status_Pending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+  </data>
+  <data name="Status_Cleaned" xml:space="preserve">
+    <value>تم التنظيف</value>
+  </data>
+  <data name="Status_Failed" xml:space="preserve">
+    <value>فشل</value>
+  </data>
+  <data name="Status_FailedOccupied" xml:space="preserve">
+    <value>فشل: الملف قيد الاستخدام</value>
+  </data>
+  <data name="Status_FailedPrefix" xml:space="preserve">
+    <value>فشل: {0}</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>جارٍ تنظيف الملفات...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>اكتمل التنظيف</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>فشل التنظيف</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="Overlay_ViewReason" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>سبب الفشل</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>تمت معالجة {0} ملفًا بنجاح.</value>
+  </data>
+  <data name="Overlay_AllFailed" xml:space="preserve">
+    <value>تعذرت معالجة {0} ملفًا</value>
+  </data>
+  <data name="Overlay_Partial" xml:space="preserve">
+    <value>تمت معالجة {0} ملفًا بنجاح؛ وفشلت معالجة {1} ملفًا.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>فشلت المعالجة</value>
+  </data>
+  <data name="FailReason_Occupied" xml:space="preserve">
+    <value>الملف قيد الاستخدام</value>
+  </data>
+  <data name="FailReason_Unsupported" xml:space="preserve">
+    <value>تنسيق الملف غير مدعوم</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>الملف غير موجود</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>ليس لديك إذن للوصول إلى هذا الملف.</value>
+  </data>
+  <data name="Error_UnsupportedType" xml:space="preserve">
+    <value>نوع الملف غير مدعوم.</value>
+  </data>
+  <data name="Error_NotFound" xml:space="preserve">
+    <value>الملف غير موجود.</value>
+  </data>
+  <data name="Error_Occupied" xml:space="preserve">
+    <value>الملف قيد الاستخدام من قبل برنامج آخر. يرجى إغلاقه والمحاولة مرة أخرى.</value>
+  </data>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>ليس لديك إذن للوصول إلى هذا الملف.</value>
+  </data>
+  <data name="Error_WriteDenied" xml:space="preserve">
+    <value>ليس لديك إذن بالكتابة إلى هذا الملف.</value>
+  </data>
+  <data name="Toast_ProgressTitle" xml:space="preserve">
+    <value>جارٍ التنظيف...</value>
+  </data>
+  <data name="Toast_ProgressBodyOne" xml:space="preserve">
+    <value>جارٍ معالجة الملفات المحددة باستخدام الاستراتيجية الحالية.</value>
+  </data>
+  <data name="Toast_ProgressBodyMany" xml:space="preserve">
+    <value>جارٍ معالجة {0} ملفًا باستخدام الاستراتيجية الحالية.</value>
+  </data>
+  <data name="Toast_IncompleteTitle" xml:space="preserve">
+    <value>تعذر إكمال التنظيف</value>
+  </data>
+  <data name="Toast_NoFiles" xml:space="preserve">
+    <value>لم يتم تحديد أي ملفات للتنظيف.</value>
+  </data>
+  <data name="Toast_SuccessBody" xml:space="preserve">
+    <value>تم مسح البيانات الوصفية من جميع الملفات باستخدام الاستراتيجية الحالية.</value>
+  </data>
+  <data name="Toast_AllFailedBody" xml:space="preserve">
+    <value>فشلت معالجة جميع الملفات. يرجى مراجعة السجل المحلي والمحاولة مرة أخرى.</value>
+  </data>
+  <data name="Toast_ErrorWithLog" xml:space="preserve">
+    <value>{0} (راجع السجل المحلي للاطلاع على التفاصيل)</value>
+  </data>
+  <data name="Toast_PartialTitle" xml:space="preserve">
+    <value>تمت معالجة {0}؛ فشل {1}</value>
+  </data>
+  <data name="Toast_PartialBody" xml:space="preserve">
+    <value>راجع السجل المحلي للاطلاع على التفاصيل وحاول مرة أخرى لاحقًا.</value>
+  </data>
+  <data name="Strategy_Export_Name" xml:space="preserve">
+    <value>التوزيع الخارجي</value>
+  </data>
+  <data name="Strategy_Export_Description" xml:space="preserve">
+    <value>مسح جميع البيانات الوصفية المرئية والمخفية.</value>
+  </data>
+  <data name="Strategy_Archive_Name" xml:space="preserve">
+    <value>الأرشفة الداخلية</value>
+  </data>
+  <data name="Strategy_Archive_Description" xml:space="preserve">
+    <value>مسح الخصائص الأساسية والمراجعات والتعليقات.</value>
+  </data>
+  <data name="Strategy_Minimal_Name" xml:space="preserve">
+    <value>التنظيف الأساسي</value>
+  </data>
+  <data name="Strategy_Minimal_Description" xml:space="preserve">
+    <value>مسح الخصائص الأساسية فقط</value>
+  </data>
+  <data name="Strategy_Custom_Name" xml:space="preserve">
+    <value>استراتيجية مخصصة</value>
+  </data>
+  <data name="Strategy_Custom_NameIndexed" xml:space="preserve">
+    <value>استراتيجية مخصصة {0}</value>
+  </data>
+  <data name="Strategy_Custom_Description" xml:space="preserve">
+    <value>نطاق تنظيف مخصص</value>
+  </data>
+  <data name="StrategyPage_Title" xml:space="preserve">
+    <value>إدارة الاستراتيجيات</value>
+  </data>
+  <data name="StrategyPage_Subtitle" xml:space="preserve">
+    <value>إنشاء وإدارة استراتيجيات التنظيف. تحدد الاستراتيجيات فئات البيانات الوصفية التي يتم مسحها.</value>
+  </data>
+  <data name="StrategyPage_New" xml:space="preserve">
+    <value>استراتيجية جديدة</value>
+  </data>
+  <data name="StrategyPage_Import" xml:space="preserve">
+    <value>استيراد الاستراتيجية</value>
+  </data>
+  <data name="StrategyPage_Export" xml:space="preserve">
+    <value>تصدير الاستراتيجية</value>
+  </data>
+  <data name="StrategyPage_MyStrategies" xml:space="preserve">
+    <value>استراتيجياتي</value>
+  </data>
+  <data name="StrategyPage_DefaultHint" xml:space="preserve">
+    <value>يتم استخدام الاستراتيجية الافتراضية مباشرةً من النافذة الرئيسية وقائمة السياق.</value>
+  </data>
+  <data name="StrategyPage_Name" xml:space="preserve">
+    <value>اسم الاستراتيجية</value>
+  </data>
+  <data name="StrategyPage_Description" xml:space="preserve">
+    <value>وصف الاستراتيجية</value>
+  </data>
+  <data name="StrategyPage_ScopeHeading" xml:space="preserve">
+    <value>نطاق التنظيف (حسب الفئة)</value>
+  </data>
+  <data name="StrategyPage_ScopeHint" xml:space="preserve">
+    <value>قد يختلف نطاق التنظيف قليلًا بين تنسيقات الملفات. يقتصر التنظيف الفعلي على النطاق المدعوم.</value>
+  </data>
+  <data name="StrategyPage_SetDefault" xml:space="preserve">
+    <value>★ تعيين كاستراتيجية افتراضية</value>
+  </data>
+  <data name="StrategyPage_Delete" xml:space="preserve">
+    <value>حذف الاستراتيجية</value>
+  </data>
+  <data name="StrategyPage_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="StrategyPage_DeleteConfirm" xml:space="preserve">
+    <value>هل أنت متأكد من رغبتك في حذف الاستراتيجية «{0}»؟ لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="Scope_DocumentProperties_Title" xml:space="preserve">
+    <value>الخصائص الأساسية</value>
+  </data>
+  <data name="Scope_DocumentProperties_Description" xml:space="preserve">
+    <value>مسح الخصائص القياسية مثل المؤلف والشركة وآخر من أجرى تعديلاً وتواريخ الإنشاء والتعديل وإجمالي وقت التحرير.</value>
+  </data>
+  <data name="Scope_Revisions_Description" xml:space="preserve">
+    <value>مسح علامات المراجعة ومحتوى التعليقات ومؤلفي التعليقات والمعلومات ذات الصلة.</value>
+  </data>
+  <data name="Scope_Hidden_Description" xml:space="preserve">
+    <value>إزالة مراجع مسارات القوالب والخصائص المخصصة وذاكرة التخزين المؤقت للصور المصغرة والمسارات المحلية وغيرها من المعلومات المتبقية التي قد تكون موجودة في الملف.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>حول PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>مسح البيانات الوصفية من ملفات Office وPDF.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>منظف البيانات الوصفية للملفات</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>الإصدار {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>حول المنتج</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber هو أداة خفيفة لنظام Windows تتيح إزالة البيانات الوصفية بسرعة من ملفات Word وExcel وPowerPoint وPDF.
+لا تتطلب الأداة إعدادات معقدة. نظّف ملفاتك ببضع خطوات بسيطة فقط.</value>
+  </data>
+  <data name="About_LicenseNotice" xml:space="preserve">
+    <value>مرخّص بموجب GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>الشفرة المصدرية</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+
+    <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>تطوير مخصص</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>هل تحتاج أداة مصممة لسير عملك؟ توفر PlainBytes Studio أيضًا تطوير برمجيات مخصصًا لاحتياجات الأعمال والإنتاجية المتخصصة.</value>
+  </data>
+  <data name="About_CustomDev_Capabilities" xml:space="preserve">
+    <value>يمكننا المساعدة في معالجة الملفات والبيانات، وأتمتة سير العمل، وتحويل التنسيقات، وتكامل الأنظمة، وأدوات سطح مكتب Windows، وغيرها من الحلول المصممة لغرض محدد.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>أدوات بسيطة — مثل أدوات المعالجة أو التحويل أو الأتمتة ذات الغرض الواحد — يمكن تسليمها غالبًا بسرعة.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>تطبيقات مخصصة — بما في ذلك أدوات متعددة الميزات أو بواجهات مستخدم أو متكاملة مع أنظمة قائمة — يمكن تطويرها وفق متطلباتك.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>يعتمد التسعير على نطاق مشروعك وتعقيده. أخبرنا بما تحاول تحقيقه، وسنساعدك على تحديد الحل المناسب وتقديم عرض سعر.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>تواصل معنا ←</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>صف باختصار ما تحاول تحقيقه، ثم أدرج أي تفاصيل ذات صلة أدناه إن توفرت لديك:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>لمساعدتنا على فهم مشروعك، يُرجى تضمين:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• المشكلة أو سير العمل الذي تريد تحسينه</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• ما تريد أن تقوم به الأداة أو الحل</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• أي ملفات أو بيانات أو تطبيقات أو أنظمة معنية</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• أي متطلبات للمعالجة أو الأتمتة أو التحويل أو التكامل</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item5" xml:space="preserve">
+    <value>• كيف تريد أن يعمل الحل — على سبيل المثال كتطبيق سطح مكتب Windows أو أداة سطر أوامر أو أداة دفعية أو تكامل مع نظام قائم</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item6" xml:space="preserve">
+    <value>• أي متطلبات للواجهة أو سير العمل أو النشر أو متطلبات مهمة أخرى</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>يمكنك أيضًا إرفاق ملفات عيّنة أو لقطات شاشة أو مواصفات أو مواد مرجعية أخرى برسالتك. تُستخدم المواد العيّنة فقط لفهم متطلباتك ولن تُشارك مع أطراف ثالثة.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>سنراجع متطلباتك ونعود إليك بأي أسئلة وتوصيات وعرض سعر.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>استفسار عن التطوير المخصص</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+أنا مهتم بحل برمجي مخصص.
+
+المشكلة أو سير العمل:
+[صف باختصار المشكلة التي تريد حلها أو سير العمل الذي تريد تحسينه.]
+
+ما أحتاجه:
+[صف ما تريد أن تقوم به الأداة أو الحل.]
+
+الملفات أو البيانات أو التطبيقات أو الأنظمة المعنية:
+[إن أمكن، صف الملفات أو البيانات أو التطبيقات أو الأنظمة المعنية.]
+
+متطلبات المعالجة أو الأتمتة:
+[صف أي قواعد معالجة أو أتمتة أو تحويل أو تكامل.]
+
+كيف أود أن يعمل:
+[على سبيل مثال: تطبيق سطح مكتب Windows أو أداة سطر أوامر أو أداة دفعية أو تكامل مع نظام قائم.]
+
+متطلبات أخرى:
+[اختياري: الواجهة أو سير العمل أو النشر أو متطلبات مهمة أخرى.]
+
+إن كان ذلك مفيدًا، فقد أرفقت ملفات عيّنة أو لقطات شاشة أو مواصفات أو مواد مرجعية أخرى.
+
+شكرًا لك.</value>
+  </data>
+  <data name="About_CustomDev_ContactByEmail" xml:space="preserve">
+    <value>التواصل عبر البريد</value>
+  </data>
+  <data name="About_CustomDev_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>المزيد من أدوات PlainBytes</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>عرض جميع الأدوات ←</value>
+  </data>
+  <data name="About_Copyright" xml:space="preserve">
+    <value>©2026 PlainBytes</value>
+  </data>
+  <data name="Meta_Group_DocumentProperties" xml:space="preserve">
+    <value>خصائص المستند</value>
+  </data>
+  <data name="Meta_Group_Revisions" xml:space="preserve">
+    <value>المراجعات والتعليقات</value>
+  </data>
+  <data name="Meta_Group_Hidden" xml:space="preserve">
+    <value>المسارات والآثار المخفية</value>
+  </data>
+  <data name="Meta_Group_Attachments" xml:space="preserve">
+    <value>المرفقات والمسارات</value>
+  </data>
+  <data name="Meta_Field_Author" xml:space="preserve">
+    <value>المؤلف</value>
+  </data>
+  <data name="Meta_Field_LastModifiedBy" xml:space="preserve">
+    <value>آخر من أجرى تعديلاً</value>
+  </data>
+  <data name="Meta_Field_Created" xml:space="preserve">
+    <value>تاريخ الإنشاء</value>
+  </data>
+  <data name="Meta_Field_Modified" xml:space="preserve">
+    <value>تاريخ التعديل</value>
+  </data>
+  <data name="Meta_Field_Company" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="Meta_Field_TotalEditTime" xml:space="preserve">
+    <value>إجمالي وقت التحرير</value>
+  </data>
+  <data name="Meta_Field_Revisions" xml:space="preserve">
+    <value>المراجعات</value>
+  </data>
+  <data name="Meta_Field_Comments" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="Meta_Field_CommentAuthors" xml:space="preserve">
+    <value>مؤلف التعليق</value>
+  </data>
+  <data name="Meta_Field_PathRef" xml:space="preserve">
+    <value>مراجع المسارات</value>
+  </data>
+  <data name="Meta_Count" xml:space="preserve">
+    <value>{0} عنصرًا</value>
+  </data>
+  <data name="Meta_ListSeparator" xml:space="preserve">
+    <value>،</value>
+  </data>
+  <data name="Meta_Minutes" xml:space="preserve">
+    <value>{0} دقيقة</value>
+  </data>
+  <data name="Meta_Hours" xml:space="preserve">
+    <value>{0} ساعة</value>
+  </data>
+  <data name="Meta_HoursMinutes" xml:space="preserve">
+    <value>{0} ساعة و{1} دقيقة</value>
+  </data>
+  <data name="Loading_LoadingFiles" xml:space="preserve">
+    <value>جارٍ تحميل الملفات… ({0}/{1})</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>جارٍ تحميل الملفات…</value>
+  </data>
+  <data name="ContextMenu_RootLabel" xml:space="preserve">
+    <value>PlainBytes مسح البيانات الوصفية</value>
+  </data>
+</root>

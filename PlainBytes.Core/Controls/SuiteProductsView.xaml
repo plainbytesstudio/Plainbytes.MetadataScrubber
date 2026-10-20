@@ -1,0 +1,78 @@
+<!--
+SPDX-FileCopyrightText: 2026 PlainBytes Studio
+SPDX-License-Identifier: GPL-3.0-only
+-->
+<UserControl
+    x:Class="PlainBytes.Core.Controls.SuiteProductsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:PlainBytes.Core.Controls"
+    xmlns:res="clr-namespace:PlainBytes.Core.Resources"
+    d:DesignHeight="560"
+    d:DesignWidth="1000"
+    FontFamily="{DynamicResource PB.Fonts.Main}"
+    Foreground="{DynamicResource PB.Brushes.TextPrimary}"
+    mc:Ignorable="d">
+
+    <Grid UseLayoutRounding="True" SnapsToDevicePixels="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Page header (layout matches strategy management view) -->
+        <StackPanel
+            Grid.Row="0"
+            Margin="0,0,0,28"
+            HorizontalAlignment="Stretch"
+            Orientation="Horizontal">
+            <Image
+                Width="40"
+                Height="40"
+                Margin="0,0,16,0"
+                VerticalAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"
+                SnapsToDevicePixels="True"
+                Source="pack://application:,,,/PlainBytes.Core;component/Assets/Images/collection.png" />
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock
+                    FontSize="30"
+                    FontWeight="SemiBold"
+                    LineHeight="40"
+                    LineStackingStrategy="BlockLineHeight"
+                    Foreground="{DynamicResource PB.Brushes.TextPrimary}"
+                    Text="{x:Static res:Strings.Matrix_Title}" />
+                <TextBlock
+                    Margin="0,6,0,0"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    LineHeight="24"
+                    LineStackingStrategy="BlockLineHeight"
+                    Foreground="{DynamicResource PB.Brushes.TextSecondary}"
+                    Text="{x:Static res:Strings.Matrix_Subtitle}"
+                    TextWrapping="Wrap" />
+            </StackPanel>
+        </StackPanel>
+
+        <ScrollViewer
+            Grid.Row="1"
+            VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Disabled"
+            FocusVisualStyle="{x:Null}">
+            <controls:SuiteProductMatrix
+                x:Name="ProductMatrix"
+                HorizontalAlignment="Left" />
+        </ScrollViewer>
+
+        <TextBlock
+            Grid.Row="2"
+            Margin="0,8,0,0"
+            FontSize="12"
+            FontWeight="Normal"
+            Foreground="#94A3B8"
+            Text="{x:Static res:Strings.Matrix_MaintenanceNote}" />
+    </Grid>
+</UserControl>

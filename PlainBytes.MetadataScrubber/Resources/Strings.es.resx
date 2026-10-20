@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Eliminar metadatos</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>Elimina de forma segura los metadatos de documentos de Office y archivos PDF para proteger tu privacidad.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>Arrastra los archivos aquí</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>O haz clic en el botón de abajo para seleccionar archivos.</value>
+  </data>
+  <data name="Home_SelectFiles" xml:space="preserve">
+    <value>Seleccionar archivos</value>
+  </data>
+  <data name="Home_FormatHint" xml:space="preserve">
+    <value>Compatible con archivos de Word, Excel, PowerPoint y PDF.</value>
+  </data>
+  <data name="Home_NoMetadata" xml:space="preserve">
+    <value>No se han encontrado metadatos que se puedan eliminar.</value>
+  </data>
+  <data name="Home_FileCount" xml:space="preserve">
+    <value>Se han añadido {0} archivos</value>
+  </data>
+  <data name="Home_ClearList" xml:space="preserve">
+    <value>Vaciar lista</value>
+  </data>
+  <data name="Home_StrategyLabel" xml:space="preserve">
+    <value>Estrategia de limpieza</value>
+  </data>
+  <data name="Home_CurrentStrategy" xml:space="preserve">
+    <value>Estrategia actual</value>
+  </data>
+  <data name="Home_ChangeStrategy" xml:space="preserve">
+    <value>Cambiar estrategia</value>
+  </data>
+  <data name="Home_LearnMore" xml:space="preserve">
+    <value>Más información &gt;</value>
+  </data>
+  <data name="Home_TipBar" xml:space="preserve">
+    <value>De forma predeterminada, se eliminarán los siguientes elementos: {0}</value>
+  </data>
+  <data name="Home_ScrubButton" xml:space="preserve">
+    <value>Limpiar metadatos ({0})</value>
+  </data>
+  <data name="Home_DropHintCompact" xml:space="preserve">
+    <value>O arrastra los archivos aquí. Compatible con archivos de Word, Excel, PowerPoint y PDF.</value>
+  </data>
+  <data name="Badge_Default" xml:space="preserve">
+    <value>Predeterminada</value>
+  </data>
+  <data name="Dialog_FilterSupported" xml:space="preserve">
+    <value>Documentos compatibles</value>
+  </data>
+  <data name="Type_Word" xml:space="preserve">
+    <value>Documento de Word</value>
+  </data>
+  <data name="Type_Excel" xml:space="preserve">
+    <value>Libro de Excel</value>
+  </data>
+  <data name="Type_PowerPoint" xml:space="preserve">
+    <value>Presentación de PowerPoint</value>
+  </data>
+  <data name="Type_Pdf" xml:space="preserve">
+    <value>Documento PDF</value>
+  </data>
+  <data name="Type_File" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="Status_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Status_Cleaned" xml:space="preserve">
+    <value>Limpiado</value>
+  </data>
+  <data name="Status_Failed" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Status_FailedOccupied" xml:space="preserve">
+    <value>Error: el archivo está en uso</value>
+  </data>
+  <data name="Status_FailedPrefix" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>Limpiando archivos...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>Limpieza completada</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>Error al limpiar</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="Overlay_ViewReason" xml:space="preserve">
+    <value>Ver detalles</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>Nombre del archivo</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>Motivo del error</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>{0} archivos procesados correctamente.</value>
+  </data>
+  <data name="Overlay_AllFailed" xml:space="preserve">
+    <value>No se han podido procesar {0} archivos</value>
+  </data>
+  <data name="Overlay_Partial" xml:space="preserve">
+    <value>{0} archivos procesados correctamente; {1} archivos no se han podido procesar.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>Error de procesamiento</value>
+  </data>
+  <data name="FailReason_Occupied" xml:space="preserve">
+    <value>Archivo en uso</value>
+  </data>
+  <data name="FailReason_Unsupported" xml:space="preserve">
+    <value>Formato de archivo no compatible</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>El archivo no existe</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>No tienes permiso para acceder a este archivo.</value>
+  </data>
+  <data name="Error_UnsupportedType" xml:space="preserve">
+    <value>Tipo de archivo no compatible.</value>
+  </data>
+  <data name="Error_NotFound" xml:space="preserve">
+    <value>El archivo no existe.</value>
+  </data>
+  <data name="Error_Occupied" xml:space="preserve">
+    <value>El archivo está siendo utilizado por otro programa. Ciérralo y vuelve a intentarlo.</value>
+  </data>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>No tienes permiso para acceder a este archivo.</value>
+  </data>
+  <data name="Error_WriteDenied" xml:space="preserve">
+    <value>No tienes permiso para escribir en este archivo.</value>
+  </data>
+  <data name="Toast_ProgressTitle" xml:space="preserve">
+    <value>Limpiando...</value>
+  </data>
+  <data name="Toast_ProgressBodyOne" xml:space="preserve">
+    <value>Procesando los archivos seleccionados con la estrategia actual.</value>
+  </data>
+  <data name="Toast_ProgressBodyMany" xml:space="preserve">
+    <value>Procesando {0} archivos con la estrategia actual.</value>
+  </data>
+  <data name="Toast_IncompleteTitle" xml:space="preserve">
+    <value>No se ha podido completar la limpieza</value>
+  </data>
+  <data name="Toast_NoFiles" xml:space="preserve">
+    <value>No se han seleccionado archivos para limpiar.</value>
+  </data>
+  <data name="Toast_SuccessBody" xml:space="preserve">
+    <value>Se han eliminado los metadatos de todos los archivos mediante la estrategia actual.</value>
+  </data>
+  <data name="Toast_AllFailedBody" xml:space="preserve">
+    <value>No se ha podido procesar ningún archivo. Consulta el registro local y vuelve a intentarlo.</value>
+  </data>
+  <data name="Toast_ErrorWithLog" xml:space="preserve">
+    <value>{0} (consulta el registro local para obtener más información)</value>
+  </data>
+  <data name="Toast_PartialTitle" xml:space="preserve">
+    <value>Procesados: {0}; Errores: {1}</value>
+  </data>
+  <data name="Toast_PartialBody" xml:space="preserve">
+    <value>Consulta el registro local para obtener más información e inténtalo de nuevo más tarde.</value>
+  </data>
+  <data name="Strategy_Export_Name" xml:space="preserve">
+    <value>Distribución externa</value>
+  </data>
+  <data name="Strategy_Export_Description" xml:space="preserve">
+    <value>Eliminar todos los metadatos visibles y ocultos.</value>
+  </data>
+  <data name="Strategy_Archive_Name" xml:space="preserve">
+    <value>Archivo interno</value>
+  </data>
+  <data name="Strategy_Archive_Description" xml:space="preserve">
+    <value>Eliminar propiedades básicas, revisiones y comentarios.</value>
+  </data>
+  <data name="Strategy_Minimal_Name" xml:space="preserve">
+    <value>Limpieza básica</value>
+  </data>
+  <data name="Strategy_Minimal_Description" xml:space="preserve">
+    <value>Eliminar solo las propiedades básicas</value>
+  </data>
+  <data name="Strategy_Custom_Name" xml:space="preserve">
+    <value>Estrategia personalizada</value>
+  </data>
+  <data name="Strategy_Custom_NameIndexed" xml:space="preserve">
+    <value>Estrategia personalizada {0}</value>
+  </data>
+  <data name="Strategy_Custom_Description" xml:space="preserve">
+    <value>Ámbito de limpieza personalizado</value>
+  </data>
+  <data name="StrategyPage_Title" xml:space="preserve">
+    <value>Gestión de estrategias</value>
+  </data>
+  <data name="StrategyPage_Subtitle" xml:space="preserve">
+    <value>Crea y gestiona estrategias de limpieza. Las estrategias definen qué categorías de metadatos se eliminan.</value>
+  </data>
+  <data name="StrategyPage_New" xml:space="preserve">
+    <value>Nueva estrategia</value>
+  </data>
+  <data name="StrategyPage_Import" xml:space="preserve">
+    <value>Importar estrategia</value>
+  </data>
+  <data name="StrategyPage_Export" xml:space="preserve">
+    <value>Exportar estrategia</value>
+  </data>
+  <data name="StrategyPage_MyStrategies" xml:space="preserve">
+    <value>Mis estrategias</value>
+  </data>
+  <data name="StrategyPage_DefaultHint" xml:space="preserve">
+    <value>La estrategia predeterminada se utiliza directamente desde la ventana principal y el menú contextual.</value>
+  </data>
+  <data name="StrategyPage_Name" xml:space="preserve">
+    <value>Nombre de la estrategia</value>
+  </data>
+  <data name="StrategyPage_Description" xml:space="preserve">
+    <value>Descripción de la estrategia</value>
+  </data>
+  <data name="StrategyPage_ScopeHeading" xml:space="preserve">
+    <value>Ámbito de limpieza (por categoría)</value>
+  </data>
+  <data name="StrategyPage_ScopeHint" xml:space="preserve">
+    <value>El ámbito de limpieza puede variar ligeramente según el formato del archivo. La limpieza real se limita al contenido compatible.</value>
+  </data>
+  <data name="StrategyPage_SetDefault" xml:space="preserve">
+    <value>★ Establecer como estrategia predeterminada</value>
+  </data>
+  <data name="StrategyPage_Delete" xml:space="preserve">
+    <value>Eliminar estrategia</value>
+  </data>
+  <data name="StrategyPage_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="StrategyPage_DeleteConfirm" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar la estrategia «{0}»? Esta acción no se puede deshacer.</value>
+  </data>
+  <data name="Scope_DocumentProperties_Title" xml:space="preserve">
+    <value>Propiedades básicas</value>
+  </data>
+  <data name="Scope_DocumentProperties_Description" xml:space="preserve">
+    <value>Eliminar propiedades estándar como autor, empresa, última persona que modificó el archivo, fechas de creación/modificación y tiempo total de edición.</value>
+  </data>
+  <data name="Scope_Revisions_Description" xml:space="preserve">
+    <value>Eliminar marcas de revisión, contenido de comentarios, autores de los comentarios y otra información relacionada.</value>
+  </data>
+  <data name="Scope_Hidden_Description" xml:space="preserve">
+    <value>Eliminar referencias a rutas de plantillas, propiedades personalizadas, cachés de miniaturas, rutas locales y otra información residual que pueda permanecer en el archivo.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>Acerca de PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>Eliminar los metadatos de archivos de Office y PDF.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>Limpiador de metadatos de archivos</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>Versión {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>Acerca del producto</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes MetadataScrubber es una herramienta ligera para Windows que permite eliminar rápidamente los metadatos de archivos de Word, Excel, PowerPoint y PDF.
+No requiere una configuración compleja. Limpia tus archivos con unos pocos pasos sencillos.</value>
+  </data>
+  <data name="About_LicenseNotice" xml:space="preserve">
+    <value>Con licencia GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>Código fuente</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+
+    <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>Desarrollo a medida</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>¿Necesita una herramienta adaptada a su flujo de trabajo? PlainBytes Studio también ofrece desarrollo de software a medida para necesidades empresariales y de productividad especializadas.</value>
+  </data>
+  <data name="About_CustomDev_Capabilities" xml:space="preserve">
+    <value>Podemos ayudar con el procesamiento de archivos y datos, automatización de flujos, conversión de formatos, integración de sistemas, utilidades de escritorio Windows y otras soluciones a medida.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>Utilidades simples — como herramientas de procesamiento, conversión o automatización de un solo propósito — a menudo se pueden entregar con rapidez.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>Aplicaciones personalizadas — incluidas herramientas con varias funciones, interfaces de usuario o integración con sistemas existentes — se pueden desarrollar según sus requisitos.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>El precio depende del alcance y la complejidad de su proyecto. Cuéntenos qué intenta lograr: le ayudaremos a determinar la solución adecuada y le daremos un presupuesto.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>Contáctenos →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>Describa brevemente lo que intenta lograr y, si las tiene, incluya los detalles relevantes a continuación:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>Para ayudarnos a entender su proyecto, incluya:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• El problema o flujo de trabajo que desea mejorar</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• Lo que quiere que haga la herramienta o solución</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• Archivos, datos, aplicaciones o sistemas involucrados</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• Requisitos de procesamiento, automatización, conversión o integración</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item5" xml:space="preserve">
+    <value>• Cómo le gustaría que funcione la solución — por ejemplo, como aplicación de escritorio Windows, herramienta de línea de comandos, utilidad por lotes o integración con un sistema existente</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item6" xml:space="preserve">
+    <value>• Requisitos de interfaz, flujo de trabajo, implementación u otros puntos importantes</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>También puede adjuntar a su correo archivos de muestra, capturas de pantalla, especificaciones u otros materiales de referencia. Los materiales de muestra se usan solo para entender sus requisitos y no se compartirán con terceros.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>Revisaremos sus requisitos y le responderemos con preguntas, recomendaciones y un presupuesto.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>Consulta de desarrollo a medida</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+Estoy interesado/a en una solución de software a medida.
+
+Problema o flujo de trabajo:
+[Describa brevemente el problema que desea resolver o el flujo que desea mejorar.]
+
+Lo que necesito:
+[Describa lo que le gustaría que hiciera la herramienta o solución.]
+
+Archivos, datos, aplicaciones o sistemas involucrados:
+[Si aplica, describa los archivos, datos, aplicaciones o sistemas involucrados.]
+
+Requisitos de procesamiento o automatización:
+[Describa reglas de procesamiento, automatización, conversión o integración.]
+
+Cómo me gustaría que funcionara:
+[Por ejemplo: una aplicación de escritorio Windows, herramienta de línea de comandos, utilidad por lotes o integración con un sistema existente.]
+
+Otros requisitos:
+[Opcional: interfaz, flujo de trabajo, implementación u otros requisitos importantes.]
+
+Si resulta útil, he adjuntado archivos de muestra, capturas de pantalla, especificaciones u otros materiales de referencia.
+
+Gracias.</value>
+  </data>
+  <data name="About_CustomDev_ContactByEmail" xml:space="preserve">
+    <value>Contactar por correo</value>
+  </data>
+  <data name="About_CustomDev_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>Más herramientas de PlainBytes</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>Ver todas las herramientas →</value>
+  </data>
+  <data name="About_Copyright" xml:space="preserve">
+    <value>©2026 PlainBytes</value>
+  </data>
+  <data name="Meta_Group_DocumentProperties" xml:space="preserve">
+    <value>Propiedades del documento</value>
+  </data>
+  <data name="Meta_Group_Revisions" xml:space="preserve">
+    <value>Revisiones y comentarios</value>
+  </data>
+  <data name="Meta_Group_Hidden" xml:space="preserve">
+    <value>Rutas y rastros ocultos</value>
+  </data>
+  <data name="Meta_Group_Attachments" xml:space="preserve">
+    <value>Archivos adjuntos y rutas</value>
+  </data>
+  <data name="Meta_Field_Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Meta_Field_LastModifiedBy" xml:space="preserve">
+    <value>Última modificación realizada por</value>
+  </data>
+  <data name="Meta_Field_Created" xml:space="preserve">
+    <value>Creado</value>
+  </data>
+  <data name="Meta_Field_Modified" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="Meta_Field_Company" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Meta_Field_TotalEditTime" xml:space="preserve">
+    <value>Tiempo total de edición</value>
+  </data>
+  <data name="Meta_Field_Revisions" xml:space="preserve">
+    <value>Revisiones</value>
+  </data>
+  <data name="Meta_Field_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="Meta_Field_CommentAuthors" xml:space="preserve">
+    <value>Autor del comentario</value>
+  </data>
+  <data name="Meta_Field_PathRef" xml:space="preserve">
+    <value>Referencias de rutas</value>
+  </data>
+  <data name="Meta_Count" xml:space="preserve">
+    <value>{0} elementos</value>
+  </data>
+  <data name="Meta_ListSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="Meta_Minutes" xml:space="preserve">
+    <value>{0} minutos</value>
+  </data>
+  <data name="Meta_Hours" xml:space="preserve">
+    <value>{0} horas</value>
+  </data>
+  <data name="Meta_HoursMinutes" xml:space="preserve">
+    <value>{0} horas {1} minutos</value>
+  </data>
+  <data name="Loading_LoadingFiles" xml:space="preserve">
+    <value>Cargando archivos… ({0}/{1})</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>Cargando archivos…</value>
+  </data>
+  <data name="ContextMenu_RootLabel" xml:space="preserve">
+    <value>PlainBytes Eliminar metadatos</value>
+  </data>
+</root>

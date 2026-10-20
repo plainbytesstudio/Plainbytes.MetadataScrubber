@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Help Center</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Learn how to use PlainBytes MetadataScrubber to clear file metadata safely and effectively.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Contents</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Quick Start</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Feature Overview</value></data>
+  <data name="Section.Formats.Title" xml:space="preserve"><value>Supported File Formats</value></data>
+  <data name="Section.Strategies.Title" xml:space="preserve"><value>Strategy Guide</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Frequently Asked Questions</value></data>
+  <data name="Section.CustomDev.Title" xml:space="preserve"><value>Need a more tailored privacy or automation tool?</value></data>
+  <data name="Section.Privacy.Title" xml:space="preserve"><value>Security &amp; Privacy</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Tips</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Release Notes</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes MetadataScrubber is a lightweight Windows utility for removing metadata from Word, Excel, PowerPoint, and PDF files. It supports both individual files and batch processing.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>The simplest workflow</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Add files → Confirm the strategy → Clear Metadata</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Add Files</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>After opening the app, drag the files you want to process into the main window. You can also use the file selection feature in the main window to add files. You can add multiple files at once, including files of different types. Added files will appear in the file list in the main window.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Select a Cleanup Strategy</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>After adding files, the main window shows the cleanup strategy currently in use. In most cases, you can simply use the Default Strategy. If the files require a different cleanup scope, you can select another preset strategy from the main window.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Start Cleaning</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>After confirming the files and strategy, click Clear Metadata. The app will automatically process the files in the list. Progress is displayed while processing, and controls related to the current task are temporarily disabled. The results are displayed when processing is complete.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Quick Actions from the Context Menu</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>If you don't need to open the main window, you can use the context menu directly from Windows File Explorer. Available actions: Clear Metadata (Default Strategy), View Metadata, and Clean with Another Strategy. The context menu is designed for quick access; the main window remains the primary interface for the full feature set.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>MetadataScrubber provides the following key features.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Clear Metadata</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Remove metadata that may be contained in Office and PDF files. Batch processing is supported.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>View Metadata</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Click a file in the main window to expand and view the metadata currently detected in that file. Viewing metadata does not modify the file.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Cleanup Strategies</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Use preset strategies to define the cleanup scope. There is no need to configure individual fields for each file.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Batch Processing</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Add multiple files and process them together. When processing is complete, the app displays the number of successful and failed files, along with reasons for failures.</value></data>
+  <data name="Formats.Description" xml:space="preserve"><value>The following file formats are currently supported.</value></data>
+  <data name="Formats.Card.Word.Title" xml:space="preserve"><value>Word</value></data>
+  <data name="Formats.Card.Word.Meta" xml:space="preserve"><value>.docx</value></data>
+  <data name="Formats.Card.Word.Body" xml:space="preserve"><value>OpenXML documents. Can process basic properties, revisions, comments, custom properties, and residual data such as template paths.</value></data>
+  <data name="Formats.Card.Excel.Title" xml:space="preserve"><value>Excel</value></data>
+  <data name="Formats.Card.Excel.Meta" xml:space="preserve"><value>.xlsx</value></data>
+  <data name="Formats.Card.Excel.Body" xml:space="preserve"><value>OpenXML workbooks. Cleanup scope matches Word for the same types of metadata.</value></data>
+  <data name="Formats.Card.Ppt.Title" xml:space="preserve"><value>PowerPoint</value></data>
+  <data name="Formats.Card.Ppt.Meta" xml:space="preserve"><value>.pptx</value></data>
+  <data name="Formats.Card.Ppt.Body" xml:space="preserve"><value>OpenXML presentations. Cleanup covers basic properties, revisions and comments, and residual path information.</value></data>
+  <data name="Formats.Card.Pdf.Title" xml:space="preserve"><value>PDF</value></data>
+  <data name="Formats.Card.Pdf.Meta" xml:space="preserve"><value>.pdf</value></data>
+  <data name="Formats.Card.Pdf.Body" xml:space="preserve"><value>Processes PDF Info, XMP, historical residual data, and attachments with path references. Info and XMP are two independent metadata systems and are shown separately when viewing.</value></data>
+  <data name="Formats.Office.Heading" xml:space="preserve"><value>Office Files</value></data>
+  <data name="Formats.Office.Description" xml:space="preserve"><value>OpenXML files created by Word, Excel, and PowerPoint are supported. The following are primarily processed: basic document properties, revision information, comment information, custom properties, residual information such as template paths, and related residual data such as thumbnails.</value></data>
+  <data name="Formats.Pdf.Heading" xml:space="preserve"><value>PDF Files</value></data>
+  <data name="Formats.Pdf.Description" xml:space="preserve"><value>The following are primarily processed: PDF Info metadata, XMP metadata, historical residual information in the file, and attachments with related path references. PDF Info and XMP are two independent metadata systems, so they are displayed separately when viewing metadata.</value></data>
+  <data name="Strategies.Description" xml:space="preserve"><value>Strategies determine which categories of metadata are cleared. There is no need to configure individual fields one by one. The current cleanup scope is divided into three categories.</value></data>
+  <data name="Strategies.Card1.Title" xml:space="preserve"><value>Basic Properties</value></data>
+  <data name="Strategies.Card1.Body" xml:space="preserve"><value>Processes basic information such as author, company, last modified by, creation time, modified time, and total editing time.</value></data>
+  <data name="Strategies.Card2.Title" xml:space="preserve"><value>Revisions &amp; Comments</value></data>
+  <data name="Strategies.Card2.Body" xml:space="preserve"><value>Processes information related to the editing process, such as revision history, comments, and comment authors.</value></data>
+  <data name="Strategies.Card3.Title" xml:space="preserve"><value>Hidden Paths &amp; Traces</value></data>
+  <data name="Strategies.Card3.Body" xml:space="preserve"><value>Processes template paths, custom properties, residual thumbnail data, and PDF attachments or local path references that may reveal a file's origin.</value></data>
+  <data name="Strategies.Default.Tip.Title" xml:space="preserve"><value>Default Strategy</value></data>
+  <data name="Strategies.Default.Tip.Body" xml:space="preserve"><value>The app always has a Default Strategy. When you click Clear Metadata, or use Clear Metadata from the Windows context menu, the current Default Strategy is used.</value></data>
+  <data name="Strategies.Preset.Heading" xml:space="preserve"><value>Preset Strategies</value></data>
+  <data name="Strategies.Preset.Description" xml:space="preserve"><value>The app includes three built-in presets: External Distribution, Internal Archive, and Basic Cleanup. These cannot be modified. You can create custom strategies to meet your needs.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Why can't a file be processed?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Common reasons include: the file is encrypted, the file is corrupted, you don't have permission to access the file, the file is being used by another program, or the file format is not supported. When processing fails, the app shows the number of failed files and provides the reason for each failure.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Can I process multiple files at once?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Yes. You can drag multiple files into the main window and run the cleanup once for all of them. You can also select multiple files in Windows File Explorer and use the context menu.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>Does viewing metadata modify the file?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>No. View Metadata only reads and displays the metadata currently contained in the file. It does not perform any cleanup operation.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>Why might the Info and XMP metadata in a PDF be different?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>A PDF may contain both Info and XMP metadata. They do not necessarily contain the same information, so the app detects and displays them separately.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Can I modify the file list while cleanup is in progress?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>No. Controls related to the current task are temporarily locked during processing to prevent changes to the task while files are being processed.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>Will failed files be silently skipped?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>No. Failed files are counted separately, and the corresponding reason for each failure is displayed.</value></data>
+  <data name="CustomDev.Description" xml:space="preserve"><value>If MetadataScrubber does not cover your workflow—for example additional file types, custom metadata rules, batch cleanup automation, or a dedicated Windows utility—we can discuss custom development for file privacy, metadata processing, workflow automation, and other purpose-built solutions.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Contact Us →</value></data>
+  <data name="Privacy.Local.Heading" xml:space="preserve"><value>Local Processing</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>MetadataScrubber processes file analysis and metadata cleanup locally on your device. File contents are not uploaded to any server and are not processed through cloud services.</value></data>
+  <data name="Privacy.Original.Heading" xml:space="preserve"><value>Original Files</value></data>
+  <data name="Privacy.Original.Description" xml:space="preserve"><value>The app only processes files that you explicitly select. Cleanup does not upload or modify any files other than those you choose.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Recommendation</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>For important files, we recommend keeping a backup of the original file before performing cleanup.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Tip 1: Add Multiple Files at Once</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>When you need to process multiple files, drag them into the window at the same time instead of adding them one by one.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Tip 2: Set Your Default Strategy</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>If most of your files use the same cleanup scope, set your preferred strategy as the Default Strategy. After that, you can simply click Clear Metadata.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Tip 3: View Before Cleaning</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>If you're not sure what metadata a file contains, click the file to view its metadata first, then perform the cleanup once you've confirmed what needs to be removed.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Tip 4: Use the Context Menu</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>For quick, one-off cleanup tasks, you don't need to open the app. In File Explorer: Right-click → Clear Metadata.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Tip 5: Use Different Strategies for Different Scenarios</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>If you regularly handle files for different purposes, such as external distribution and internal archiving, create corresponding preset strategies in advance and select the appropriate one when needed.</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Initial Release</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Support for Word, Excel, PowerPoint, and PDF files</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Batch file processing</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>Metadata viewing</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Cleanup strategies and Default Strategy</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Preset strategy management</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Windows context menu cleanup</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Version {0}</value></data>
+</root>

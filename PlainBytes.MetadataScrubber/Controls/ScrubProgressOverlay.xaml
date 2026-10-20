@@ -1,0 +1,281 @@
+<!--
+SPDX-FileCopyrightText: 2026 PlainBytes Studio
+SPDX-License-Identifier: GPL-3.0-only
+-->
+<UserControl
+    x:Class="PlainBytes.MetadataScrubber.Controls.ScrubProgressOverlay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:controls="clr-namespace:PlainBytes.MetadataScrubber.Controls"
+    xmlns:res="clr-namespace:PlainBytes.MetadataScrubber.Resources"
+    FontFamily="{DynamicResource PB.Fonts.Main}"
+    Focusable="False"
+    FocusVisualStyle="{x:Null}"
+    Background="Transparent">
+
+    <UserControl.Resources>
+        <Style
+            x:Key="SheetCancelButtonStyle"
+            BasedOn="{StaticResource {x:Type ui:Button}}"
+            TargetType="ui:Button">
+            <Setter Property="MinWidth" Value="80" />
+            <Setter Property="Height" Value="32" />
+            <Setter Property="MinHeight" Value="32" />
+            <Setter Property="Padding" Value="20,0" />
+            <Setter Property="Appearance" Value="Secondary" />
+            <Setter Property="Background" Value="#FFFFFF" />
+            <Setter Property="BorderBrush" Value="#D9DDE3" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="6" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="#1F2937" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Border Background="#2E0F172A" MouseLeftButtonDown="Mask_MouseLeftButtonDown" />
+
+        <Border
+            x:Name="SheetPanel"
+            MaxWidth="840"
+            MinWidth="320"
+            Height="86"
+            MaxHeight="260"
+            Margin="24,0,24,10"
+            Padding="0"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Bottom"
+            Background="#FFFFFF"
+            BorderBrush="#E6E8EB"
+            BorderThickness="1"
+            CornerRadius="8"
+            SnapsToDevicePixels="True"
+            ClipToBounds="False"
+            RenderTransformOrigin="0.5,1">
+            <Border.RenderTransform>
+                <TranslateTransform x:Name="SheetTranslate" Y="80" />
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect
+                    BlurRadius="16"
+                    Direction="270"
+                    Opacity="0.08"
+                    ShadowDepth="4"
+                    Color="#000000" />
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border
+                    x:Name="TopAccent"
+                    Grid.Row="0"
+                    Grid.RowSpan="3"
+                    Height="3"
+                    VerticalAlignment="Top"
+                    CornerRadius="7,7,0,0"
+                    Visibility="Collapsed"
+                    IsHitTestVisible="False"
+                    SnapsToDevicePixels="True" />
+
+                <Grid
+                    Height="60"
+                    Margin="20,12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" MinWidth="80" />
+                        <ColumnDefinition Width="*" MinWidth="160" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid
+                        Grid.Column="0"
+                        Width="32"
+                        Height="32"
+                        Margin="0,0,12,0"
+                        VerticalAlignment="Center">
+                        <controls:CircularProgressRing
+                            x:Name="Ring"
+                            Width="32"
+                            Height="32"
+                            Progress="0" />
+                        <Image
+                            x:Name="StatusImage"
+                            Width="32"
+                            Height="32"
+                            Visibility="Collapsed"
+                            RenderOptions.BitmapScalingMode="HighQuality" />
+                    </Grid>
+
+                    <StackPanel
+                        Grid.Column="1"
+                        Margin="0,0,16,0"
+                        VerticalAlignment="Center">
+                        <TextBlock
+                            x:Name="TitleText"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Foreground="#1F2937"
+                            Text="{x:Static res:Strings.Overlay_Working}" />
+                        <TextBlock
+                            x:Name="FileNameText"
+                            Margin="0,2,0,0"
+                            FontSize="13"
+                            Foreground="#64748B"
+                            TextTrimming="CharacterEllipsis"
+                            TextWrapping="NoWrap" />
+                    </StackPanel>
+
+                    <Grid
+                        Grid.Column="2"
+                        VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" MinWidth="60" MaxWidth="400" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Border
+                            x:Name="BarTrack"
+                            Grid.Column="0"
+                            MinWidth="60"
+                            Height="8"
+                            Margin="0,5,8,0"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Stretch"
+                            Background="#E5E7EB"
+                            CornerRadius="4"
+                            ClipToBounds="True">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition x:Name="BarFillColumn" Width="0*" />
+                                    <ColumnDefinition x:Name="BarRestColumn" Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <Border
+                                    Grid.Column="0"
+                                    Background="#1677FF"
+                                    CornerRadius="4" />
+                            </Grid>
+                        </Border>
+
+                        <TextBlock
+                            x:Name="CountText"
+                            Grid.Column="1"
+                            Margin="0,0,8,0"
+                            VerticalAlignment="Center"
+                            FontSize="13"
+                            Foreground="#475569"
+                            Text="0 / 0" />
+
+                        <ui:Button
+                            x:Name="ViewReasonButton"
+                            Grid.Column="2"
+                            Margin="0,0,5,0"
+                            VerticalAlignment="Center"
+                            Visibility="Collapsed"
+                            Style="{StaticResource SheetCancelButtonStyle}"
+                            Content="{x:Static res:Strings.Overlay_ViewReason}"
+                            Click="ViewReasonButton_Click" />
+
+                        <ui:Button
+                            x:Name="ActionButton"
+                            Grid.Column="3"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource SheetCancelButtonStyle}"
+                            Content="{x:Static res:Strings.Common_Cancel}"
+                            Click="ActionButton_Click" />
+                    </Grid>
+                </Grid>
+
+                <Border
+                    x:Name="FailSeparator"
+                    Grid.Row="1"
+                    Height="1"
+                    Margin="0"
+                    Background="#d5d3d9"
+                    Visibility="Collapsed" />
+
+                <ScrollViewer
+                    x:Name="FailListScroll"
+                    Grid.Row="2"
+                    Margin="20,8,20,12"
+                    FocusVisualStyle="{x:Null}"
+                    VerticalScrollBarVisibility="Hidden"
+                    HorizontalScrollBarVisibility="Disabled"
+                    CanContentScroll="False"
+                    Visibility="Collapsed">
+                    <StackPanel>
+                        <Border
+                            Height="28"
+                            BorderBrush="#eeeeee"
+                            BorderThickness="0,0,0,1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="6*" />
+                                    <ColumnDefinition Width="4*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock
+                                    VerticalAlignment="Center"
+                                    FontSize="13"
+                                    Foreground="#64748B"
+                                    Text="{x:Static res:Strings.Overlay_FileName}" />
+                                <TextBlock
+                                    Grid.Column="1"
+                                    VerticalAlignment="Center"
+                                    FontSize="13"
+                                    Foreground="#64748B"
+                                    Text="{x:Static res:Strings.Overlay_FailReason}" />
+                            </Grid>
+                        </Border>
+                        <ItemsControl x:Name="FailList">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border
+                                        Height="28"
+                                        BorderBrush="#eeeeee">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="BorderThickness" Value="0,0,0,1" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsLast}" Value="True">
+                                                        <Setter Property="BorderThickness" Value="0" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="6*" />
+                                                <ColumnDefinition Width="4*" />
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock
+                                                VerticalAlignment="Center"
+                                                FontSize="13"
+                                                Foreground="#222222"
+                                                Text="{Binding FileName}"
+                                                TextTrimming="CharacterEllipsis"
+                                                TextWrapping="NoWrap" />
+                                            <TextBlock
+                                                Grid.Column="1"
+                                                VerticalAlignment="Center"
+                                                FontSize="13"
+                                                Foreground="#222222"
+                                                Text="{Binding Reason}"
+                                                TextTrimming="CharacterEllipsis"
+                                                TextWrapping="NoWrap" />
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
